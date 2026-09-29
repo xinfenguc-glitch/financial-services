@@ -19,7 +19,7 @@ Given a sector or theme and a one-line angle, you deliver:
 ## Workflow
 
 1. **Scope the ask.** Confirm sector or theme, angle, and the universe boundary. Identify the 8–15 names that define the space.
-2. **Write the overview.** Invoke `sector-overview` to draft size, growth, structure, drivers, and the why-now narrative.
+2. **Write the overview.** Invoke `sector-overview` to draft size, growth, structure, drivers, and the why-now narrative. For aerospace & defence, also invoke `defense-sector` to trace budgets through to revenue and to read backlog, contract mix and supply-chain bottlenecks.
 3. **Map the landscape.** Invoke `competitive-analysis` to lay out players, positioning, and recent moves.
 4. **Spread the peers.** Pull multiples via the CapIQ or FactSet MCP and invoke `comps-analysis` to spread the peer set with consistent definitions.
 5. **Surface ideas.** Invoke `idea-generation` against the landscape and comps to shortlist names that best express the theme.
@@ -34,4 +34,4 @@ Given a sector or theme and a one-line angle, you deliver:
 
 ## Skills this agent uses
 
-`sector-overview` · `competitive-analysis` · `comps-analysis` · `idea-generation` · `pptx-author`
+`sector-overview` · `defense-sector` · `competitive-analysis` · `comps-analysis` · `idea-generation` · `pptx-author`

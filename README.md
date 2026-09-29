@@ -106,7 +106,7 @@ Start with **financial-analysis** — it carries the shared modeling skills and 
 |---|---|
 | **[financial-analysis](./plugins/vertical-plugins/financial-analysis)** *(core)* | Comps, DCF, LBO, 3-statement, deck QC, Excel audit. All 11 data connectors. |
 | **[investment-banking](./plugins/vertical-plugins/investment-banking)** | CIMs, teasers, process letters, buyer lists, merger models, deal tracking. |
-| **[equity-research](./plugins/vertical-plugins/equity-research)** | Earnings notes, initiations, model updates, thesis and catalyst tracking. |
+| **[equity-research](./plugins/vertical-plugins/equity-research)** | Earnings notes, initiations, model updates, thesis and catalyst tracking, defence sector analysis. |
 | **[private-equity](./plugins/vertical-plugins/private-equity)** | Sourcing, screening, diligence checklists, IC memos, portfolio monitoring. |
 | **[wealth-management](./plugins/vertical-plugins/wealth-management)** | Client reviews, financial plans, rebalancing, reporting, TLH. |
 | **[fund-admin](./plugins/vertical-plugins/fund-admin)** | GL recon, break tracing, accruals, roll-forwards, variance commentary, NAV tie-out. |
@@ -209,6 +209,7 @@ These are reference templates — they get better when you tune them to how your
 | model-update | `/model-update` | Update financial models with new data |
 | morning-note | `/morning-note` | Morning meeting notes and trade ideas |
 | sector-overview | `/sector` | Industry landscape and thematic reports |
+| defense-sector | `/defense` | Defence budgets, backlog, contract mix, supply chain and valuation |
 | thesis-tracker | `/thesis` | Maintain and update investment theses |
 | catalyst-calendar | `/catalysts` | Track upcoming catalysts across coverage |
 | idea-generation | `/screen` | Stock screening and idea sourcing |
