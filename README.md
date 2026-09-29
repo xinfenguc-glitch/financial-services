@@ -212,6 +212,7 @@ These are reference templates — they get better when you tune them to how your
 | thesis-tracker | `/thesis` | Maintain and update investment theses |
 | catalyst-calendar | `/catalysts` | Track upcoming catalysts across coverage |
 | idea-generation | `/screen` | Stock screening and idea sourcing |
+| china-macro-skill | `/china-macro` | Official Chinese macro data from the National Bureau of Statistics |
 
 </details>
 
