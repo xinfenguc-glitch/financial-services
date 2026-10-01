@@ -14,6 +14,7 @@ AI-assisted equity research built from SHEIN's Hong Kong Global Offering prospec
 | `SHEIN_Research_Document_2026-09-30.md` | Company research: overview, history, management and governance, products, customers, industry, competition, TAM, risks, sources. |
 | `SHEIN_Valuation_Analysis_2026-09-30.md` | DCF, comparables, precedent rounds, scenarios, football field, price target and sanity checks. |
 | `SHEIN_Charts_2026-09-30.zip` | The 35 report charts as 300-dpi PNGs, plus `chart_index.txt`. |
+| `SKILLS_USED.md` | The Claude skills used to prepare the report and what each was used for. |
 
 ## Base-case estimates
 
