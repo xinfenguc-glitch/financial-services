@@ -33,7 +33,7 @@ Pair with **financial-analysis** for data connectors (LSEG, S&P Global, FactSet,
 |---|---|---|
 | `wright-deleveraging` | Wright, *Grasping Shadows* (CSIS, 2023) | Shadow banking; the 2016–19 deleveraging campaign; credit measurement; the property presale bubble; LGFVs; the politics of campaigns; Beijing's option set |
 
-To add a source, follow `skills/china-macro-library/references/sources.md#adding-a-source`.
+To add a source, upload it to [`china-macro-sources/`](../../../china-macro-sources/) at the repo root and ask Claude to add it to the library. The steps are in that folder's README; Claude's conversion procedure is in `skills/china-macro-library/references/sources.md#adding-a-source`.
 
 ## Notes
 

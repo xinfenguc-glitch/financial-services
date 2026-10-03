@@ -9,7 +9,7 @@ Every source in the library has its own knowledge-base skill under `plugins/vert
 - **Author**: Logan Wright (director of China markets research, Rhodium Group)
 - **Publisher**: CSIS Trustee Chair in Chinese Business and Economics, April 2023, 101 pp. (© CSIS; this library holds synthesized notes, not the text)
 - **Data vintage**: mostly through 2021–22, with some early-2023 references (births, FX reserves, March 2023 work report, new leadership)
-- **Source file**: `plugins/The Politics of China's Deleveraging Campaign.pdf` on the `China-Macro` branch
+- **Source file**: `plugins/The Politics of China's Deleveraging Campaign.pdf` on the `China-Macro` branch (new sources go in `china-macro-sources/`)
 - **Files**: `SKILL.md` (frameworks and index), `summary.md` (an 800–1,000 word summary), `chapters/ch01–ch07`, `glossary.md`, `patterns.md`, `cheatsheet.md`
 - **Best for**: shadow banking mechanics; the 2016–19 campaign's tools and sequencing; credit measurement; the property presale bubble; LGFV and local-debt dynamics; the politics of campaigns and centralization; Beijing's post-2023 option set
 - **Companion work cited**: Wright and Rosen, *Credit and Credibility* (2018); Orlik, *China: The Bubble That Never Pops* (2020)
@@ -17,6 +17,7 @@ Every source in the library has its own knowledge-base skill under `plugins/vert
 
 ## Adding a source
 
+0. **Locate**: new files arrive in `china-macro-sources/` at the repo root (the inbox). Check which ones have no catalog entry yet. Read each one in full, and confirm with the user whether it is a new source or an update to an existing slug (if it is an update, merge it into that skill's chapters, glossary and indexes instead of creating a new skill).
 1. **Convert**: build a knowledge base in the same shape as `wright-deleveraging/`: `SKILL.md` (frameworks first, under ~4,000 tokens, with chapter and topic indexes), `summary.md`, `chapters/chNN-<slug>.md`, `glossary.md`, `patterns.md`, `cheatsheet.md`. Slug convention: `<author-lastname>-<core-concept>`. Synthesize, never paste raw text.
 2. **Place**: `plugins/vertical-plugins/china-macro/skills/<slug>/`.
 3. **Register**: add a catalog entry above (title, author, publisher, vintage, source location, files, best for, perspective).
