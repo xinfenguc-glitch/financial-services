@@ -47,6 +47,12 @@
       "description": "Operational workflows: KYC document parsing and rules-grid evaluation"
     },
     {
+      "name": "china-macro",
+      "displayName": "China Macro",
+      "source": "./plugins/vertical-plugins/china-macro",
+      "description": "China macro library: source knowledge bases plus workflows for credit pulse, policy-signal reads, credit-risk ladder, and Beijing policy scenarios"
+    },
+    {
       "name": "pitch-agent",
       "displayName": "Pitch Agent",
       "source": "./plugins/agent-plugins/pitch-agent",

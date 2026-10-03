@@ -1,0 +1,8 @@
+{
+  "name": "china-macro",
+  "version": "0.1.0",
+  "description": "China macro library: source knowledge bases (starting with Wright's Grasping Shadows on China's deleveraging campaign) plus workflows for credit pulse, policy-signal reads, credit-risk ladder, and Beijing policy scenarios",
+  "author": {
+    "name": "Anthropic FSI"
+  }
+}

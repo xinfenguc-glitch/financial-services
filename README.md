@@ -111,6 +111,7 @@ Start with **financial-analysis** — it carries the shared modeling skills and 
 | **[wealth-management](./plugins/vertical-plugins/wealth-management)** | Client reviews, financial plans, rebalancing, reporting, TLH. |
 | **[fund-admin](./plugins/vertical-plugins/fund-admin)** | GL recon, break tracing, accruals, roll-forwards, variance commentary, NAV tie-out. |
 | **[operations](./plugins/vertical-plugins/operations)** | KYC document parsing and rules-grid evaluation. |
+| **[china-macro](./plugins/vertical-plugins/china-macro)** | China macro library: source knowledge bases (shadow banking, deleveraging, property, LGFVs) plus credit-pulse, policy-signal, risk-ladder, and scenario workflows. |
 | **[lseg](./plugins/partner-built/lseg)** *(partner)* | Bond RV, swap curves, FX carry, options vol, macro-rates monitoring on LSEG data. |
 | **[sp-global](./plugins/partner-built/spglobal)** *(partner)* | Tear sheets, earnings previews, funding digests on S&P Capital IQ. |
 
@@ -244,6 +245,16 @@ These are reference templates — they get better when you tune them to how your
 | client-report | `/client-report` | Client-facing performance reports |
 | investment-proposal | `/proposal` | Proposals for prospective clients |
 | tax-loss-harvesting | `/tlh` | Identify TLH opportunities and manage wash sales |
+
+</details>
+
+<details>
+<summary><b>china-macro</b> — China macro library</summary>
+
+| Skill | Command | Description |
+|---|---|---|
+| china-macro-library | `/library`, `/credit-pulse`, `/policy-read`, `/risk-ladder`, `/scenarios` | Hub: routing, workflows, policy timeline, key data, source registry |
+| wright-deleveraging | — | Knowledge base from Wright, *Grasping Shadows: The Politics of China's Deleveraging Campaign* (CSIS, 2023) |
 
 </details>
 
