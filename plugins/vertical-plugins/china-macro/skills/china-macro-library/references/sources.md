@@ -9,7 +9,7 @@ Every source in the library has its own knowledge-base skill under `plugins/vert
 - **Author**: Logan Wright (director of China markets research, Rhodium Group)
 - **Publisher**: CSIS Trustee Chair in Chinese Business and Economics, April 2023, 101 pp. (© CSIS; this library holds synthesized notes, not the text)
 - **Data vintage**: mostly through 2021–22, with some early-2023 references (births, FX reserves, March 2023 work report, new leadership)
-- **Source file**: `plugins/The Politics of China's Deleveraging Campaign.pdf` on the `China-Macro` branch (new sources go in `china-macro-sources/`)
+- **Source file**: `china-macro-sources/The Politics of China’s Deleveraging Campaign.pdf`
 - **Files**: `SKILL.md` (frameworks and index), `summary.md` (an 800–1,000 word summary), `chapters/ch01–ch07`, `glossary.md`, `patterns.md`, `cheatsheet.md`
 - **Best for**: shadow banking mechanics; the 2016–19 campaign's tools and sequencing; credit measurement; the property presale bubble; LGFV and local-debt dynamics; the politics of campaigns and centralization; Beijing's post-2023 option set
 - **Companion work cited**: Wright and Rosen, *Credit and Credibility* (2018); Orlik, *China: The Bubble That Never Pops* (2020)
