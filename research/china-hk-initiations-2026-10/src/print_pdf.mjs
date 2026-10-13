@@ -27,7 +27,7 @@ await page.pdf({
   preferCSSPageSize: true,
   displayHeaderFooter: true,
   headerTemplate: `<div style="width:100%;font-family:Inter,sans-serif;font-size:6.5pt;color:#898781;padding:0 0.55in;
-      display:flex;justify-content:space-between;"><span>China &amp; HK: 17 Short Initiations</span>
+      display:flex;justify-content:space-between;"><span>China &amp; HK: 17 Initiations</span>
       <span>12 October 2026</span></div>`,
   footerTemplate: `<div style="width:100%;font-family:Inter,sans-serif;font-size:6.5pt;color:#898781;padding:0 0.55in;
       display:flex;justify-content:space-between;"><span>AI-assisted research for information only; not investment
