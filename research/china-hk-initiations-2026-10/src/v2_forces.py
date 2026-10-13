@@ -5,7 +5,7 @@ RIV, ENT, SUP, BUY, SUB = ("Rivalry", "New entrants", "Supplier power", "Buyer p
 FORCES = {}
 
 FORCES["zijin"] = [
-    (RIV, "Medium", "Metals sell at exchange prices, so producers compete on cost and volume growth, not price. "
+    (RIV, "Medium", "Metals sell at exchange prices, so producers are price-takers and compete on cost and volume growth. "
      "Rivalry shows up in bidding for deposits, where Zijin meets CMOC, the majors and sovereign funds."),
     (ENT, "Low", "A new copper or gold mine takes 10–15+ years from discovery to output and billions of dollars; "
      "permitting and falling grades keep new supply scarce."),
@@ -26,8 +26,8 @@ FORCES["sany"] = [
      "Cummins; Sany now makes many of these in-house."),
     (BUY, "Medium", "Contractors and rental firms are fragmented but price-sensitive and reliant on vendor finance; "
      "large mining and infrastructure buyers negotiate hard."),
-    (SUB, "Low", "There is no substitute for earth-moving equipment. The real risks are the construction cycle and the "
-     "stock of used machines, not substitution."),
+    (SUB, "Low", "There is no substitute for earth-moving equipment. Demand risk comes from the construction cycle and "
+     "the stock of used machines."),
 ]
 
 FORCES["sieyuan"] = [
@@ -127,7 +127,7 @@ FORCES["jushi"] = [
     (ENT, "Low", "A tank furnace costs over RMB1bn and takes about two years to build, and electronic-grade yarn needs "
      "process know-how; new capacity mostly comes from incumbents."),
     (SUP, "Low", "Pyrophyllite, kaolin and limestone are abundant and partly self-supplied; natural gas and electricity "
-     "are the key cost variables."),
+     "are the main cost variables."),
     (BUY, "Medium", "Wind-blade and copper-clad-laminate makers are large and negotiate; construction, auto and "
      "industrial demand is fragmented."),
     (SUB, "Low", "Carbon fibre substitutes at the top end (e.g. long blade spars) at a large cost premium; steel and "
@@ -175,9 +175,10 @@ FORCES["horizon"] = [
 FORCES["leaderdrive"] = [
     (RIV, "High", "Harmonic Drive Systems leads globally and Nabtesco dominates RV reducers; at home a long tail of "
      "makers (e.g. Laifual) competes on price."),
-    (ENT, "High", "Humanoid-robot excitement has drawn many new reducer and actuator makers; precision machining is a "
-     "barrier, but not an insurmountable one."),
-    (SUP, "Low", "Inputs are specialty steel, bearings and machine tools; Leaderdrive does key processes in-house."),
+    (ENT, "High", "Humanoid-robot excitement has drawn many new reducer and actuator makers. Precision machining slows "
+     "them down but does not keep them out."),
+    (SUP, "Low", "Inputs are specialty steel, bearings and machine tools; Leaderdrive builds much of its own grinding "
+     "equipment and does its own heat treatment."),
     (BUY, "High", "Robot makers (Estun, Inovance, Efort) and humanoid developers are price-sensitive and dual-source; "
      "large humanoid makers may integrate vertically."),
     (SUB, "Medium", "Planetary gears, cycloidal drives, roller screws and quasi-direct-drive actuators compete for "

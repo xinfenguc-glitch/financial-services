@@ -858,14 +858,14 @@ def cover(cos):
     <div class="tile"><div class="tv">{ns}</div><div class="tl">Sell</div></div>
   </div>
   <div class="cv-box">
-    <p><b>Highest-conviction Buys:</b> {esc(picks)}. Each pairs earnings growth with a valuation the market has
-    de-rated during the September sell-off.</p>
-    <p><b>Sell:</b> {esc(', '.join(sells))}: a good company priced at ~200x+ forward earnings for a humanoid-robot
-    future that is not yet visible in its numbers.</p>
-    <p><b>Holds</b> fall into three groups. Lithium and nickel (Tianqi, Ganfeng, Huayou), where prices are turning
-    down. Cyclical winners whose peak earnings look priced in (GigaDevice, China Jushi). Turnaround or mix stories
-    awaiting proof (Sungrow, Sieyuan). The two LLM developers (Z.AI, MiniMax) we see as binary, with today's price
-    close to our risk-weighted value.</p>
+    <p>Our highest-conviction Buys are {esc(picks)}. Each pairs earnings growth with a valuation the market cut
+    during the September sell-off.</p>
+    <p>We rate {esc(', '.join(sells))} a Sell. It is a good company, but at ~200x+ forward earnings the shares price in
+    a humanoid-robot future that does not yet show up in its numbers.</p>
+    <p>The Holds are a mixed group. In lithium and nickel (Tianqi, Ganfeng, Huayou), prices are turning down.
+    GigaDevice and China Jushi are cyclical winners whose peak earnings look priced in, while Sungrow and Sieyuan still
+    have to prove their turnaround or mix shift. We see the two LLM developers, Z.AI and MiniMax, as binary bets
+    trading close to our risk-weighted value.</p>
   </div>
   <div class="cv-foot">Built from the source pack <i>"17 China/HK Stocks: Business Model, Performance and Outlook"</i> (6 Oct
   2026), updated with company filings, consensus data and market prices to 12 Oct 2026. AI-assisted research for
@@ -914,28 +914,28 @@ def themes_page(cos):
       <h4>1. Strong H1 numbers, de-rated shares</h4>
       <p>Most of the 17 reported strong H1'26 results, yet the source pack notes every stock trades 28–81% below its
       52-week high. China's CSI 300 fell 5.8% in September on worries about tighter policy in major economies and weak
-      domestic demand. Several names (CATL, GigaDevice, Han's Laser, Sungrow) now trade at or near multi-year-low
-      multiples on forward earnings.</p>
-      <h4>2. The AI capex chain has moved down the stack</h4>
+      domestic demand. CATL, GigaDevice, Han's Laser and Sungrow now trade at or near multi-year-low multiples of
+      forward earnings.</p>
+      <h4>2. AI capex now reaches suppliers further down the chain</h4>
       <p>AI servers are pulling through demand for niche memory (GigaDevice), electronic glass-fibre cloth (China
-      Jushi), PCB drilling equipment (Han's Laser), grid equipment (Sieyuan) and storage (CATL, Sungrow). The question
-      for each is how long pricing power lasts once capacity responds. We are Buy where order books give visibility
-      (Han's) and Hold where earnings already look near peak (GigaDevice, Jushi).</p>
+      Jushi), PCB drilling equipment (Han's Laser), grid equipment (Sieyuan) and storage (CATL, Sungrow). For each,
+      pricing power will last only until capacity catches up. We are Buy where order books give visibility (Han's)
+      and Hold where earnings already look near peak (GigaDevice, Jushi).</p>
       <h4>3. Lithium has turned again</h4>
       <p>China lithium carbonate fell 24% in September to ~RMB122k/t; Wood Mackenzie expects 2026 supply to grow ~28%,
       and a revised SMM inventory methodology added ~175kt to stock estimates. We model lower H2'26 and FY27 prices for
       Tianqi and Ganfeng, below broker forecasts in the source pack.</p>
     </div>
     <div>
-      <h4>4. Strong CNY is a quiet earnings headwind</h4>
+      <h4>4. A strong CNY is costing exporters</h4>
       <p>USD/CNH is ~6.69. Exporters with dollar receivables (Sany, Sungrow, Sieyuan) booked FX finance losses in H1'26,
       and dollar-priced commodity producers (Zijin) translate fewer renminbi per unit.</p>
-      <h4>5. A/H spreads matter</h4>
+      <h4>5. A/H spreads are wide</h4>
       <p>Most H-shares trade at large discounts to their A-shares (JL Mag −46%, Ganfeng −45%, Tianqi −44%, Sany −18%),
       but CATL's H-share trades at a ~41% premium. Where both lines exist we name our preferred line in each report.</p>
-      <h4>6. Robotics and AI models: real growth, stretched prices</h4>
-      <p>Horizon Robotics and Edge Medical combine fast growth with valuations the market has already cut sharply, so
-      we rate them Buy. Leaderdrive (Sell), Z.AI and MiniMax (Hold) price in outcomes several years away.</p>
+      <h4>6. Robotics and AI models: fast growth at high prices</h4>
+      <p>Horizon Robotics and Edge Medical are growing fast and the market has already cut their valuations sharply,
+      so we rate them Buy. Leaderdrive (Sell), Z.AI and MiniMax (Hold) price in outcomes several years away.</p>
       <h4>Upcoming dates</h4>
       <p>Q3 results: Ganfeng (mid-Oct), China Jushi 20 Oct, Han's Laser 23 Oct, Sieyuan and Huayou 24 Oct, Tianqi 26 Oct,
       JL Mag 28 Oct, Sungrow and GigaDevice 30 Oct, Leaderdrive 31 Oct.</p>
@@ -951,7 +951,8 @@ def back_matter():
   <p><b>Scope.</b> Each of the 17 companies in the source pack gets an initiation of up to five pages: a summary page
   with rating, thesis, catalysts, risks and key financials; at least two pages on company background, the business,
   the competitive landscape and the addressable market (TAM); a financial analysis covering the income statement,
-  balance sheet, cash flow statement and key ratios; and a valuation. They are concise initiations, not full models.</p>
+  balance sheet, cash flow statement and key ratios; and a valuation. The notes are concise and do not include full
+  financial models.</p>
   <p><b>Data.</b> Historical financials (FY23–25 and TTM) come from company filings as compiled by StockAnalysis.com
   (S&amp;P Global Market Intelligence data) and from H1'26 interim reports. Consensus estimates, consensus targets and
   peer multiples are from StockAnalysis/S&amp;P Global as of 12 October 2026 unless a broker is named. Share prices,
