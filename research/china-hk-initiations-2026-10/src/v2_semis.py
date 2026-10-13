@@ -5,14 +5,15 @@ V2 = {}
 V2["gigadevice"] = dict(
     background=[
         "GigaDevice was founded in Beijing's Zhongguancun district in 2005 by Zhu Yiming, a Tsinghua-trained engineer "
-        "who had worked in Silicon Valley. It started with serial (SPI) NOR flash, the small memory chips that store boot "
-        "code in almost every electronic device. It won share from Taiwanese and US suppliers on price and service to "
-        "China's electronics makers. In 2013 it launched the GD32 family, one of China's first 32-bit Arm Cortex-M "
-        "microcontroller lines, which became its second pillar. GigaDevice listed on the Shanghai Stock Exchange in 2016.",
+        "who had worked in Silicon Valley. The company started in serial (SPI) NOR flash, the small memory chips that "
+        "store boot code in almost every electronic device, and took share from Taiwanese and US suppliers by competing "
+        "on price and service for China's electronics makers. In 2013 it launched the GD32 family, one of China's first "
+        "32-bit Arm Cortex-M microcontroller lines, which grew into its second main business. GigaDevice listed on the "
+        "Shanghai Stock Exchange in 2016.",
         "From 2017 Zhu also led the creation of ChangXin Memory (CXMT), the Hefei-based DRAM maker, and GigaDevice "
-        "became CXMT's partner for niche DRAM. It designs and sells DDR3/DDR4 and low-power DRAM under its own brand "
-        "using CXMT wafers, launched in 2021. It added fingerprint and touch sensors through the 2019 acquisition of "
-        "Silead, plus analog and power-management chips. GigaDevice is now the world's No.2 NOR flash supplier with ~18% "
+        "became CXMT's partner for niche DRAM. Since 2021 it has designed and sold DDR3/DDR4 and low-power DRAM under its "
+        "own brand using CXMT wafers. The 2019 acquisition of Silead brought in fingerprint and touch sensors, and the "
+        "range also includes analog and power-management chips. GigaDevice is now the world's No.2 NOR flash supplier with ~18% "
         "share, behind Winbond, and China's largest general-purpose MCU vendor. It completed a Hong Kong H-share listing "
         "in January 2026, just as a shortage of legacy memory, created by global majors moving capacity to HBM and DDR5, "
         "sent its profits to record highs.",
@@ -29,7 +30,7 @@ V2["gigadevice"] = dict(
     ownership=[
         ("Founder", "Zhu Yiming (also founder and chairman of CXMT), largest individual shareholder"),
         ("Share classes", "A-share 603986.SH; H-share 3986.HK (near parity with A)"),
-        ("Key related party", "CXMT: DRAM wafer supply partner"),
+        ("Related party", "CXMT: DRAM wafer supply partner"),
     ],
     business=[
         "GigaDevice is a fabless chip designer. It designs memory, microcontroller, sensor and analog chips, outsources "
@@ -40,9 +41,9 @@ V2["gigadevice"] = dict(
         "Memory, about 85% of revenue, is a price-taker business. NOR flash (from 512Kb to 2Gb) stores boot code and "
         "firmware for PCs, servers, AI accelerators, displays, wearables, IoT and cars. SLC NAND and niche DRAM serve "
         "set-top boxes, networking, industrial and automotive systems that cannot use leading-edge memory. When prices "
-        "rise, as they did in 2026 when Samsung, SK Hynix and Micron exited legacy products, revenue and margins explode. "
-        "Memory gross margin jumped to 67.6% in H1'26 from 42.8% in FY25. When prices fall, the reverse happens, as in "
-        "FY23, when net profit fell to RMB0.16bn.",
+        "rise, as they did in 2026 when Samsung, SK Hynix and Micron exited legacy products, revenue and margins climb "
+        "steeply: memory gross margin jumped to 67.6% in H1'26 from 42.8% in FY25. Falling prices work the other way, as "
+        "in FY23, when net profit fell to RMB0.16bn.",
         "Microcontrollers (~12% of revenue) are a steadier, design-win business. GD32 offers hundreds of Arm and "
         "RISC-V parts for industrial control, motor drives, consumer devices and increasingly automotive, where "
         "qualification cycles are long but customers are sticky. Domestic substitution of STMicro, NXP and Renesas "
@@ -60,14 +61,15 @@ V2["gigadevice"] = dict(
         ("Sensors & analog", "~3%", "Fingerprint/touch sensors (Silead), PMIC", "Small; competitive"),
     ],
     competition=[
-        "Specialty memory is an oligopoly of mid-sized Asian suppliers. In NOR flash, Winbond (No.1), GigaDevice (No.2, "
-        "~18%) and Macronix lead, with Puya, XMC and ISSI behind. In SLC NAND, Kioxia, Winbond and Macronix are the main "
-        "rivals. In niche DRAM, Nanya, Winbond and ESMT compete as the big three DRAM makers exit DDR4. Product "
-        "differentiation is limited, so share depends on cost, capacity access and customer relationships. Taiwanese "
-        "peers trade at ~4x forward earnings, a reminder that the market capitalises peak memory profits cautiously.",
+        "Specialty memory is an oligopoly of mid-sized Asian suppliers. Winbond (No.1), GigaDevice (No.2, ~18%) and "
+        "Macronix lead NOR flash, with Puya, XMC and ISSI behind. Kioxia, Winbond and Macronix are the main SLC NAND "
+        "rivals, and in niche DRAM Nanya, Winbond and ESMT compete as the big three DRAM makers exit DDR4. Products "
+        "differ little from one supplier to the next, so share depends on cost, capacity access and customer "
+        "relationships. Taiwanese peers trade at ~4x forward earnings, which shows how cautiously the market values "
+        "peak memory profits.",
         "In MCUs, GigaDevice competes with STMicroelectronics, NXP, Infineon, Renesas, Microchip and TI globally, and with "
         "Chinese rivals such as Nations Technologies, Chipsea and Artery at home. Its advantages are breadth (one of the "
-        "largest Arm MCU catalogues in China), pin-compatibility with Western parts, and price. Its gaps are automotive "
+        "largest Arm MCU catalogues in China), pin-compatibility with Western parts, and price; it is weaker in automotive "
         "qualification depth and global sales coverage. The CXMT link is both a strength (secure DRAM supply) and a risk "
         "(related-party dependence, US export-control exposure).",
     ],
@@ -91,7 +93,7 @@ V2["gigadevice"] = dict(
         "supply shrinks. The general-purpose MCU market is larger (roughly US$20–25bn) and grows with industrial "
         "automation, EVs and IoT.",
         "GigaDevice's TTM revenue of RMB16.6bn (~US$2.5bn) implies a mid-teens share of its combined addressable markets. "
-        "The key question is not market size but price durability: the legacy-memory shortage will last only until "
+        "How long prices hold matters more here than market size. The legacy-memory shortage will last only until "
         "supply responds, from Chinese and Taiwanese capacity or from majors returning to profitable niches.",
     ],
     tam_table=[
@@ -103,12 +105,12 @@ V2["gigadevice"] = dict(
     fin_is=(
         "<b>Income statement.</b> Revenue fell from RMB8.1bn (FY22) to RMB5.8bn (FY23) in the memory downturn, then "
         "recovered to RMB9.2bn (FY25) and RMB16.6bn TTM. Gross margin moved from 30.3% (FY23) to 39.1% (FY25) and 56.1% "
-        "TTM. Operating profit went from RMB0.1bn (FY23) to RMB1.4bn (FY25) and RMB6.7bn TTM, showing the operating "
-        "leverage in a fabless memory model. Net profit of RMB6.9bn in H1'26 included >RMB2bn of fair-value gains. We "
+        "TTM. The operating leverage of a fabless memory model took operating profit from RMB0.1bn (FY23) to RMB1.4bn "
+        "(FY25) and RMB6.7bn TTM. Net profit of RMB6.9bn in H1'26 included >RMB2bn of fair-value gains. We "
         "forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn, peaking in "
         "FY27E."),
     fin_bs=(
-        "<b>Balance sheet.</b> Total assets doubled from RMB21.4bn (FY25) to RMB42.4bn (June 2026), reflecting H1 profits, "
+        "<b>Balance sheet.</b> Total assets doubled from RMB21.4bn (FY25) to RMB42.4bn (June 2026) on H1 profits, "
         "H-share proceeds and revalued equity investments. Cash and short-term investments rose to RMB17.4bn against "
         "only RMB0.1bn of debt, so net cash is RMB{ncj26}bn (RMB{nc25}bn at FY25). Inventory is the main operating asset: "
         "RMB3.4bn at FY25 ({invd25} days of cost of sales) and RMB4.2bn in June 2026. Receivables are tiny ({recvd25} "
@@ -118,11 +120,11 @@ V2["gigadevice"] = dict(
         "<b>Cash flow.</b> Operating cash flow was RMB1.2–2.1bn a year over FY23–25 (OCF/net profit {ocfnp25} in FY25) "
         "and jumped to RMB7.2bn TTM. Capex is modest (RMB0.3–1.6bn), so FCF rose from RMB{fcf23}bn (FY23) to "
         "RMB{fcfttm}bn TTM. Dividends are small (FY25 DPS RMB0.75). We forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn; "
-        "net cash would reach ~RMB{nc28}bn by FY28E, giving flexibility for buybacks, M&amp;A or higher payouts after the "
+        "net cash would reach ~RMB{nc28}bn by FY28E. That leaves room for buybacks, M&amp;A or higher payouts after the "
         "cycle peaks."),
     fin_ratios=(
         "<b>Key ratios.</b> ROE swung from {roe23} (FY23) to {roe25} (FY25) and should spike to ~{roe26} in FY26E before "
-        "normalising to ~{roe28} in FY28E, a textbook cyclical profile. ROA is {roa25}. Inventory days ({invd25}) are high "
+        "normalising to ~{roe28} in FY28E, the usual pattern for a cyclical business. ROA is {roa25}. Inventory days ({invd25}) are high "
         "by design. Payout was only {payout25} on FY25 EPS."),
 )
 
@@ -163,16 +165,16 @@ V2["jushi"] = dict(
         "large furnaces and automated lines.",
         "Products fall into two families. Reinforcement fibre (direct and assembled roving, chopped strands, mats and "
         "fabrics), the bulk of volume, goes into wind-turbine blades, construction materials, pipes and tanks, "
-        "automotive thermoplastics and consumer goods. Pricing follows the capacity cycle and was flat in H1'26. "
+        "automotive thermoplastics and consumer goods. Its pricing follows the capacity cycle and was flat in H1'26. "
         "Electronic yarn and woven electronic cloth go to copper-clad-laminate makers (Kingboard, Shengyi, Nan Ya and "
-        "others), who make the base material for printed circuit boards. This is the profit engine today: AI servers "
-        "and high-speed networking boards use more layers and more cloth, standard 7628 cloth averaged RMB6.02/m in "
-        "H1'26 (+49%), and further 15–20% increases followed in September.",
+        "others), who make the base material for printed circuit boards. This second family is the profit engine today. "
+        "AI servers and high-speed networking boards use more layers and more cloth; standard 7628 cloth averaged "
+        "RMB6.02/m in H1'26 (+49%), and prices rose a further 15–20% in September.",
         "Jushi sells mostly direct to industrial customers in China and abroad (Egypt and US plants serve Europe and "
         "North America). Working capital is moderate (receivables ~116 days, inventory ~100 days at FY25), and the "
-        "balance sheet carries ~RMB11bn of net debt from successive capacity builds. The strategic task now is to move "
-        "up the e-cloth value chain into thin and low-dielectric grades, where Japan's Nittobo leads. Jushi's "
-        "low-dielectric products are in customer certification.",
+        "balance sheet carries ~RMB11bn of net debt from successive capacity builds. Jushi now needs to move up the "
+        "e-cloth value chain into thin and low-dielectric grades, where Japan's Nittobo leads. Its low-dielectric "
+        "products are in customer certification.",
     ],
     segments_title="Products, end-markets and 2026 price trend",
     segments_cols=("Product family", "End-markets", "2026 price trend", "Economics"),
@@ -192,7 +194,7 @@ V2["jushi"] = dict(
         "Electronic yarn and cloth have a different set of rivals: Kingboard (which commissioned a 70kt e-yarn line and "
         "is adding cloth), Taiwan Glass, Grace Fabric and Honghe at the standard end, and Nittobo (Japan) in premium "
         "low-dielectric and low-CTE cloth. Jushi expects to lift its share of global electronic-grade fibre from ~23% "
-        "to ~28% with Huai'an. Its advantage is scale and cost; its gap is the top-end grades used in the most "
+        "to ~28% with Huai'an. Jushi leads on scale and cost but lags in the top-end grades used in the most "
         "advanced AI boards.",
     ],
     competitors=[
@@ -215,9 +217,9 @@ V2["jushi"] = dict(
         "RMB per tonne, it is a market worth tens of billions of RMB, where share is won on cost.",
         "Electronic-grade fibre is a smaller but faster-growing and higher-value segment. AI servers, 800G networking and "
         "automotive electronics use thicker, multi-layer boards with more and better cloth. Jushi's Huai'an line alone "
-        "represents ~9% of global e-cloth capacity, and its share of electronic-grade fibre should rise to ~28%. The "
-        "addressable market's value is being driven by price as much as volume, which makes the outlook sensitive "
-        "to capacity additions by peers.",
+        "represents ~9% of global e-cloth capacity, and its share of electronic-grade fibre should rise to ~28%. Price "
+        "is driving the value of the addressable market as much as volume is, so the outlook is sensitive to capacity "
+        "additions by peers.",
     ],
     tam_table=[
         ("China glass-fibre yarn output", "8.43Mt (2025)", "+11.5% in 2025", "Industry data"),
@@ -232,17 +234,17 @@ V2["jushi"] = dict(
         "RMB2.4bn (FY24) to RMB3.3bn (FY25) and RMB2.9bn in H1'26 alone (+74%). We forecast revenue of "
         "RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E."),
     fin_bs=(
-        "<b>Balance sheet.</b> The balance sheet is asset-heavy: PP&amp;E of RMB36–38bn is two-thirds of total assets "
+        "<b>Balance sheet.</b> Jushi is asset-heavy: PP&amp;E of RMB36–38bn is two-thirds of total assets "
         "(RMB57.6bn in June 2026). Debt has been stable at ~RMB14.6bn and cash at ~RMB3bn, so net debt has held around "
         "RMB{nc25}bn (FY25) and RMB{ncj26}bn (June 2026), ~{ndeq25} of equity and {ndebitda25} EBITDA. Working capital "
         "improved as inventory days fell from 154 (FY23) to {invd25} (FY25) while receivable days are {recvd25}. The "
-        "current ratio is only {cr25}, reflecting short-term borrowings. Equity attributable is RMB33.2bn (BVPS ~RMB8.3)."),
+        "current ratio is only {cr25} because of short-term borrowings. Equity attributable is RMB33.2bn (BVPS ~RMB8.3)."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow rose from RMB0.9bn (FY23) to RMB4.2bn (FY25) and RMB5.2bn TTM as prices "
         "recovered and inventory was released. With maintenance-level capex of RMB1.3–1.5bn, FCF went from "
         "−RMB{fcf23}bn (FY23) to RMB{fcf25}bn (FY25), but capex has since stepped up to RMB3.2bn TTM for the new "
         "e-glass lines. Dividends (RMB1.4–2.5bn) and a RMB0.54bn buyback absorbed most FCF. We forecast FCF of "
-        "RMB{fcf26}bn/{fcf27}bn/{fcf28}bn with capex of RMB3–4bn, eliminating net debt by FY28E."),
+        "RMB{fcf26}bn/{fcf27}bn/{fcf28}bn with capex of RMB3–4bn, and expect net debt to be gone by FY28E."),
     fin_ratios=(
         "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23–25, well below the ~20%+ of the 2021–22 peak. "
         "We expect ~{roe26} in FY26E and ~{roe27} in FY27E as e-cloth profits flow through. ROA is {roa25}, and asset "
@@ -253,14 +255,14 @@ V2["jlmag"] = dict(
     background=[
         "JL Mag Rare-Earth was founded in 2008 in Ganzhou, Jiangxi, by Cai Baogui, who remains chairman and controls the "
         "company. Ganzhou is the centre of China's ionic-clay deposits of heavy rare earths (dysprosium, terbium), which "
-        "are critical for high-temperature magnets. JL Mag set out to make the highest grades of sintered "
-        "neodymium-iron-boron (NdFeB) magnets for demanding applications, rather than competing in commodity grades.",
+        "high-temperature magnets need. JL Mag set out to make the highest grades of sintered "
+        "neodymium-iron-boron (NdFeB) magnets for demanding applications and to stay out of commodity grades.",
         "The bet paid off as EVs, inverter air-conditioners and direct-drive wind turbines took off. JL Mag qualified with "
         "global automakers and Tier-1 suppliers, wind-turbine OEMs and appliance makers, and built a reputation for "
         "grain-boundary diffusion. This process deposits heavy rare earths only at grain boundaries, cutting their use "
-        "and cost while keeping performance. It listed on Shenzhen's ChiNext board in 2018 and in Hong Kong in January "
-        "2022. It now runs bases in Ganzhou, Ningbo and Baotou (Inner Mongolia, near light rare-earth supply) and is "
-        "building overseas capacity. Capacity reached ~40kt in 2025 and is targeted at 60kt by end-2027. Small-batch "
+        "and cost while keeping performance. JL Mag listed on Shenzhen's ChiNext board in 2018 and in Hong Kong in "
+        "January 2022. Its bases are now in Ganzhou, Ningbo and Baotou (Inner Mongolia, near light rare-earth supply), "
+        "and it is building overseas capacity. Capacity reached ~40kt in 2025 and is targeted at 60kt by end-2027. Small-batch "
         "deliveries of humanoid-robot rotors began in 2026.",
     ],
     milestones=[
@@ -352,7 +354,7 @@ V2["jlmag"] = dict(
         "RMB3.4bn ({recvd25} days at FY25) and inventory of RMB2.8–3.6bn ({invd25} days) are partly funded by payables "
         "({apd25} days). PP&amp;E is modest at RMB3.3bn. Net cash shrank from RMB{nc23}bn (FY23) to RMB{nc25}bn (FY25) as "
         "borrowing rose to fund inventory, then recovered to RMB{ncj26}bn in June 2026. Equity attributable is RMB7.8bn "
-        "(BVPS ~RMB5.7), the current ratio {cr25}."),
+        "(BVPS ~RMB5.7) and the current ratio is {cr25}."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow fell from RMB1.5bn (FY23) to RMB0.35bn (FY25) as rising rare-earth prices "
         "inflated inventory and receivables (OCF/net profit {ocfnp25} in FY25), then recovered to RMB2.1bn TTM. With "
@@ -377,7 +379,7 @@ V2["hans"] = dict(
         "Han's CNC, the PCB-equipment maker listed separately on ChiNext since 2022. Han's sold more than 54,000 "
         "machines in FY25. FY24 reported profit was inflated by ~RMB1.25bn of one-off disposal gains, which makes FY25's "
         "reported decline misleading; core profit rose 82%. The founder's holding company remains the controlling "
-        "shareholder but trimmed its stake in September 2026. AI servers have transformed the company's growth "
+        "shareholder but trimmed its stake in September 2026. AI servers have changed the company's growth "
         "profile: high-layer, high-density boards require far more drilling, exposure and testing equipment, and "
         "Han's entered 2026 with RMB19bn of new orders and a RMB9bn backlog.",
     ],
@@ -405,9 +407,9 @@ V2["hans"] = dict(
         "marking and micro-processing.",
         "Revenue tracks customers' capex cycles, so visibility comes from orders and backlog. PCB makers are investing "
         "heavily in capacity for AI-server and high-speed networking boards in China, Taiwan and Southeast Asia, "
-        "which needs more and more precise drilling. Apple product cycles drive consumer-electronics line orders, "
-        "battery makers' expansion drives new-energy equipment, and general industry drives the cutting-laser "
-        "business.",
+        "which needs more and more precise drilling. Consumer-electronics line orders follow Apple product cycles and "
+        "new-energy equipment follows battery makers' expansion, while the cutting-laser business depends on general "
+        "industry.",
         "Margins depend on mix. PCB and precision equipment earn higher gross margins than commoditised cutting "
         "lasers, and group gross margin rose 4pt to 34.9% in H1'26. Working capital is heavy, because customers pay in "
         "instalments with acceptance-based final payments: receivables run at ~230 days of sales. The holding "
@@ -444,7 +446,7 @@ V2["hans"] = dict(
     moat=[
         "Broadest laser and precision-equipment portfolio in Asia, with a large installed base and service network.",
         "Leadership in China PCB equipment as AI-server boards drive capacity investment.",
-        "Customer intimacy with Apple-chain and Shenzhen electronics makers.",
+        "Close relationships with Apple-chain and Shenzhen electronics makers.",
         "Vulnerabilities: capex cyclicality, price competition in lasers, controlling-shareholder selling.",
     ],
     tam=[
@@ -454,8 +456,8 @@ V2["hans"] = dict(
         "spending is growing much faster than PCB output.",
         "China is also the world's largest market for industrial laser processing, where fibre lasers are displacing "
         "plasma and mechanical cutting, though it is mature and price-competitive. Han's FY26E revenue of ~RMB27bn "
-        "(~US$4bn) makes it a top-tier participant in both markets. Upside comes from share gains in high-end PCB "
-        "drilling and semiconductor equipment rather than market growth alone.",
+        "(~US$4bn) makes it a top-tier participant in both markets. Further upside depends on share gains in high-end "
+        "PCB drilling and semiconductor equipment, on top of market growth.",
     ],
     tam_table=[
         ("Global PCB output", "~US$75–80bn", "AI-server/networking boards fastest-growing", "Prismark"),
@@ -477,13 +479,13 @@ V2["hans"] = dict(
         "(BVPS ~RMB21), and minority interests jumped to RMB3.9bn after capital raising at subsidiaries. The current "
         "ratio is {cr25}."),
     fin_cf=(
-        "<b>Cash flow.</b> Operating cash flow has been steady at RMB1.1–1.5bn a year, lagging profit growth because "
-        "working capital absorbs cash. Capex fell from RMB1.4–1.5bn (FY23–24) to RMB0.6bn (FY25), so FCF turned "
+        "<b>Cash flow.</b> Operating cash flow has been steady at RMB1.1–1.5bn a year and has lagged profit growth "
+        "because working capital absorbs cash. Capex fell from RMB1.4–1.5bn (FY23–24) to RMB0.6bn (FY25), so FCF turned "
         "positive at RMB{fcf25}bn in FY25 after −RMB{fcf23}bn/−RMB{fcf24}bn in FY23–24. Dividends are small. We forecast "
-        "FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn as working-capital growth slows relative to profits, lifting net cash to "
-        "~RMB{nc28}bn by FY28E."),
+        "FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn as working-capital growth slows relative to profits. Net cash would "
+        "then rise to ~RMB{nc28}bn by FY28E."),
     fin_ratios=(
         "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23–25; we expect it to more than double to "
         "~{roe27} by FY27E on higher margins and volumes. ROA was {roa25} in FY25. Receivable days of {recvd25} are the "
-        "key working-capital risk in an AI capex slowdown. Payout was {payout25} on FY25 EPS."),
+        "main working-capital risk in an AI capex slowdown. Payout was {payout25} on FY25 EPS."),
 )
