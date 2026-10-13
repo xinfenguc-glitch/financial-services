@@ -26,7 +26,7 @@ GIGADEVICE = dict(
          ("Sensors & analog", 3)],
     tiles=[("US$15.7bn", "Global specialty-memory market, 2025 (Frost & Sullivan)"),
            ("US$3.1bn", "Global NOR flash market, 2025; GigaDevice ~18% share (No.2)"),
-           ("+90–110%", "TrendForce forecast for high-capacity NOR price rises in H2'26")],
+           ("+90-110%", "TrendForce forecast for high-capacity NOR price rises in H2'26")],
     peers=[("Winbond", "2344 TT", 4.2, 13.2, 5.6),
            ("Macronix", "2337 TT", 3.8, 15.9, 5.0),
            ("NXP Semiconductors", "NXPI US", 13.6, 12.7, 4.9)],
@@ -38,13 +38,13 @@ GIGADEVICE = dict(
              "RMB6.9bn. The shares are already ~63% below their high and {pe26}x FY26E P/E is undemanding, but earnings "
              "are near a cyclical peak. We initiate at <b>{rating}</b>, TP RMB{tp} ({up} upside)."),
     thesis=[
-        "<b>A genuine supply shortage.</b> Leading memory makers are exiting legacy NOR, SLC NAND and DDR4 to chase "
-        "HBM/DDR5. TrendForce sees high-capacity NOR prices rising another 90–110% in H2'26, and mid-year backlog was "
-        "RMB9.8bn.",
-        "<b>Extreme operating leverage.</b> Memory gross margin jumped to 67.6% from 42.8% in FY25; TTM group gross "
+        "Legacy memory is in short supply as leading makers exit NOR, SLC NAND and DDR4 to chase HBM/DDR5. "
+        "TrendForce sees high-capacity NOR prices rising another 90-110% in H2'26, and mid-year backlog was RMB9.8bn.",
+        "Operating leverage is extreme: memory gross margin jumped to 67.6% from 42.8% in FY25, and TTM group gross "
         "margin is 56%.",
-        "<b>Durability and quality matter.</b> More than RMB2bn of H1 profit came from fair-value gains, and we expect "
-        "earnings to fall in FY28E as new capacity arrives, so we value on a cycle-adjusted 18x FY27E P/E.",
+        "Earnings quality and durability are open to question. More than RMB2bn of H1 profit came from fair-value "
+        "gains, and we expect earnings to fall in FY28E as new capacity arrives, so we value on a cycle-adjusted 18x "
+        "FY27E P/E.",
     ],
     background=(
         "GigaDevice was founded in Beijing in 2005 by Zhu Yiming, who also founded DRAM maker ChangXin Memory (CXMT). "
@@ -74,7 +74,7 @@ GIGADEVICE = dict(
         "FY25 revenue rose 25% to RMB9.2bn and net profit 49% to RMB1.65bn. H1'26 revenue jumped 179% to RMB11.6bn and "
         "net profit 1,092% to RMB6.9bn, including more than RMB2bn of fair-value gains (36Kr). Net cash is ~RMB17bn with "
         "almost no debt. We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, peaking in FY27E and then normalising as capacity returns. Our FY26E "
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, peaking in FY27E and then normalising as capacity returns. Our FY26E "
         "EPS of RMB{eps26} sits between the S&P consensus (RMB15.9) and the Simply Wall St figure (RMB20.9) in the "
         "source pack."),
     valuation=(
@@ -123,23 +123,23 @@ JUSHI = dict(
           ("Global e-glass fibre share", "~23% → ~28%")],
     tiles=[("8.43Mt", "China glass-fibre yarn output in 2025 (+11.5%)"),
            ("~23% → 28%", "Jushi share of global electronic-grade glass fibre after Huai'an"),
-           ("+15–20%", "E-cloth price increases announced in September 2026")],
+           ("+15-20%", "E-cloth price increases announced in September 2026")],
     peers=[("Sinoma Science & Tech", "002080 CH", 24.9, 22.5, 3.4),
            ("Nitto Boseki", "3110 JP", 26.6, 18.5, 5.1)],
     self_peer=(16.1, 19.5, 7.9),
-    headline="AI has turned a commodity producer into a growth story; the price cycle still rules",
+    headline="AI has turned a commodity producer into a growth story, but pricing still drives earnings",
     summary=("China Jushi is the world's largest glass-fibre maker. AI-server demand for high-layer PCBs has tightened "
-             "supply of electronic yarn and cloth, lifting H1'26 net profit 74%; the stock more than doubled, then "
+             "supply of electronic yarn and cloth, which lifted H1'26 net profit 74%. The stock more than doubled, then "
              "halved from its peak. At {pe27}x FY27E P/E the valuation is fair for a business whose earnings still hinge "
              "on e-cloth pricing. We initiate at <b>{rating}</b>, TP RMB{tp} ({up} upside)."),
     thesis=[
-        "<b>Electronic cloth is the profit engine.</b> 7628 e-fabric averaged RMB6.02/m in H1'26 (+49%) and rose another "
-        "15–20% in September, while roving prices were flat.",
-        "<b>Capacity is arriving on time.</b> The 100kt Huai'an e-glass line (with 390m metres of cloth) hit full output "
-        "by June; a 50kt/320m-metre line and a Tongxiang project follow, lifting global e-glass share from ~23% toward "
-        "~28%.",
-        "<b>Much is priced in and supply is responding.</b> Kingboard, Taishan (Sinoma) and others are adding e-yarn "
-        "capacity, and the second-largest shareholder, Zhenshi Group, is selling.",
+        "Electronic cloth is the main profit driver. The price of 7628 e-fabric averaged RMB6.02/m in H1'26 (+49%) and "
+        "rose another 15-20% in September, while roving prices were flat.",
+        "New capacity is arriving on time. The 100kt Huai'an e-glass line (with 390m metres of cloth) hit full output "
+        "by June. A 50kt/320m-metre line and a Tongxiang project follow and will take global e-glass share from ~23% "
+        "toward ~28%.",
+        "Much of this is priced in, and supply is responding. Kingboard, Taishan (Sinoma) and others are adding e-yarn "
+        "capacity, and Zhenshi Group, the second-largest shareholder, is selling.",
     ],
     background=(
         "China Jushi grew out of a glass-fibre plant in Tongxiang, Zhejiang and has been listed in Shanghai since 1999. It "
@@ -147,7 +147,7 @@ JUSHI = dict(
         "It runs tank-furnace bases in Tongxiang, Jiujiang, Chengdu and Huai'an in China, plus Egypt and the US, and is "
         "the world's largest producer by capacity. Products span roving, chopped strands, yarn and electronic cloth."),
     model=(
-        "Glass fibre is made in continuous tank furnaces that run for 8–10 years. The business is capital- and "
+        "Glass fibre is made in continuous tank furnaces that run for 8-10 years. The business is capital- and "
         "energy-intensive with high fixed costs, so scale, furnace efficiency and utilisation decide cost position. Jushi "
         "sells roving and chopped strands for wind blades, construction, autos, thermoplastics and pipes. It also sells "
         "electronic yarn and woven cloth to copper-clad-laminate makers, who supply PCB manufacturers. Pricing follows "
@@ -167,7 +167,7 @@ JUSHI = dict(
         "FY25 revenue grew 19% to RMB18.9bn and net profit 34% to RMB3.3bn as gross margin recovered from 24.8% to 33.0%. "
         "H1'26 revenue rose 22.5% to RMB11.2bn and net profit 74% to RMB2.93bn, and TTM gross margin is 38%. Net debt is "
         "~RMB11.5bn and capex is rising (a RMB2.4bn e-cloth project was approved in July). We forecast net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, below consensus (FY26E EPS RMB1.95), because we assume e-cloth "
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, below consensus (FY26E EPS RMB1.95), because we assume e-cloth "
         "prices plateau in 2027 as new capacity arrives."),
     valuation=(
         "Our TP of RMB{tp} is 20x FY27E EPS of RMB{eps27}, a discount to Sinoma Science & Technology (~25x) and Nittobo "
@@ -224,12 +224,12 @@ JLMAG = dict(
              "5.3pt. The H-share trades at a ~46% discount to the A-share, on {pe27}x FY27E P/E with a ~{dy26} yield. We "
              "initiate on the H-share at <b>{rating}</b>, TP HK${tp} ({up} upside)."),
     thesis=[
-        "<b>A strategic position.</b> China makes ~90% of the world's sintered NdFeB magnets and controls rare-earth "
+        "JL Mag's position is strategic. China makes ~90% of the world's sintered NdFeB magnets and controls rare-earth "
         "exports. JL Mag leads on scale and technology; its grain-boundary diffusion process cuts heavy rare-earth use.",
-        "<b>Capacity-led growth.</b> Capacity rises from ~40kt (2025) to 60kt by end-2027. Robot-related sales rose 96% in "
+        "New capacity drives growth: it rises from ~40kt (2025) to 60kt by end-2027. Robot-related sales rose 96% in "
         "H1'26, and small-batch humanoid rotor deliveries have started.",
-        "<b>A valuation gap.</b> The A-share is on ~{pe27a}x FY27E but the H-share only {pe27}x, for the same earnings and "
-        "a dividend yield near {dy26}.",
+        "The H-share is the cheaper line, on {pe27}x FY27E against ~{pe27a}x for the A-share, with the same earnings "
+        "and a dividend yield near {dy26}.",
     ],
     background=(
         "JL Mag was founded in 2008 in Ganzhou, Jiangxi, at the heart of China's ionic-clay heavy rare-earth region, by "
@@ -251,14 +251,14 @@ JLMAG = dict(
         "entrenches Chinese leaders. JL Mag's advantages are scale, cost and a qualified customer base; non-Chinese "
         "buyers, however, are actively seeking to diversify supply."),
     tam=(
-        "Industry estimates put high-performance NdFeB demand growth at ~10–15% a year to 2030. The drivers are EV "
-        "traction motors (2–3kg of magnet per car), variable-frequency air-conditioners, direct-drive wind turbines and "
-        "robotics (roughly 2–4kg per humanoid, on industry estimates). NdPr oxide peaked near US$98k/t in January 2026 and "
+        "Industry estimates put high-performance NdFeB demand growth at ~10-15% a year to 2030. The drivers are EV "
+        "traction motors (2-3kg of magnet per car), variable-frequency air-conditioners, direct-drive wind turbines and "
+        "robotics (roughly 2-4kg per humanoid, on industry estimates). NdPr oxide peaked near US$98k/t in January 2026 and "
         "has eased since (RMB750k/t in July)."),
     financials=(
         "Revenue grew from RMB6.7bn (FY23) to RMB7.7bn (FY25). After a FY24 trough (gross margin 10.4%), FY25 net profit "
         "rose 142% to RMB0.71bn. H1'26 revenue rose 33% to RMB4.65bn and net profit 52% to RMB462m, at a 21.7% gross "
-        "margin. Net cash is ~RMB2.3bn. We forecast net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, in line "
+        "margin. Net cash is ~RMB2.3bn. We forecast net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, in line "
         "with consensus (FY26E EPS RMB0.66), with capacity growth offset by softer rare-earth prices."),
     valuation=(
         "Our H-share TP of HK${tp} is 19x FY27E EPS of RMB{eps27}, a discount to Ningbo Yunsheng (~21x) and to the "
@@ -309,17 +309,18 @@ HANS = dict(
            ("Wuxi Lead Intelligent", "300450 CH", 19.8, 20.3, 3.1),
            ("IPG Photonics", "IPGP US", 38.1, 23.7, 2.3)],
     self_peer=(16.9, 19.7, 2.9),
-    headline="A genuine AI-capex winner with order visibility; the sell-off is an entry point",
+    headline="An AI-capex winner with clear order visibility; the sell-off is an entry point",
     summary=("Han's Laser is Asia's largest laser and smart-manufacturing equipment maker. AI-server PCBs need far more "
-             "drilling and processing, and its PCB-equipment arm has become the growth engine: H1'26 revenue rose 76% and "
+             "drilling and processing, and its PCB-equipment arm now leads the group's growth: H1'26 revenue rose 76% and "
              "net profit 164%. The stock is ~58% below its high (−7% on 12 October). At {pe27}x FY27E P/E, with RMB28bn of "
              "new orders and backlog, we initiate at <b>{rating}</b>, TP RMB{tp} ({up} upside)."),
     thesis=[
-        "<b>AI-server PCBs are a multi-year driver.</b> High-layer, high-density boards need more mechanical and laser "
+        "AI-server PCBs are a multi-year growth driver. High-layer, high-density boards need more mechanical and laser "
         "drilling, exposure and testing; FY25 PCB-equipment revenue rose 73% to RMB5.8bn.",
-        "<b>Visibility is unusually good.</b> Management guides FY26 revenue of at least RMB27bn (+44%) and cites RMB19bn of "
-        "new orders plus a RMB9bn backlog.",
-        "<b>Operating leverage.</b> H1'26 gross margin rose 4pt to 34.9%; we forecast FY27E EPS of RMB{eps27} (+42%).",
+        "Order visibility is unusually good. Management guides FY26 revenue of at least RMB27bn (+44%) and cites RMB19bn "
+        "of new orders plus a RMB9bn backlog.",
+        "Operating leverage is lifting margins. H1'26 gross margin rose 4pt to 34.9%; we forecast FY27E EPS of "
+        "RMB{eps27} (+42%).",
     ],
     background=(
         "Han's Laser was founded in Shenzhen in 1996 by Gao Yunfeng, who remains chairman and controlling shareholder "
@@ -340,7 +341,7 @@ HANS = dict(
         "Coherent, IPG and Bystronic, with HGTECH (Huagong) and Hymson at home; in battery equipment, Lead Intelligent "
         "and Yinghe. Han's edge is breadth, closeness to customers in Shenzhen's electronics cluster, and cost."),
     tam=(
-        "Global PCB output is roughly US$75–80bn a year (Prismark). AI-server and high-speed networking boards are the "
+        "Global PCB output is roughly US$75-80bn a year (Prismark). AI-server and high-speed networking boards are the "
         "fastest-growing segment, prompting capacity additions in China, Taiwan and Southeast Asia. Industrial laser "
         "processing is a broader, more cyclical market. Han's FY26E revenue of ~RMB27bn (~US$4bn) places it among the "
         "largest players in both."),
@@ -348,7 +349,7 @@ HANS = dict(
         "FY25 revenue rose 27% to RMB18.8bn. Reported net profit fell 30% to RMB1.19bn against a 2024 base inflated by "
         "RMB1.25bn of one-off gains, while core profit rose 82% to RMB0.81bn. H1'26 revenue rose 76% to RMB13.4bn and net "
         "profit 164% to RMB1.29bn. Net cash is ~RMB5.8bn. We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and "
-        "net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E. Our FY26E is close to the forecast cited in the source "
+        "net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E. Our FY26E is close to the forecast cited in the source "
         "pack (RMB2.65bn), but our FY27E is below both that and the S&P consensus."),
     valuation=(
         "Our TP of RMB{tp} is 25x FY27E EPS of RMB{eps27}: a premium to Lead Intelligent (~20x forward) for AI exposure, "
@@ -385,7 +386,7 @@ HORIZON = dict(
         bear=dict(type="evs", rev=6.0, mult=3.5, desc="3.5x on FY27E revenue of RMB6.0bn"),
         bull=dict(type="evs", rev=8.5, mult=10, desc="10x on FY27E revenue of RMB8.5bn"),
     ),
-    cons=dict(tp=8.15, n=None, eps26=None, eps27=None, ratings="Consensus Buy (target HK$8.2–8.6)"),
+    cons=dict(tp=8.15, n=None, eps26=None, eps27=None, ratings="Consensus Buy (target HK$8.2-8.6)"),
     mix_title="H1'26 revenue mix (%)",
     mix=[("Licensing & services (~90% GM)", 55), ("Products & solutions", 45)],
     tiles=[("2.22m", "Journey SoC shipments in H1'26 (+12%) while China car retail fell 20%"),
@@ -396,18 +397,19 @@ HORIZON = dict(
            ("Black Sesame", "2533 HK", None, None, 4.5)],
     peer_note="EV/sales on trailing revenue; Black Sesame approximated by P/S.",
     self_peer=(None, None, 9.5),
-    headline="The 'ARM + Android' of driver assistance, back at its IPO price; licensing is the hidden gem",
+    headline="An 'ARM + Android' play on driver assistance, back at its IPO price; the market is overlooking licensing",
     summary=("Horizon designs automotive AI processors and licenses its chip IP, algorithms and software to automakers "
              "and Tier-1s. Licensing reached 55% of H1'26 revenue at a 90% gross margin even as China car sales fell 20%. "
-             "The shares are back at the 2024 IPO price, valuing the company at ~{evs27}x FY27E EV/sales. We initiate at "
-             "<b>{rating}</b>, TP HK${tp} ({up} upside), while flagging losses to 2028 and a steep H1 cash draw."),
+             "The shares are back at the 2024 IPO price, which values the company at ~{evs27}x FY27E EV/sales. We initiate "
+             "at <b>{rating}</b>, TP HK${tp} ({up} upside), though losses run to 2028 and the H1 cash draw was "
+             "steep."),
     thesis=[
-        "<b>Taking share in a falling market.</b> Journey SoC shipments rose 12% to 2.2m in H1'26 while China "
-        "passenger-car retail fell 20%. Design wins are near 500 models, including ~130 with advanced NOA.",
-        "<b>Licensing changes the economics.</b> Licence and service revenue rose 53% to RMB1.13bn at a 90% gross margin, "
-        "and Toyota programmes and global Tier-1s (Denso, AUMOVIO) are adopting Journey 6B.",
-        "<b>A catalyst-rich 2026–27.</b> HSD urban NOA is ramping, integrated cockpit-driving mass production starts in "
-        "Q4, Journey 7 is due in 2027, and FY26 revenue guidance is above RMB5bn.",
+        "Horizon is taking share in a falling market. Journey SoC shipments rose 12% to 2.2m in H1'26 while China "
+        "passenger-car retail fell 20%, and design wins are near 500 models, including ~130 with advanced NOA.",
+        "Licensing changes the economics of the business. Licence and service revenue rose 53% to RMB1.13bn at a 90% "
+        "gross margin, and Toyota programmes and global Tier-1s (Denso, AUMOVIO) are adopting Journey 6B.",
+        "Several catalysts fall in 2026-27: HSD urban NOA is ramping, integrated cockpit-driving mass production starts "
+        "in Q4, Journey 7 is due in 2027, and FY26 revenue guidance is above RMB5bn.",
     ],
     background=(
         "Horizon Robotics was founded in Beijing in 2015 by Yu Kai, former head of Baidu's Institute of Deep Learning. "
@@ -430,7 +432,7 @@ HORIZON = dict(
         "more of the stack in-house."),
     tam=(
         "China sells more than 20m passenger cars a year, and driver assistance is moving fast down the price ladder: "
-        "HSD targets cars around RMB70–150k. Frost & Sullivan, cited in Horizon's prospectus, projected China's ADAS/AD "
+        "HSD targets cars around RMB70-150k. Frost & Sullivan, cited in Horizon's prospectus, projected China's ADAS/AD "
         "solutions market to grow from ~RMB60bn in 2023 to more than RMB1tn by 2030. Robotics licensing via D-Robotics "
         "adds optionality."),
     financials=(
@@ -442,7 +444,7 @@ HORIZON = dict(
     valuation=(
         "Our TP of HK${tp} applies 8x EV/sales to FY27E revenue of RMB{rev27}bn and adds net cash. The multiple is above "
         "Mobileye (~2.3x) and Ambarella (~6.5x) because over half of revenue is high-margin licensing growing more than "
-        "50%. The consensus target is ~HK$8.2–8.6. Bear case HK${bear}: 3.5x on lower FY27E revenue (RMB6.0bn). Bull "
+        "50%. The consensus target is ~HK$8.2-8.6. Bear case HK${bear}: 3.5x on lower FY27E revenue (RMB6.0bn). Bull "
         "case HK${bull}: 10x on RMB8.5bn."),
     risks=[
         "China auto price war and OEM in-house chips.",
@@ -480,25 +482,25 @@ LEADERDRIVE = dict(
               ratings="4 Strong Buy / 3 Buy / 4 Hold / 2 Sell / 2 Strong Sell"),
     mix_title="H1'26 revenue mix (%)",
     mix=[("Harmonic reducers & metal parts", 82.7), ("Electromechanical actuators", 15.7), ("Other", 1.6)],
-    tiles=[("30–40%", "Leaderdrive share of China's harmonic-reducer market (JPMorgan est.)"),
-           ("~14–20", "Harmonic reducers per humanoid robot (industry estimates)"),
+    tiles=[("30-40%", "Leaderdrive share of China's harmonic-reducer market (JPMorgan est.)"),
+           ("~14-20", "Harmonic reducers per humanoid robot (industry estimates)"),
            ("~300k", "Industrial robots installed in China each year (IFR)")],
     peers=[("Harmonic Drive Systems", "6324 JP", 79.9, 50.9, 9.3),
            ("Nabtesco", "6268 JP", 21.9, 11.8, 1.7),
            ("Zhejiang Shuanghuan", "002472 CH", 19.9, 13.3, 3.4)],
     self_peer=(226.0, 278.3, 65.9),
     headline="A good company priced for a humanoid future that has not yet arrived",
-    summary=("Leaderdrive is China's leading maker of harmonic reducers, the precision gears in robot joints, and a key "
+    summary=("Leaderdrive is China's leading maker of harmonic reducers, the precision gears in robot joints, and a major "
              "supplier to humanoid-robot developers. Growth is solid (H1'26 revenue +39%), but at ~{pe26}x FY26E and "
              "~{pe27}x FY27E P/E the shares discount mass humanoid adoption years ahead of the evidence. We initiate at "
              "<b>{rating}</b> with a TP of RMB{tp} ({upabs} downside)."),
     thesis=[
-        "<b>A strong franchise.</b> With an estimated 30–40% of China's harmonic-reducer market, Leaderdrive has displaced "
+        "Leaderdrive's franchise is strong. With an estimated 30-40% of China's harmonic-reducer market, it has displaced "
         "Japanese imports at materially lower prices and supplies humanoid makers such as Agibot and UBTech.",
-        "<b>But the numbers are small.</b> FY25 revenue was RMB571m and H1'26 net profit RMB70m; Q2 margins fell and "
-        "results missed forecasts.",
-        "<b>The valuation embeds perfection.</b> Our TP capitalises FY30E net profit of RMB1.0bn (8x FY25) at 40x and "
-        "discounts it back three years. Even our bull case (RMB{bull}) needs a humanoid boom.",
+        "The absolute numbers are still small. FY25 revenue was RMB571m and H1'26 net profit RMB70m. In Q2, margins "
+        "fell and results missed forecasts.",
+        "The shares are priced for perfection. Our TP capitalises FY30E net profit of RMB1.0bn (8x FY25) at 40x and "
+        "discounts it back three years, and even our bull case (RMB{bull}) needs a humanoid boom.",
     ],
     background=(
         "Leaderdrive was founded in Suzhou in 2011 by chairman Zuo Yuyu, who developed strain-wave gearing in-house when "
@@ -519,14 +521,14 @@ LEADERDRIVE = dict(
         "robot makers bring reducers in-house."),
     tam=(
         "China installs ~300k industrial robots a year (IFR), each with several harmonic reducers in its smaller joints. "
-        "Humanoids could add a much larger pool: at ~14–20 reducers per robot, one million humanoids a year would need "
-        "14–20 million units, many times today's market. Timing and design choices remain highly uncertain, and humanoid "
+        "Humanoids could add a much larger pool: at ~14-20 reducers per robot, one million humanoids a year would need "
+        "14-20 million units, many times today's market. Timing and design choices remain highly uncertain, and humanoid "
         "output today is in the tens of thousands of units."),
     financials=(
         "Revenue fell from RMB443m (FY21) to RMB356m (FY23) before recovering to RMB571m in FY25 (+47%), with net profit of "
         "RMB124m. H1'26 revenue rose 39% to RMB349m and net profit 31% to RMB70m, but Q2 margins fell as expenses rose. "
         "Net cash is ~RMB2.2bn. We forecast revenue of RMB{rev26}m/{rev27}m/{rev28}m and net profit of "
-        "RMB{np26}m/{np27}m/{np28}m for FY26–28E, below consensus (FY26E EPS RMB0.93)."),
+        "RMB{np26}m/{np27}m/{np28}m for FY26-28E, below consensus (FY26E EPS RMB0.93)."),
     valuation=(
         "Our TP of RMB{tp} capitalises FY30E net profit of RMB1.0bn at 40x, discounts it back three years at 10% and adds "
         "net cash. Harmonic Drive Systems, the global leader, trades on ~80x forward earnings and ~9x EV/sales, against "
@@ -576,15 +578,15 @@ EDGE = dict(
     headline="An export-led surgical-robot challenger at breakeven: small and volatile, but worth owning",
     summary=("Edge Medical makes multi-port and single-port laparoscopic surgical robots and, unusually for a Chinese "
              "medtech, sells most of them abroad (70% of H1'26 revenue). Revenue more than doubled in H1'26 and losses "
-             "all but disappeared. Trading 24% below its January IPO price, at ~{evs27}x FY27E EV/sales versus ~13x for "
-             "Intuitive Surgical, we initiate at <b>{rating}</b>, TP HK${tp} ({up} upside)."),
+             "all but disappeared. The stock trades 24% below its January IPO price, at ~{evs27}x FY27E EV/sales versus "
+             "~13x for Intuitive Surgical. We initiate at <b>{rating}</b>, TP HK${tp} ({up} upside)."),
     thesis=[
-        "<b>Export-led growth.</b> 49 of the 58 robots placed in H1'26 went overseas (Asia, Europe, the Middle East, "
-        "Latin America); MP1000 is approved in 37 overseas jurisdictions.",
-        "<b>A profitability inflection.</b> Gross margin is ~64% and the H1 net loss narrowed 78% to RMB19m. We expect "
-        "breakeven in FY26E and RMB{np28}m of profit in FY28E.",
-        "<b>Recurring revenue is the long-term prize.</b> Instruments and service are <1% of revenue today. As the installed "
-        "base (158 units) grows, an Intuitive-style razor-and-blade model should lift earnings quality.",
+        "Exports drive growth: 49 of the 58 robots placed in H1'26 went overseas (Asia, Europe, the Middle East, "
+        "Latin America), and MP1000 is approved in 37 overseas jurisdictions.",
+        "Edge is close to turning a profit. Gross margin is ~64% and the H1 net loss narrowed 78% to RMB19m; we "
+        "expect breakeven in FY26E and RMB{np28}m of profit in FY28E.",
+        "The long-term upside is in recurring revenue. Instruments and service are <1% of revenue today. As the "
+        "installed base (158 units) grows, an Intuitive-style razor-and-blade model should lift earnings quality.",
     ],
     background=(
         "Shenzhen Edge Medical was founded in Shenzhen in 2017 by Dr Wang Jianchen, its chairman and CEO. It is the first "
@@ -661,19 +663,19 @@ ZAI = dict(
            ("iFlytek", "002230 CH", 90.9, None, 3.4)],
     peer_note="EV/sales on trailing revenue; SenseTime approximated by P/S.",
     self_peer=(None, None, 117.0),
-    headline="Real traction, enormous expectations: a well-funded option on China's LLM market",
+    headline="Real traction and a large war chest, but the share price already assumes a great deal",
     summary=("Z.AI (Zhipu) develops the GLM family of large language models and sells them mainly through cloud APIs and "
              "coding subscriptions, plus on-premise deployments for enterprises and government. H1'26 revenue rose 400% "
              "to RMB954m but missed expectations, and losses remain large. After raising ~US$9.5bn since its January "
              "IPO, it trades at ~{evs27}x FY27E EV/sales. We initiate at <b>{rating}</b>, TP HK${tp} ({up} vs "
              "current)."),
     thesis=[
-        "<b>Commercial traction is real.</b> Cloud/API is 86.5% of revenue, GLM-5.3 ships on AWS, Alibaba Cloud and Huawei "
+        "Z.AI has commercial traction. Cloud/API is 86.5% of revenue, GLM-5.3 ships on AWS, Alibaba Cloud and Huawei "
         "Cloud under revenue-share deals, and management targets US$3.0bn of ARR by end-2026.",
-        "<b>The balance sheet is a weapon.</b> ~US$9.5bn raised in nine months (IPO, July placement, September placement "
-        "plus a RMB20bn convertible) funds GLM-6.0 and compute; domestic chips cut unit inference cost by 80%.",
-        "<b>But the valuation assumes success.</b> H1 revenue missed (RMB954m vs RMB1.35bn expected), gross margin fell "
-        "to 26% and each raise dilutes holders. We see the risk/reward as balanced.",
+        "The company is well funded. The ~US$9.5bn raised in nine months (IPO, July placement, September placement plus "
+        "a RMB20bn convertible) pays for GLM-6.0 and compute, and domestic chips cut unit inference cost by 80%.",
+        "The valuation already assumes success. H1 revenue missed (RMB954m vs RMB1.35bn expected), gross margin fell "
+        "to 26% and each raise dilutes holders, so we see the risk/reward as balanced.",
     ],
     background=(
         "Zhipu was spun out of Tsinghua University's Knowledge Engineering Group in 2019 by professors Tang Jie and Li "
@@ -702,7 +704,7 @@ ZAI = dict(
         "RMB4.7bn (adjusted RMB3.2bn) on R&D of RMB3.2bn, and the H1'26 adjusted loss widened to RMB1.96bn. We estimate "
         "~RMB45bn of net cash after the September raise, net of the RMB20.1bn zero-coupon convertible (conversion price "
         "HK$892.50). We forecast revenue of RMB{rev26}m/{rev27}m/{rev28}m, well below the Goldman forecasts in the source "
-        "pack (RMB8.2bn/26.7bn for FY26/27), with breakeven in 2028–29."),
+        "pack (RMB8.2bn/26.7bn for FY26/27), with breakeven in 2028-29."),
     valuation=(
         "We value Z.AI at 10x EV/sales on FY28E revenue of RMB{rev28}m, discounted back two years at 15%, plus net cash, "
         "for a TP of HK${tp}. Broker targets (Goldman HK$1,560, Morgan Stanley HK$1,700) assume much faster revenue "
@@ -755,12 +757,12 @@ MINIMAX = dict(
              "rose 283% to US$117m, yet the adjusted loss was US$293m. After a 77% fall from June, the stock trades at "
              "~{evs27}x FY27E EV/sales. We initiate at <b>{rating}</b>, TP HK${tp} ({up} vs current)."),
     thesis=[
-        "<b>Mix is shifting to enterprise.</b> Open Platform and enterprise revenue grew 703% in H1'26 to 63% of sales.",
-        "<b>Global by design.</b> 236m users across 200+ countries and strong positions in AI video (Hailuo) and voice "
-        "give MiniMax distribution most Chinese labs lack.",
-        "<b>Burn and supply overhang dominate near term.</b> H1 R&D (US$297m) was 2.5x revenue; the July lock-up expiry "
-        "lifted free float from 5.4% to 54.4%; and the next model (M3 Pro) is a binary swing factor after M3's lukewarm "
-        "reception.",
+        "The mix is shifting to enterprise: Open Platform and enterprise revenue grew 703% in H1'26 to 63% of sales.",
+        "MiniMax has global distribution that most Chinese labs lack, with 236m users across 200+ countries and strong "
+        "positions in AI video (Hailuo) and voice.",
+        "Cash burn and the share overhang will dominate the near term. H1 R&D (US$297m) was 2.5x revenue, and the July "
+        "lock-up expiry lifted free float from 5.4% to 54.4%. After M3's lukewarm reception, the next model (M3 Pro) is a "
+        "binary swing factor.",
     ],
     background=(
         "MiniMax was founded in Shanghai in early 2022 by Yan Junjie, formerly a vice-president at SenseTime; its backers "

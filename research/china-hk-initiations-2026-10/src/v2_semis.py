@@ -89,8 +89,8 @@ V2["gigadevice"] = dict(
     tam=[
         "Frost & Sullivan estimates the global specialty-memory market (NOR, SLC NAND, niche DRAM) at US$15.7bn in 2025, "
         "including US$3.1bn for NOR flash. Both are rising sharply in value in 2026: TrendForce expects high-capacity NOR "
-        "prices to rise another 90–110% in H2'26, as AI servers and AI PCs need more and larger code-storage chips and "
-        "supply shrinks. The general-purpose MCU market is larger (roughly US$20–25bn) and grows with industrial "
+        "prices to rise another 90-110% in H2'26, as AI servers and AI PCs need more and larger code-storage chips and "
+        "supply shrinks. The general-purpose MCU market is larger (roughly US$20-25bn) and grows with industrial "
         "automation, EVs and IoT.",
         "GigaDevice's TTM revenue of RMB16.6bn (~US$2.5bn) implies a mid-teens share of its combined addressable markets. "
         "How long prices hold matters more here than market size. The legacy-memory shortage will last only until "
@@ -98,8 +98,8 @@ V2["gigadevice"] = dict(
     ],
     tam_table=[
         ("Specialty memory", "US$15.7bn (2025)", "Sharp price-led growth in 2026", "Frost & Sullivan"),
-        ("NOR flash", "US$3.1bn (2025)", "High-capacity NOR +90–110% in H2'26", "Frost & Sullivan; TrendForce"),
-        ("General-purpose MCUs", "~US$20–25bn", "Mid-single-digit growth; domestic substitution", "Industry estimates"),
+        ("NOR flash", "US$3.1bn (2025)", "High-capacity NOR +90-110% in H2'26", "Frost & Sullivan; TrendForce"),
+        ("General-purpose MCUs", "~US$20-25bn", "Mid-single-digit growth; domestic substitution", "Industry estimates"),
         ("GigaDevice NOR share", "~18% (No.2)", "Gaining with AI-server NOR", "Industry estimate"),
     ],
     fin_is=(
@@ -117,8 +117,8 @@ V2["gigadevice"] = dict(
         "days) because distributors pay quickly. Equity attributable reached RMB37.3bn (BVPS ~RMB53), and the current "
         "ratio of {cr25} is very high."),
     fin_cf=(
-        "<b>Cash flow.</b> Operating cash flow was RMB1.2–2.1bn a year over FY23–25 (OCF/net profit {ocfnp25} in FY25) "
-        "and jumped to RMB7.2bn TTM. Capex is modest (RMB0.3–1.6bn), so FCF rose from RMB{fcf23}bn (FY23) to "
+        "<b>Cash flow.</b> Operating cash flow was RMB1.2-2.1bn a year over FY23-25 (OCF/net profit {ocfnp25} in FY25) "
+        "and jumped to RMB7.2bn TTM. Capex is modest (RMB0.3-1.6bn), so FCF rose from RMB{fcf23}bn (FY23) to "
         "RMB{fcfttm}bn TTM. Dividends are small (FY25 DPS RMB0.75). We forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn; "
         "net cash would reach ~RMB{nc28}bn by FY28E. That leaves room for buybacks, M&amp;A or higher payouts after the "
         "cycle peaks."),
@@ -149,7 +149,7 @@ V2["jushi"] = dict(
         ("Early 2010s", "First overseas plant in Egypt (Suez) to serve Europe and the Middle East."),
         ("2016", "Renamed China Jushi."),
         ("2019", "US plant in South Carolina starts production."),
-        ("2021–22", "Cycle peak: net profit RMB6.0bn and RMB6.6bn."),
+        ("2021-22", "Cycle peak: net profit RMB6.0bn and RMB6.6bn."),
         ("2026", "100kt Huai'an e-glass line at full output; e-cloth price +49%; RMB2.4bn e-cloth project."),
     ],
     ownership=[
@@ -159,7 +159,7 @@ V2["jushi"] = dict(
     ],
     business=[
         "Glass fibre is made by melting silica-rich minerals in continuous tank furnaces and drawing the melt through "
-        "platinum-rhodium bushings into fine filaments. Furnaces run non-stop for 8–10 years before a cold repair, so "
+        "platinum-rhodium bushings into fine filaments. Furnaces run non-stop for 8-10 years before a cold repair, so "
         "the business is capital- and energy-intensive with high fixed costs. Scale, furnace efficiency, energy prices "
         "and utilisation determine cost position, and Jushi is the industry cost leader with its own mineral mines, "
         "large furnaces and automated lines.",
@@ -169,7 +169,7 @@ V2["jushi"] = dict(
         "Electronic yarn and woven electronic cloth go to copper-clad-laminate makers (Kingboard, Shengyi, Nan Ya and "
         "others), who make the base material for printed circuit boards. This second family is the profit engine today. "
         "AI servers and high-speed networking boards use more layers and more cloth; standard 7628 cloth averaged "
-        "RMB6.02/m in H1'26 (+49%), and prices rose a further 15–20% in September.",
+        "RMB6.02/m in H1'26 (+49%), and prices rose a further 15-20% in September.",
         "Jushi sells mostly direct to industrial customers in China and abroad (Egypt and US plants serve Europe and "
         "North America). Working capital is moderate (receivables ~116 days, inventory ~100 days at FY25), and the "
         "balance sheet carries ~RMB11bn of net debt from successive capacity builds. Jushi now needs to move up the "
@@ -181,7 +181,7 @@ V2["jushi"] = dict(
     segments=[
         ("Direct / assembled roving", "Wind blades, pipes, construction", "Flat (H1'26)", "Bulk volume; cost leadership decisive"),
         ("Chopped strands & thermoplastics", "Autos, appliances, consumer goods", "Stable", "Mid margins"),
-        ("Electronic yarn & cloth", "Copper-clad laminates → PCBs (AI servers)", "7628 cloth +49%; +15–20% in Sept",
+        ("Electronic yarn & cloth", "Copper-clad laminates → PCBs (AI servers)", "7628 cloth +49%; +15-20% in Sept",
          "Profit engine; capacity expanding"),
         ("Low-dielectric e-cloth", "High-speed / AI server boards", "Premium", "In certification; Nittobo leads"),
     ],
@@ -224,7 +224,7 @@ V2["jushi"] = dict(
     tam_table=[
         ("China glass-fibre yarn output", "8.43Mt (2025)", "+11.5% in 2025", "Industry data"),
         ("Electronic-grade glass fibre", "Jushi ~23% → ~28% share", "AI-server and networking boards", "Company/press"),
-        ("7628 electronic cloth price", "RMB6.02/m (H1'26)", "+49% YoY; +15–20% in Sept", "Futu/industry"),
+        ("7628 electronic cloth price", "RMB6.02/m (H1'26)", "+49% YoY; +15-20% in Sept", "Futu/industry"),
         ("Huai'an e-glass line", "100kt + 390m metres", "~9% of global e-cloth capacity", "China Daily/company"),
     ],
     fin_is=(
@@ -232,21 +232,21 @@ V2["jushi"] = dict(
         "then recovered to RMB18.9bn (FY25) and RMB20.9bn TTM. Gross margin bottomed at 24.8% (FY24) and rebounded to "
         "33.0% (FY25) and 38.1% TTM. Operating profit rose from RMB2.6bn (FY23) to RMB4.6bn (FY25), and net profit from "
         "RMB2.4bn (FY24) to RMB3.3bn (FY25) and RMB2.9bn in H1'26 alone (+74%). We forecast revenue of "
-        "RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E."),
+        "RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E."),
     fin_bs=(
-        "<b>Balance sheet.</b> Jushi is asset-heavy: PP&amp;E of RMB36–38bn is two-thirds of total assets "
+        "<b>Balance sheet.</b> Jushi is asset-heavy: PP&amp;E of RMB36-38bn is two-thirds of total assets "
         "(RMB57.6bn in June 2026). Debt has been stable at ~RMB14.6bn and cash at ~RMB3bn, so net debt has held around "
         "RMB{nc25}bn (FY25) and RMB{ncj26}bn (June 2026), ~{ndeq25} of equity and {ndebitda25} EBITDA. Working capital "
         "improved as inventory days fell from 154 (FY23) to {invd25} (FY25) while receivable days are {recvd25}. The "
         "current ratio is only {cr25} because of short-term borrowings. Equity attributable is RMB33.2bn (BVPS ~RMB8.3)."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow rose from RMB0.9bn (FY23) to RMB4.2bn (FY25) and RMB5.2bn TTM as prices "
-        "recovered and inventory was released. With maintenance-level capex of RMB1.3–1.5bn, FCF went from "
+        "recovered and inventory was released. With maintenance-level capex of RMB1.3-1.5bn, FCF went from "
         "−RMB{fcf23}bn (FY23) to RMB{fcf25}bn (FY25), but capex has since stepped up to RMB3.2bn TTM for the new "
-        "e-glass lines. Dividends (RMB1.4–2.5bn) and a RMB0.54bn buyback absorbed most FCF. We forecast FCF of "
-        "RMB{fcf26}bn/{fcf27}bn/{fcf28}bn with capex of RMB3–4bn, and expect net debt to be gone by FY28E."),
+        "e-glass lines. Dividends (RMB1.4-2.5bn) and a RMB0.54bn buyback absorbed most FCF. We forecast FCF of "
+        "RMB{fcf26}bn/{fcf27}bn/{fcf28}bn with capex of RMB3-4bn, and expect net debt to be gone by FY28E."),
     fin_ratios=(
-        "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23–25, well below the ~20%+ of the 2021–22 peak. "
+        "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23-25, well below the ~20%+ of the 2021-22 peak. "
         "We expect ~{roe26} in FY26E and ~{roe27} in FY27E as e-cloth profits flow through. ROA is {roa25}, and asset "
         "turnover is low (0.35x), typical for a furnace-based business. The payout ratio was {payout25} on FY25 EPS."),
 )
@@ -269,7 +269,7 @@ V2["jlmag"] = dict(
         ("2008", "Founded in Ganzhou, Jiangxi by Cai Baogui."),
         ("2018", "ChiNext IPO (300748.SZ)."),
         ("2022", "Hong Kong listing (6680.HK)."),
-        ("2023–25", "Baotou and Ningbo bases expand; capacity ~40kt in 2025."),
+        ("2023-25", "Baotou and Ningbo bases expand; capacity ~40kt in 2025."),
         ("2025", "Net profit +142% to RMB0.71bn as rare-earth prices recover."),
         ("2026", "Small-batch humanoid-robot rotor deliveries; robot sales +96% in H1; 60kt target for 2027."),
     ],
@@ -328,44 +328,44 @@ V2["jlmag"] = dict(
         "Vulnerabilities: rare-earth price swings, export licensing, Western supply-chain diversification.",
     ],
     tam=[
-        "Industry estimates put high-performance NdFeB demand growth at ~10–15% a year to 2030. EV traction motors use "
-        "2–3kg of magnet per car; inverter air-conditioners and industrial motors are switching to permanent-magnet "
+        "Industry estimates put high-performance NdFeB demand growth at ~10-15% a year to 2030. EV traction motors use "
+        "2-3kg of magnet per car; inverter air-conditioners and industrial motors are switching to permanent-magnet "
         "designs for efficiency; direct-drive wind turbines use hundreds of kilograms per MW; and humanoid robots "
-        "could each need roughly 2–4kg in joint motors on industry estimates.",
+        "could each need roughly 2-4kg in joint motors on industry estimates.",
         "The value of the market also depends on rare-earth prices, since magnets are priced cost-plus. NdPr oxide "
         "peaked near US$98k/t in January 2026 (Baotou February average RMB850k/t) and eased to ~RMB750k/t by July. "
         "JL Mag's planned 60kt capacity would be a high-teens share of global high-performance supply on our rough "
         "estimates.",
     ],
     tam_table=[
-        ("High-performance NdFeB demand", "–", "~10–15% a year to 2030", "Industry estimates"),
+        ("High-performance NdFeB demand", "–", "~10-15% a year to 2030", "Industry estimates"),
         ("China share of sintered NdFeB", "~90%", "Stable; export licensing since 2025", "Industry estimates"),
         ("NdPr oxide price", "~RMB750k/t (Jul 2026)", "Peak ~US$98k/t in Jan 2026", "SMM; Benchmark"),
         ("JL Mag capacity", "~40kt (2025) → 60kt (2027E)", "+50%", "Company"),
     ],
     fin_is=(
-        "<b>Income statement.</b> Revenue was flat at ~RMB6.7bn in FY23–24 as rare-earth prices fell, then rose to RMB7.7bn "
+        "<b>Income statement.</b> Revenue was flat at ~RMB6.7bn in FY23-24 as rare-earth prices fell, then rose to RMB7.7bn "
         "(FY25) and RMB8.9bn TTM. Gross margin troughed at 10.4% (FY24) and recovered to 20.3% (FY25) and 22.7% TTM. Net "
         "profit fell to RMB0.29bn in FY24 before rebounding to RMB0.71bn (FY25) and RMB0.46bn in H1'26 (+52%). We "
-        "forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, "
+        "forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, "
         "as capacity growth offsets softer rare-earth prices."),
     fin_bs=(
         "<b>Balance sheet.</b> Total assets are RMB16.5bn (June 2026), dominated by working capital. Receivables of "
-        "RMB3.4bn ({recvd25} days at FY25) and inventory of RMB2.8–3.6bn ({invd25} days) are partly funded by payables "
+        "RMB3.4bn ({recvd25} days at FY25) and inventory of RMB2.8-3.6bn ({invd25} days) are partly funded by payables "
         "({apd25} days). PP&amp;E is modest at RMB3.3bn. Net cash shrank from RMB{nc23}bn (FY23) to RMB{nc25}bn (FY25) as "
         "borrowing rose to fund inventory, then recovered to RMB{ncj26}bn in June 2026. Equity attributable is RMB7.8bn "
         "(BVPS ~RMB5.7) and the current ratio is {cr25}."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow fell from RMB1.5bn (FY23) to RMB0.35bn (FY25) as rising rare-earth prices "
         "inflated inventory and receivables (OCF/net profit {ocfnp25} in FY25), then recovered to RMB2.1bn TTM. With "
-        "capex of RMB0.5–0.8bn, FCF was slightly negative in FY24–25 (FY25 −RMB{fcf25}bn) but RMB{fcfttm}bn TTM. "
-        "Dividends of RMB0.45–0.63bn a year are generous for this cash flow. We forecast FCF of −RMB{fcf26}bn, "
-        "−RMB{fcf27}bn and RMB{fcf28}bn in FY26–28E as capex rises toward 60kt, so the company moves to small net "
+        "capex of RMB0.5-0.8bn, FCF was slightly negative in FY24-25 (FY25 −RMB{fcf25}bn) but RMB{fcfttm}bn TTM. "
+        "Dividends of RMB0.45-0.63bn a year are generous for this cash flow. We forecast FCF of −RMB{fcf26}bn, "
+        "−RMB{fcf27}bn and RMB{fcf28}bn in FY26-28E as capex rises toward 60kt, so the company moves to small net "
         "debt (~RMB{nc28}bn by FY28E)."),
     fin_ratios=(
         "<b>Key ratios.</b> ROE fell from {roe23} (FY23) to {roe24} (FY24) and recovered to {roe25} (FY25); we expect "
         "~{roe27} by FY27E and ~{roe28} by FY28E. ROA is {roa25}. Cash conversion is the weak spot ({ocfnp25} in FY25, "
-        "~0.6–0.7x in our forecasts). Payout was {payout25} on FY25 EPS."),
+        "~0.6-0.7x in our forecasts). Payout was {payout25} on FY25 EPS."),
 )
 
 V2["hans"] = dict(
@@ -386,7 +386,7 @@ V2["hans"] = dict(
     milestones=[
         ("1996", "Founded in Shenzhen by Gao Yunfeng; laser marking machines."),
         ("2004", "Listed on the Shenzhen SME board (002008.SZ)."),
-        ("2000s–10s", "Expands into cutting/welding, PCB equipment and Apple-chain automation."),
+        ("2000s-10s", "Expands into cutting/welding, PCB equipment and Apple-chain automation."),
         ("2022", "PCB-equipment subsidiary Han's CNC lists on ChiNext (301200.SZ)."),
         ("2024", "One-off disposal gains (~RMB1.25bn) lift reported net profit to RMB1.69bn."),
         ("2025", "Revenue +27% to RMB18.8bn; PCB equipment +73% to RMB5.8bn."),
@@ -395,7 +395,7 @@ V2["hans"] = dict(
     ownership=[
         ("Controlling shareholder", "Han's Holding Group, controlled by founder Gao Yunfeng (trimmed stake Sept 2026)"),
         ("Listed subsidiary", "Han's CNC (301200.SZ): PCB drilling and processing equipment"),
-        ("Dividend policy", "Low payout (~15–20%)"),
+        ("Dividend policy", "Low payout (~15-20%)"),
     ],
     business=[
         "Han's makes capital equipment built around lasers and precision motion control. FY25 revenue split into "
@@ -450,7 +450,7 @@ V2["hans"] = dict(
         "Vulnerabilities: capex cyclicality, price competition in lasers, controlling-shareholder selling.",
     ],
     tam=[
-        "Global printed-circuit-board output is roughly US$75–80bn a year (Prismark), and AI servers and high-speed "
+        "Global printed-circuit-board output is roughly US$75-80bn a year (Prismark), and AI servers and high-speed "
         "networking are the fastest-growing segments. They need more layers, finer features and more holes per board. "
         "That is prompting large capacity additions by Chinese, Taiwanese and Southeast Asian PCB makers, and equipment "
         "spending is growing much faster than PCB output.",
@@ -460,7 +460,7 @@ V2["hans"] = dict(
         "PCB drilling and semiconductor equipment, on top of market growth.",
     ],
     tam_table=[
-        ("Global PCB output", "~US$75–80bn", "AI-server/networking boards fastest-growing", "Prismark"),
+        ("Global PCB output", "~US$75-80bn", "AI-server/networking boards fastest-growing", "Prismark"),
         ("PCB equipment capex", "Rising faster than PCB output", "AI-driven capacity additions", "Company/industry"),
         ("Industrial laser equipment", "China is the largest market", "Mature; price-competitive", "Industry"),
         ("Han's order book", "RMB19bn new orders + RMB9bn backlog", "FY26 revenue ≥RMB27bn", "Company"),
@@ -468,9 +468,9 @@ V2["hans"] = dict(
     fin_is=(
         "<b>Income statement.</b> Revenue moved from RMB14.1bn (FY23) to RMB14.8bn (FY24), RMB18.8bn (FY25) and RMB24.6bn "
         "TTM. Gross margin improved from 30.4% (FY24) to 32.2% (FY25) and 34.1% TTM. Operating profit tripled from "
-        "RMB0.4bn (FY24) to RMB1.35bn (FY25) and RMB3.0bn TTM. Reported net profit (RMB0.82bn/1.69bn/1.19bn over FY23–25) "
+        "RMB0.4bn (FY24) to RMB1.35bn (FY25) and RMB3.0bn TTM. Reported net profit (RMB0.82bn/1.69bn/1.19bn over FY23-25) "
         "was distorted by FY24 one-offs; H1'26 net profit was RMB1.29bn (+164%). We forecast revenue of "
-        "RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E."),
+        "RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E."),
     fin_bs=(
         "<b>Balance sheet.</b> Total assets jumped from RMB38.2bn (FY25) to RMB47.4bn (June 2026) as receivables "
         "(RMB16.1bn) and inventory (RMB7.2bn) grew with orders. At FY25, receivable days were {recvd25} and inventory "
@@ -479,13 +479,13 @@ V2["hans"] = dict(
         "(BVPS ~RMB21), and minority interests jumped to RMB3.9bn after capital raising at subsidiaries. The current "
         "ratio is {cr25}."),
     fin_cf=(
-        "<b>Cash flow.</b> Operating cash flow has been steady at RMB1.1–1.5bn a year and has lagged profit growth "
-        "because working capital absorbs cash. Capex fell from RMB1.4–1.5bn (FY23–24) to RMB0.6bn (FY25), so FCF turned "
-        "positive at RMB{fcf25}bn in FY25 after −RMB{fcf23}bn/−RMB{fcf24}bn in FY23–24. Dividends are small. We forecast "
+        "<b>Cash flow.</b> Operating cash flow has been steady at RMB1.1-1.5bn a year and has lagged profit growth "
+        "because working capital absorbs cash. Capex fell from RMB1.4-1.5bn (FY23-24) to RMB0.6bn (FY25), so FCF turned "
+        "positive at RMB{fcf25}bn in FY25 after −RMB{fcf23}bn/−RMB{fcf24}bn in FY23-24. Dividends are small. We forecast "
         "FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn as working-capital growth slows relative to profits. Net cash would "
         "then rise to ~RMB{nc28}bn by FY28E."),
     fin_ratios=(
-        "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23–25; we expect it to more than double to "
+        "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23-25; we expect it to more than double to "
         "~{roe27} by FY27E on higher margins and volumes. ROA was {roa25} in FY25. Receivable days of {recvd25} are the "
         "main working-capital risk in an AI capex slowdown. Payout was {payout25} on FY25 EPS."),
 )

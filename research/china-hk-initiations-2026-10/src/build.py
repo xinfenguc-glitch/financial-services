@@ -376,7 +376,7 @@ def svg_scenarios(co, m, width=318, height=132):
 
     lab = pnum
     rows = [("52-week range", lo52, hi52, None, C["axis"], 44),
-            ("Bear – bull", bear, bull, tp, C["est"], 90)]
+            ("Bear to bull", bear, bull, tp, C["est"], 90)]
     out = [f'<svg class="chart" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" '
            f'aria-label="Valuation range">',
            f'<text x="0" y="11" class="t-title">Valuation range vs current price ({esc(ccy)})</text>']
@@ -526,7 +526,7 @@ def key_data_rows(co, m):
         ("Enterprise value", ev_s),
         (nc_lab, nc_s),
         ("Shares outstanding", sh_s),
-        ("52-week range", f"{pnum(co['lo52'])} – {pnum(co['hi52'])}"),
+        ("52-week range", f"{pnum(co['lo52'])}-{pnum(co['hi52'])}"),
         ("Performance", perf),
     ]
     if co["profile"] == "profit" and m["dy"][3] is not None:
@@ -912,7 +912,7 @@ def themes_page(cos):
   <div class="two">
     <div>
       <h4>1. Strong H1 numbers, de-rated shares</h4>
-      <p>Most of the 17 reported strong H1'26 results, yet the source pack notes every stock trades 28–81% below its
+      <p>Most of the 17 reported strong H1'26 results, yet the source pack notes every stock trades 28-81% below its
       52-week high. China's CSI 300 fell 5.8% in September on worries about tighter policy in major economies and weak
       domestic demand. CATL, GigaDevice, Han's Laser and Sungrow now trade at or near multi-year-low multiples of
       forward earnings.</p>
@@ -953,16 +953,16 @@ def back_matter():
   the competitive landscape and the addressable market (TAM); a financial analysis covering the income statement,
   balance sheet, cash flow statement and key ratios; and a valuation. The notes are concise and do not include full
   financial models.</p>
-  <p><b>Data.</b> Historical financials (FY23–25 and TTM) come from company filings as compiled by StockAnalysis.com
+  <p><b>Data.</b> Historical financials (FY23-25 and TTM) come from company filings as compiled by StockAnalysis.com
   (S&amp;P Global Market Intelligence data) and from H1'26 interim reports. Consensus estimates, consensus targets and
   peer multiples are from StockAnalysis/S&amp;P Global as of 12 October 2026 unless a broker is named. Share prices,
   52-week ranges, FX and gold/copper futures are from Interactive Brokers (12-Oct-2026). Industry figures (CCMA, SNE
   Research, Wood Mackenzie, Argus, TrendForce, Frost &amp; Sullivan, IFR, Prismark) are cited as reported by the
   sources named in each note.</p>
-  <p><b>Estimates.</b> FY26–28E figures are our own simplified projections of revenue, gross margin and attributable net
+  <p><b>Estimates.</b> FY26-28E figures are our own simplified projections of revenue, gross margin and attributable net
   profit (adjusted net profit for loss-makers). EPS uses current shares outstanding. Dividends assume the payout ratios
   stated in each report. Cash flow and balance sheet are projected with a simple roll-forward: operating cash flow =
-  net profit + D&amp;A (grown at 10–12% a year, faster for capacity builders) − the increase in net working capital
+  net profit + D&amp;A (grown at 10-12% a year, faster for capacity builders) − the increase in net working capital
   (receivables + inventory − payables, at the FY25 ratio to revenue or a stated incremental intensity); free cash flow
   = OCF − our capex assumption; year-end net cash = prior net cash + FCF − dividends paid (prior-year DPS) + equity
   raised. For companies that listed or recapitalised in 2026 (Horizon, Edge Medical, Z.AI, MiniMax) the FY26E
@@ -981,7 +981,7 @@ def back_matter():
     <li>Source pack: "17 China/HK Stocks: Business Model, Performance and Outlook" (6 October 2026), including citations
     to CMBI, UOB Kay Hian, Futu/Moomoo, Longbridge, Tiger Brokers, Simply Wall St, Gasgoo, Gawin Research, Venture Atlas,
     Magica, The Standard and HKEX filings.</li>
-    <li>Company results: Zijin (FY25, H1'26, 2026–28 plan), CATL (FY25, H1'26), Sany (FY25 release), GigaDevice (FY25,
+    <li>Company results: Zijin (FY25, H1'26, 2026-28 plan), CATL (FY25, H1'26), Sany (FY25 release), GigaDevice (FY25,
     H1'26), Huayou (FY25, Q1'26), Sungrow (FY25), Sieyuan (FY25 express), Han's Laser (FY25), JL Mag, China Jushi, Tianqi,
     Ganfeng and Leaderdrive (H1'26), Horizon Robotics (FY25 annual results, H1'26 HKEX interim results), Edge Medical
     (H1'26 HKEX interim results), Z.AI (FY25 results via Reuters/SCMP; September 2026 placement and CB terms via

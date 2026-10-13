@@ -29,9 +29,9 @@ V2["zijin"] = dict(
         ("2003 / 2008", "H-share listing in Hong Kong; A-share listing in Shanghai."),
         ("2015", "Acquires 49.5% of Kamoa Holding (Kamoa-Kakula copper, DRC) from Ivanhoe."),
         ("2018", "Buys Nevsun (Timok, Serbia) and 63% of RTB Bor, Serbia's state copper complex."),
-        ("2019–23", "Adds Buriticá (Colombia), Guyana Goldfields, 3Q lithium (Argentina), Rosebel (Suriname)."),
+        ("2019-23", "Adds Buriticá (Colombia), Guyana Goldfields, 3Q lithium (Argentina), Rosebel (Suriname)."),
         ("2025", "Lists Zijin Gold International in Hong Kong; net profit RMB51.8bn (+62%)."),
-        ("2026", "Three-year plan: 130–140t gold and 1.5–1.6Mt copper by 2028; lithium up to 320kt LCE."),
+        ("2026", "Three-year plan: 130-140t gold and 1.5-1.6Mt copper by 2028; lithium up to 320kt LCE."),
     ],
     ownership=[
         ("Largest shareholder", "Minxi Xinghang State-owned Assets Investment (Shanghang county), ~23%"),
@@ -53,12 +53,12 @@ V2["zijin"] = dict(
         "such as the DRC, Serbia, Colombia, Suriname and Tibet, where Western majors often hesitate, and Chinese "
         "policy-bank and bond-market funding lowers its cost of capital.",
         "Copper is the strategic priority. Mined copper was 1.09Mt in 2025 and is targeted at 1.2Mt in 2026 and "
-        "1.5–1.6Mt by 2028, led by Julong (Tibet), the Serbian operations and Kolwezi (DRC). Zijin's ~40% interest in "
+        "1.5-1.6Mt by 2028, led by Julong (Tibet), the Serbian operations and Kolwezi (DRC). Zijin's ~40% interest in "
         "Kamoa-Kakula is equity-accounted, so its profits appear as investment income rather than revenue. Gold output "
-        "(~90t in 2025) is growing toward 105t in 2026 and 130–140t by 2028. Lithium (3Q in Argentina, Lakkor Tso in "
+        "(~90t in 2025) is growing toward 105t in 2026 and 130-140t by 2028. Lithium (3Q in Argentina, Lakkor Tso in "
         "Tibet, Manono North-East in the DRC and hard rock in Hunan) is the third leg, with output up ~5x in H1'26 but "
         "exposed to the 2026 lithium-price slide.",
-        "Capital allocation balances three uses: RMB25–35bn a year of capex on organic growth, opportunistic M&A "
+        "Capital allocation balances three uses: RMB25-35bn a year of capex on organic growth, opportunistic M&A "
         "(RMB15bn of acquisitions in FY25), and a payout target of ~35%. Large minority interests (RMB62bn at FY25) "
         "reflect partly owned mines and Zijin Gold International's outside shareholders.",
     ],
@@ -79,7 +79,7 @@ V2["zijin"] = dict(
         "volumes. In copper, Zijin's 1.09Mt places it among the top five global producers alongside Freeport-McMoRan, BHP "
         "and Codelco; in gold its ~90t (~2.9Moz) ranks it in the global top ten behind Newmont, Barrick and Agnico Eagle. "
         "Few of those peers are growing. Western majors face declining grades, permitting delays and shareholder "
-        "pressure to return cash rather than build. Zijin's copper output is planned to rise by ~40–50% by 2028.",
+        "pressure to return cash rather than build. Zijin's copper output is planned to rise by ~40-50% by 2028.",
         "Its main competitive disadvantages are jurisdictional and reputational. Several important assets sit in "
         "countries with resource nationalism (DRC export rules, Serbian environmental scrutiny, Colombian security), and Chinese "
         "ownership can complicate approvals in OECD markets. Domestically, CMOC (copper/cobalt in the DRC) is the closest "
@@ -100,38 +100,38 @@ V2["zijin"] = dict(
     moat=[
         "Low-cost, long-life orebodies plus in-house exploration and engineering that cut capital intensity.",
         "Willingness and ability to operate in frontier jurisdictions with state-bank and bond-market funding.",
-        "A visible volume-growth pipeline (copper +40–50% by 2028) that few peers have.",
+        "A visible volume-growth pipeline (copper +40-50% by 2028) that few peers have.",
         "Vulnerabilities: geopolitical, permitting and ESG risk; acquisitions bought near cycle highs.",
     ],
     tam=[
         "Zijin's addressable market is the global supply of mined copper, gold and lithium. Refined copper consumption "
         "runs at about 27Mt a year, worth ~US$400bn at the current COMEX price of ~US$6.77/lb (~US$14,900/t). Demand is "
-        "growing at 2–3% a year from electrification, grids, renewables and AI data centres, while mine supply is "
+        "growing at 2-3% a year from electrification, grids, renewables and AI data centres, while mine supply is "
         "constrained by falling grades and a decade of under-investment, which supports the case for a structural "
         "deficit and high prices.",
         "Annual gold mine supply of ~3,600t is worth ~US$485bn at US$4,195/oz. Supply is broadly flat, and central-bank "
         "buying and ETF inflows have driven prices. Lithium is a smaller (~1.5Mt LCE, ~US$27bn) but faster-growing market "
-        "that is currently oversupplied. Zijin's 2026 targets equal roughly 4–5% of world copper and ~3% of world gold "
+        "that is currently oversupplied. Zijin's 2026 targets equal roughly 4-5% of world copper and ~3% of world gold "
         "mine supply, so its growth depends on adding its own volume.",
     ],
     tam_table=[
-        ("Refined copper", "~27Mt / ~US$400bn", "Volume +2–3% a year; deficit risk from grade decline",
+        ("Refined copper", "~27Mt / ~US$400bn", "Volume +2-3% a year; deficit risk from grade decline",
          "Industry estimates; our calc. at US$14.9k/t"),
         ("Gold mine supply", "~3,600t / ~US$485bn", "Flat supply; price set by central-bank and ETF demand",
          "Industry estimates; our calc. at US$4,195/oz"),
-        ("Lithium (LCE)", "~1.5Mt / ~US$27bn", "Demand +20–25% a year; supply +28% in 2026",
+        ("Lithium (LCE)", "~1.5Mt / ~US$27bn", "Demand +20-25% a year; supply +28% in 2026",
          "Wood Mackenzie; our estimate"),
-        ("Zijin share", "~4–5% copper; ~3% gold", "Targets top-three in both by 2028", "Company plan (Feb 2026)"),
+        ("Zijin share", "~4-5% copper; ~3% gold", "Targets top-three in both by 2028", "Company plan (Feb 2026)"),
     ],
     fin_is=(
         "<b>Income statement.</b> Revenue rose from RMB293bn (FY23) to RMB349bn (FY25, +15%) and RMB376bn TTM. Most of "
         "the profit growth came from margins: gross margin expanded from 15.8% to 27.7% in FY25 and 34.6% TTM, and "
         "operating profit more than doubled from RMB31.6bn to RMB75.0bn as gold and copper prices rose and self-mined "
         "volumes grew. Net profit attributable rose 2.5x in two years to RMB51.8bn (14.8% net margin). H1'26 brought RMB39.2bn (+68%). We forecast "
-        "net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E on volume growth and flat-to-slightly-lower "
-        "metal prices, with net margin around 20–22%."),
+        "net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E on volume growth and flat-to-slightly-lower "
+        "metal prices, with net margin around 20-22%."),
     fin_bs=(
-        "<b>Balance sheet.</b> Total assets grew from RMB343bn to RMB512bn over FY23–25, led by PP&amp;E (RMB165bn) and "
+        "<b>Balance sheet.</b> Total assets grew from RMB343bn to RMB512bn over FY23-25, led by PP&amp;E (RMB165bn) and "
         "mining rights, as new mines were built and acquired. Leverage has fallen fast. Net debt dropped from "
         "RMB{nc23}bn (FY23) to RMB{nc25}bn (FY25) and RMB{ncj26}bn at June 2026, taking net debt/equity from ~109% to "
         "{ndeq25} and net debt/EBITDA to {ndebitda25}. Liquidity is adequate (current ratio {cr25}) with RMB111bn of cash "
@@ -141,9 +141,9 @@ V2["zijin"] = dict(
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow doubled from RMB36.9bn (FY23) to RMB75.4bn (FY25) and RMB102bn TTM, "
         "comfortably above net profit (OCF/net profit {ocfnp25} in FY25) thanks to RMB16bn of D&amp;A. Capex has run at "
-        "RMB25–34bn a year (8–10% of revenue), so free cash flow rose from RMB{fcf23}bn to RMB{fcf25}bn and RMB{fcfttm}bn "
+        "RMB25-34bn a year (8-10% of revenue), so free cash flow rose from RMB{fcf23}bn to RMB{fcf25}bn and RMB{fcfttm}bn "
         "TTM. That funded RMB17.8bn of dividends and RMB15.4bn of acquisitions in FY25 while still cutting net debt. We "
-        "forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn after capex of RMB36–38bn a year. On those numbers Zijin "
+        "forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn after capex of RMB36-38bn a year. On those numbers Zijin "
         "moves to a net cash position of ~RMB{nc28}bn by FY28E, before any acquisitions."),
     fin_ratios=(
         "<b>Key ratios.</b> ROE has climbed from {roe23} (FY23) to {roe25} (FY25) and should peak around {roe26} in "
@@ -161,7 +161,7 @@ V2["sany"] = dict(
         "excavators, crawler and truck cranes, rotary piling rigs and road machinery.",
         "Sany Heavy Industry listed on the Shanghai Stock Exchange in 2003. It became China's best-selling excavator "
         "brand in 2011, overtaking Japanese and Korean rivals, and in 2012 bought Putzmeister, the German "
-        "concrete-pump leader, which gave it a European base and technology. The 2012–16 downturn after China's "
+        "concrete-pump leader, which gave it a European base and technology. The 2012-16 downturn after China's "
         "stimulus boom forced deep cost cuts. The following upcycle took revenue to a record RMB107bn in FY21 before "
         "the property-led slump. Since then Sany has focused on exports, electrification and 'lighthouse' digital "
         "factories, and in 2025 it completed a Hong Kong H-share listing to fund globalisation. Related businesses "
@@ -181,7 +181,7 @@ V2["sany"] = dict(
         ("Controlling shareholder", "Sany Group, controlled by founder Liang Wengen"),
         ("Share classes", "A-share 600031.SH; H-share 6031.HK (listed 2025)"),
         ("Sister companies (not consolidated)", "Sany Heavy Energy (688349.SH); Sany International (0631.HK)"),
-        ("Capital returns", "RMB400–800m buyback in progress; ~50% payout"),
+        ("Capital returns", "RMB400-800m buyback in progress; ~50% payout"),
     ],
     business=[
         "Sany designs, manufactures and sells construction machinery. Excavators are the largest line (~40% of H1'26 "
@@ -200,14 +200,14 @@ V2["sany"] = dict(
         "(Putzmeister) and Brazil to shorten delivery times and reduce tariff exposure. Electrification (electric "
         "excavators, mixers and trucks) and digitalised 'lighthouse' factories set Sany apart from rivals, lower its "
         "costs and prepare it for emission rules in developed markets.",
-        "Domestic demand now rests on equipment replacement and infrastructure spending. China's 2016–21 boom left a "
+        "Domestic demand now rests on equipment replacement and infrastructure spending. China's 2016-21 boom left a "
         "large fleet that is now reaching replacement age, and water-conservancy, urban-renewal and mining spending "
         "also support demand. As a result, China excavator sales grew 17% in 2025 despite a weak property market.",
     ],
     segments_title="FY25 revenue by region (main business, company release)",
     segments_cols=("Region", "US$bn", "Growth / share", "Comment"),
     segments=[
-        ("Mainland China", "~4.7", "~37% of sales", "Replacement cycle, infrastructure, mining; recovering from 2021–23 trough"),
+        ("Mainland China", "~4.7", "~37% of sales", "Replacement cycle, infrastructure, mining; recovering from 2021-23 trough"),
         ("Asia-Pacific", "3.34", "+16.2% YoY", "Largest overseas region; India and Indonesia plants"),
         ("Europe", "1.75", "+1.5% YoY", "Putzmeister base; mature, price-competitive market"),
         ("Americas", "1.56", "+8.5% YoY", "US plant in Georgia; Brazil; tariff exposure in the US"),
@@ -240,9 +240,9 @@ V2["sany"] = dict(
         "Vulnerabilities: cyclical demand, receivable credit risk, trade barriers, weaker brand in developed markets.",
     ],
     tam=[
-        "Global construction equipment is a roughly US$200–250bn market in annual OEM sales and highly cyclical. China "
+        "Global construction equipment is a roughly US$200-250bn market in annual OEM sales and highly cyclical. China "
         "is the largest single market by units. It sold 235,257 excavators in 2025 (+17%), of which 116,739 were "
-        "exported, and 191,557 in Jan–Aug 2026 (+24%), with exports again outgrowing domestic sales. Emerging markets "
+        "exported, and 191,557 in Jan-Aug 2026 (+24%), with exports again outgrowing domestic sales. Emerging markets "
         "(Southeast Asia, Africa, the Middle East, Latin America) are growing fastest, driven by mining, "
         "infrastructure and urbanisation, and are where Chinese brands are gaining most share.",
         "Two structural shifts expand the addressable market. Electrification, first in China and then in emission-"
@@ -252,20 +252,20 @@ V2["sany"] = dict(
         "share abroad.",
     ],
     tam_table=[
-        ("Global construction equipment", "~US$200–250bn OEM sales", "Cyclical; mid-single-digit long-run growth",
+        ("Global construction equipment", "~US$200-250bn OEM sales", "Cyclical; mid-single-digit long-run growth",
          "Industry estimates"),
-        ("China excavators", "235,257 units (2025, +17%)", "Jan–Aug 2026 +24%; replacement cycle", "CCMA"),
+        ("China excavators", "235,257 units (2025, +17%)", "Jan-Aug 2026 +24%; replacement cycle", "CCMA"),
         ("  of which exports", "116,739 units (2025, +16%)", "Aug-26 exports +33%", "CCMA"),
         ("Electric construction machinery", "Early stage", "Policy-driven adoption, China first", "Qualitative"),
         ("Sany share", "~5% of global OEM sales", "Gaining share overseas", "Our estimate"),
     ],
     fin_is=(
         "<b>Income statement.</b> Revenue fell from RMB107bn (FY21) to RMB74bn (FY23) in China's downturn and has since "
-        "recovered to RMB89.7bn (FY25, +14.7%) and RMB98.4bn TTM. Gross margin has held at 27–28% through the cycle. "
+        "recovered to RMB89.7bn (FY25, +14.7%) and RMB98.4bn TTM. Gross margin has held at 27-28% through the cycle. "
         "Operating profit nearly doubled from RMB5.1bn (FY23) to RMB10.0bn (FY25) on operating leverage and mix, and net "
         "profit rose 41% to RMB8.4bn. In H1'26, EBIT rose 56% but net profit only 9% because CNY appreciation created FX "
         "finance losses on dollar receivables. We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E."),
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E."),
     fin_bs=(
         "<b>Balance sheet.</b> Sany has moved from net debt of RMB3.3bn at FY23 to net cash of RMB{nc25}bn at FY25 and "
         "RMB{ncj26}bn at June 2026, helped by strong cash generation and ~RMB14.5bn of H-share proceeds. Total debt "
@@ -276,7 +276,7 @@ V2["sany"] = dict(
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow rose from RMB5.7bn (FY23) to RMB20.0bn (FY25), or {ocfnp25} net profit, as "
         "receivables were collected and payables extended. Capex has fallen to ~RMB2.8bn ({capexr25} of revenue) after the "
-        "2019–22 factory build-out, so FY25 free cash flow reached RMB{fcf25}bn. Dividends of RMB6.1bn and buybacks were "
+        "2019-22 factory build-out, so FY25 free cash flow reached RMB{fcf25}bn. Dividends of RMB6.1bn and buybacks were "
         "well covered. We expect OCF to fall back below FY25's level as working capital rebuilds with growth, and "
         "forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn, still enough to grow net cash to ~RMB{nc28}bn by FY28E after "
         "dividends."),
@@ -313,13 +313,13 @@ V2["sieyuan"] = dict(
     ownership=[
         ("Control", "Privately controlled; founder Dong Zengping is the largest shareholder"),
         ("Share classes", "A-share 002028.SZ; H-share listing (≤15% of capital) pending"),
-        ("Dividend policy", "Payout ~15–18% of net profit"),
+        ("Dividend policy", "Payout ~15-18% of net profit"),
     ],
     business=[
         "Sieyuan sells grid equipment to four customer groups. State Grid and China Southern Grid buy through "
         "centralised competitive tenders. Power generators and renewables developers need substations and grid "
         "connections. Industrial users and data centres buy in-house substations. Overseas utilities and EPC "
-        "contractors made up 29.5% of H1'26 revenue. Revenue follows orders with a 6–18-month lag, so management's "
+        "contractors made up 29.5% of H1'26 revenue. Revenue follows orders with a 6-18-month lag, so management's "
         "2026 targets of RMB37.5bn of new orders (+30%) and RMB27bn of revenue (+25%) give reasonable visibility.",
         "Primary equipment (switchgear and transformers) is the main source of profit. Switchgear was 40% of H1'26 "
         "revenue and transformers 21%, both with gross margins around or above 30%. Secondary equipment (protection, automation, "
@@ -369,7 +369,7 @@ V2["sieyuan"] = dict(
     ],
     tam=[
         "Grid spending is the demand driver. State Grid has been investing more than RMB650bn a year, and the 15th "
-        "Five-Year Plan points to more than RMB5tn of grid investment over 2026–30, covering ultra-high-voltage "
+        "Five-Year Plan points to more than RMB5tn of grid investment over 2026-30, covering ultra-high-voltage "
         "lines that carry western renewables east, distribution upgrades, and connections for new energy and data "
         "centres. China Southern Grid, provincial utilities and industrial users add to this.",
         "Abroad, renewables integration, electrification and AI data-centre load are driving a multi-year upcycle in "
@@ -379,7 +379,7 @@ V2["sieyuan"] = dict(
         "so its growth depends on winning share.",
     ],
     tam_table=[
-        ("China grid investment", ">RMB650bn a year (State Grid); >RMB5tn over 2026–30", "Rising; UHV and distribution upgrades",
+        ("China grid investment", ">RMB650bn a year (State Grid); >RMB5tn over 2026-30", "Rising; UHV and distribution upgrades",
          "State Grid; source pack"),
         ("China transformer exports", "US$9.0bn (2025)", "+35% in 2025", "Industry data"),
         ("Global transformers & switchgear", "Structural shortage", "≥2-year lead times in US/EU", "Industry reports"),
@@ -388,20 +388,20 @@ V2["sieyuan"] = dict(
     ],
     fin_is=(
         "<b>Income statement.</b> Revenue compounded at ~27% a year from RMB10.5bn (FY22) to RMB21.5bn (FY25), with gross "
-        "margin steady at 29–31% and net margin rising from 12.5% (FY23) to 14.6% (FY25). FY25 net profit rose 54% to "
+        "margin steady at 29-31% and net margin rising from 12.5% (FY23) to 14.6% (FY25). FY25 net profit rose 54% to "
         "RMB3.15bn. Profit growth slowed in H1'26: revenue grew 27% but net profit only 13%, as low-margin storage "
         "surged and FX losses weighed. We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, with gross margin ~1pt lower than FY25."),
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, with gross margin ~1pt lower than FY25."),
     fin_bs=(
-        "<b>Balance sheet.</b> Total assets rose from RMB18.7bn to RMB29.8bn over FY23–25, mostly working capital: "
+        "<b>Balance sheet.</b> Total assets rose from RMB18.7bn to RMB29.8bn over FY23-25, mostly working capital: "
         "receivables reached RMB11.0bn ({recvd25} days) and inventory RMB4.1bn ({invd25} days), rising to RMB6.0bn by June "
         "2026 as storage projects built. Supplier credit (payables RMB8.2bn, {apd25} days) funds much of this. Debt is "
         "negligible (RMB0.5bn), so net cash was RMB{nc25}bn at FY25 and RMB{ncj26}bn at June 2026, ~{ndeq25} of equity. "
         "The current ratio is {cr25}. Equity attributable has grown to RMB15.5bn (BVPS ~RMB20)."),
     fin_cf=(
-        "<b>Cash flow.</b> Operating cash flow has not kept pace with profits: RMB2.3bn/2.5bn/2.2bn over FY23–25 against "
+        "<b>Cash flow.</b> Operating cash flow has not kept pace with profits: RMB2.3bn/2.5bn/2.2bn over FY23-25 against "
         "net profit of RMB1.6bn/2.0bn/3.2bn, so OCF/net profit fell to {ocfnp25} in FY25 as receivables grew 39%. TTM OCF "
-        "recovered to RMB3.2bn. Capex of RMB0.7–0.9bn a year keeps FCF at ~RMB1.4–1.5bn (RMB{fcf25}bn in FY25), and "
+        "recovered to RMB3.2bn. Capex of RMB0.7-0.9bn a year keeps FCF at ~RMB1.4-1.5bn (RMB{fcf25}bn in FY25), and "
         "dividends absorb only ~RMB0.4bn. We forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn as capacity spending rises, "
         "with net cash growing to ~RMB{nc28}bn by FY28E before any H-share proceeds."),
     fin_ratios=(

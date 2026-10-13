@@ -31,7 +31,7 @@ EXTRA["sungrow"] = dict(tam=[
 EXTRA["huayou"] = dict(
     business=[
         "The plan for the next three years is to finish the Indonesian build-out and then harvest it. Pomalaa adds "
-        "120ktpa of MHP capacity as it ramps through 2026–27. We assume capex falls from ~RMB15bn in FY26E to ~RMB8bn "
+        "120ktpa of MHP capacity as it ramps through 2026-27. We assume capex falls from ~RMB15bn in FY26E to ~RMB8bn "
         "by FY28E once it is complete, which is what turns free cash flow positive in our model. The second priority "
         "is selling more nickel outside China's LFP-dominated market, mainly to Korean and European cell makers. US "
         "foreign-entity sourcing rules limit how much Huayou can sell into US supply chains.",
@@ -67,7 +67,7 @@ EXTRA["ganfeng"] = dict(
         "lithium resources as Goulamina, Mariana and Cauchari-Olaroz ramp, which should lower its cost position "
         "through the cycle. Downstream, it uses the battery business and solid-state technology to capture more of the "
         "value chain, accepting lower margins today for a position in next-generation cells. We assume capex slows to "
-        "RMB5–6bn a year in FY26–28E, from RMB7–9bn in FY23–25, which is what allows free cash flow to turn positive.",
+        "RMB5-6bn a year in FY26-28E, from RMB7-9bn in FY23-25, which is what allows free cash flow to turn positive.",
     ],
     competition=[
         "Ganfeng's position is stronger in lithium metal than in mainstream chemicals. It is the world's largest "
@@ -110,8 +110,8 @@ EXTRA["jlmag"] = dict(
         "and terbium, the materials most exposed to export controls.",
     ],
     tam=[
-        "Humanoid robots will add little tonnage. At 2–4kg of magnets per robot, one million humanoids a year would add "
-        "only 2–4kt of magnet demand, small next to EVs. The money is in the higher processing fees for precision rotor "
+        "Humanoid robots will add little tonnage. At 2-4kg of magnets per robot, one million humanoids a year would add "
+        "only 2-4kt of magnet demand, small next to EVs. The money is in the higher processing fees for precision rotor "
         "assemblies, which is why JL Mag sells finished rotors as well as magnet blocks into this market.",
     ],
     competition=[
@@ -129,7 +129,7 @@ EXTRA["hans"] = dict(tam=[
 ])
 
 EXTRA["horizon"] = dict(business=[
-    "Management's priorities for 2026–28 are to scale HSD on mid-priced cars, keep licensing revenue growing faster "
+    "Management's priorities for 2026-28 are to scale HSD on mid-priced cars, keep licensing revenue growing faster "
     "than chip shipments, and widen the customer base outside China through Toyota programmes, Denso and AUMOVIO. Each "
     "raises content per vehicle and the share of high-margin software and licence revenue. The path to the 2028 "
     "breakeven target depends mostly on R&amp;D: if spending stays near RMB5bn while revenue rises 2.5x to "
@@ -145,9 +145,9 @@ EXTRA["leaderdrive"] = dict(
         "RMB{rev26}m, so free cash flow stays negative until volumes arrive.",
     ],
     tam=[
-        "Today's humanoid pilot volumes are worth little to reducer makers: at an illustrative RMB1,000–2,000 "
-        "per reducer, 50,000 humanoids a year would need RMB0.7–2.0bn of harmonic reducers across the whole industry. "
-        "A million-unit market would be worth RMB14–40bn a year, but prices per reducer would probably fall as volumes "
+        "Today's humanoid pilot volumes are worth little to reducer makers: at an illustrative RMB1,000-2,000 "
+        "per reducer, 50,000 humanoids a year would need RMB0.7-2.0bn of harmonic reducers across the whole industry. "
+        "A million-unit market would be worth RMB14-40bn a year, but prices per reducer would probably fall as volumes "
         "rise. At ~{pe27}x FY27E P/E, Leaderdrive's share price already assumes something close to the million-unit "
         "market.",
     ],
@@ -177,7 +177,7 @@ EXTRA["zai"] = dict(
     business=[
         "Z.AI's management plans to spend the war chest on next-generation models (GLM-6.0), domestic compute and "
         "international growth through coding plans and hyperscaler marketplaces. We "
-        "model capex of RMB1.5–3.0bn a year and operating cash outflows of RMB4–6bn a year. On that basis the "
+        "model capex of RMB1.5-3.0bn a year and operating cash outflows of RMB4-6bn a year. On that basis the "
         "~RMB{nc26}m of net cash we expect at FY26E covers several years of investment without further raises.",
     ],
     competition=[
@@ -196,7 +196,7 @@ EXTRA["minimax"] = dict(
     business=[
         "Management aims to keep its models near the frontier at a fraction of rivals' budgets by using efficient "
         "architectures. It wants the higher-margin Open Platform to grow faster than consumer apps, and it is building "
-        "some of its own compute to cut inference costs (capex of US$250–300m a year in our forecasts). Money limits all "
+        "some of its own compute to cut inference costs (capex of US$250-300m a year in our forecasts). Money limits all "
         "of this. With ~US${ncj26}m of net cash at June 2026 and annual burn of ~US$0.6bn, MiniMax will probably need to "
         "raise capital again by 2028 unless losses narrow faster than we expect.",
     ],

@@ -7,7 +7,7 @@ FORCES = {}
 FORCES["zijin"] = [
     (RIV, "Medium", "Metals sell at exchange prices, so producers are price-takers and compete on cost and volume growth. "
      "Rivalry shows up in bidding for deposits, where Zijin meets CMOC, the majors and sovereign funds."),
-    (ENT, "Low", "A new copper or gold mine takes 10–15+ years from discovery to output and billions of dollars; "
+    (ENT, "Low", "A new copper or gold mine takes 10-15+ years from discovery to output and billions of dollars; "
      "permitting and falling grades keep new supply scarce."),
     (SUP, "Medium", "Host governments own the ore. Royalties, export rules and resource nationalism (DRC, Serbia, "
      "Colombia) can claim a rising share of the rent; energy and labour costs are inflationary."),
@@ -45,7 +45,7 @@ FORCES["sieyuan"] = [
 
 FORCES["catl"] = [
     (RIV, "High", "BYD, LG Energy Solution, CALB, Gotion, EVE and Sunwoda compete aggressively; carmakers dual-source "
-     "and cell prices fell sharply over 2023–25."),
+     "and cell prices fell sharply over 2023-25."),
     (ENT, "Medium", "Carmakers and state-backed newcomers can build cell plants, but cost, quality and scale take years "
      "and Chinese overcapacity deters entry."),
     (SUP, "Low", "Cathode, anode, separator and electrolyte are oversupplied in China. CATL's scale and upstream "
@@ -85,8 +85,8 @@ FORCES["huayou"] = [
 FORCES["tianqi"] = [
     (RIV, "High", "Lithium is a commodity. Ganfeng, Albemarle, SQM, Rio Tinto, Pilbara Minerals and many Chinese "
      "lepidolite and brine producers compete, and in surplus the marginal cost sets the price."),
-    (ENT, "Medium", "African hard rock, Argentine brine and Chinese lepidolite added supply within 2–4 years in "
-     "2022–25; high prices quickly invite new projects."),
+    (ENT, "Medium", "African hard rock, Argentine brine and Chinese lepidolite added supply within 2-4 years in "
+     "2022-25; high prices quickly invite new projects."),
     (SUP, "Low", "Greenbushes gives Tianqi its own low-cost spodumene, so the main 'supplier' is its own joint "
      "venture; Western Australian royalties are the external claim."),
     (BUY, "Medium", "Cathode and battery makers (CATL, BYD, LG) are concentrated buyers on index-linked contracts and "
@@ -98,7 +98,7 @@ FORCES["tianqi"] = [
 FORCES["ganfeng"] = [
     (RIV, "High", "The same commodity rivalry as Tianqi in lithium chemicals, plus a crowded battery market where "
      "CATL, BYD, EVE and Gotion set the price of storage and consumer cells."),
-    (ENT, "Medium", "New lithium supply arrives within 2–4 years when prices rise, and battery capacity in China is "
+    (ENT, "Medium", "New lithium supply arrives within 2-4 years when prices rise, and battery capacity in China is "
      "already in surplus."),
     (SUP, "Medium", "Ganfeng still buys part of its feedstock, and its own resources depend on host governments; Mexico "
      "revoked its Sonora concessions and Mali has tightened mining rules."),
@@ -164,7 +164,7 @@ FORCES["horizon"] = [
     (RIV, "High", "Nvidia (Orin/Thor) at the high end, Mobileye at the low end, Huawei's full-stack offer and Black "
      "Sesame, plus carmakers' own chips."),
     (ENT, "Medium", "Xpeng, Nio and Li Auto design their own chips, and Chinese chip start-ups keep appearing, but an "
-     "auto-grade SoC takes 3–5 years and heavy R&amp;D."),
+     "auto-grade SoC takes 3-5 years and heavy R&amp;D."),
     (SUP, "High", "As a fabless company Horizon depends on TSMC and on EDA tools; US export controls could restrict "
      "advanced-node access."),
     (BUY, "High", "Chinese carmakers are concentrated, price-sensitive and increasingly able to design chips in-house."),

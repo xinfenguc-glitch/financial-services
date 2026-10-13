@@ -38,7 +38,7 @@ CATL = dict(
              "which trades at a ~41% premium."),
     thesis=[
         "CATL leads the industry on scale and cost. It sold 661GWh in 2025 (+39%), ran at 95% utilisation in Q2'26 and "
-        "targets 1.2TWh of 2026 production. Its ~24–25% gross margin is several points above Korean and Chinese peers.",
+        "targets 1.2TWh of 2026 production. Its ~24-25% gross margin is several points above Korean and Chinese peers.",
         "Storage is now the second growth driver. Revenue from it grew 87.5% in H1'26 to 19% of sales on grid and AI "
         "data-centre demand; China's storage-battery sales rose 83% in the half.",
         "Second-sourcing erodes share, but the franchise is intact. Volumes keep growing with the market even as "
@@ -66,15 +66,15 @@ CATL = dict(
         "'foreign entity of concern' sourcing rules."),
     tam=(
         "Battery demand is growing across EVs and stationary storage. China produced 1,069GWh of batteries in H1'26 "
-        "(+53%) and storage-battery sales rose 83%. Industry forecasts put global demand at 4–5TWh by 2030, about twice "
-        "today's level. At ~US$70–80/kWh for cells, the global market is already worth ~US$150bn a year. CATL's 661GWh "
+        "(+53%) and storage-battery sales rose 83%. Industry forecasts put global demand at 4-5TWh by 2030, about twice "
+        "today's level. At ~US$70-80/kWh for cells, the global market is already worth ~US$150bn a year. CATL's 661GWh "
         "in 2025 equates to roughly a third of global supply."),
     financials=(
         "Revenue recovered 17% to RMB424bn in FY25 after the FY24 price-led dip, and net profit rose 42% to RMB72.2bn. "
         "H1'26 revenue rose 55% to RMB277bn and net profit 42% to RMB43.3bn, with gross margin down 1.1pt to 23.9% on "
         "mix. Cash generation is exceptional: FY25 operating cash flow was RMB133bn and net cash is RMB291bn (~RMB64 a "
         "share). We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, slightly below consensus (FY26E EPS RMB20.73) to allow for share "
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, slightly below consensus (FY26E EPS RMB20.73) to allow for share "
         "loss and price competition."),
     valuation=(
         "Our TP of RMB{tp} is 17x FY27E EPS of RMB{eps27}, below CATL's five-year average but above BYD (~15.5x) and EVE "
@@ -134,7 +134,7 @@ SUNGROW = dict(
         "Storage has overtaken inverters. Shipments rose 54% to 43GWh in 2025, and the business made up ~50% of H1'26 "
         "revenue, with demand from utility-scale, C&I and data-centre projects.",
         "Gross margin is improving. It reached 35.9% in H1'26 and 38.6% in Q2 on overseas mix and cheaper cells; price "
-        "increases of 5–15% took effect from 20 September.",
+        "increases of 5-15% took effect from 20 September.",
         "Revenue is the main uncertainty. H1'26 revenue fell 29%, and our FY26E EPS of RMB{eps26} is ~13% below "
         "consensus. Q3 results (30 October) need to show storage deliveries accelerating.",
     ],
@@ -168,7 +168,7 @@ SUNGROW = dict(
         "on a RMB1bn incentive provision and delivery timing. H1'26 revenue fell 29% to RMB30.9bn and net profit 32% to "
         "RMB5.3bn, hit by domestic solar weakness, lower shipments and FX losses, even as gross margin rose to 35.9%. "
         "Net cash is ~RMB28bn and ROE ~22%. We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, assuming H2'26 revenue grows ~12% YoY."),
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, assuming H2'26 revenue grows ~12% YoY."),
     valuation=(
         "Our TP of RMB{tp} is 13.5x FY27E EPS of RMB{eps27}, a modest discount to Ginlong (~15x) and Enphase (~17x) "
         "forward to reflect the revenue decline. The stock is down 52% YTD and trades on {pe27}x FY27E, so downside is "
@@ -252,8 +252,8 @@ HUAYOU = dict(
         "China's EV battery installations. That limits growth in nickel-based cathodes outside premium and overseas "
         "models. Huayou wins on cost position and customer relationships but is capital-intensive."),
     tam=(
-        "The global nickel market is ~3.5–3.7Mt a year, with Indonesia supplying more than half. Argus expects Indonesian "
-        "MHP capacity to nearly double to 862ktpa in 2026, which points to continued oversupply. Cobalt (~250–300kt a "
+        "The global nickel market is ~3.5-3.7Mt a year, with Indonesia supplying more than half. Argus expects Indonesian "
+        "MHP capacity to nearly double to 862ktpa in 2026, which points to continued oversupply. Cobalt (~250-300kt a "
         "year) is tighter because of DRC export quotas. Battery-materials demand grows with EVs and storage, but "
         "nickel's share is shrinking as LFP dominates in China."),
     financials=(
@@ -261,7 +261,7 @@ HUAYOU = dict(
         "rose 49% to RMB55.6bn and net profit 29% to RMB3.5bn, but the quarterly split matters: Q1 earned RMB2.5bn "
         "(+99%) and Q2 only ~RMB1.0bn (−31%). Gross margin has improved from 13.6% (FY23) to ~19% TTM. Net debt of "
         "~RMB54bn is large against a ~RMB65bn market cap, though a 0.8% buyback is under way. We forecast net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, in line with the reduced consensus (FY26E EPS RMB3.06)."),
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, in line with the reduced consensus (FY26E EPS RMB3.06)."),
     valuation=(
         "Our TP of RMB{tp} is 10.5x FY27E EPS of RMB{eps27}, a discount to CMOC (~11x) and GEM (~13x) forward for higher "
         "leverage and weaker earnings momentum. On EV/EBITDA the stock already trades at ~7.4x TTM, between CMOC (~6x) "
@@ -346,7 +346,7 @@ TIANQI = dict(
         "durable cost edge. Its weak spots are downstream conversion (Kwinana) and Chile, where the Supreme Court "
         "dismissed its challenge to SQM's partnership with Codelco."),
     tam=(
-        "Lithium demand comes from EV and storage batteries: about 1.5Mt LCE in 2026 on our estimates, growing 20–25% a "
+        "Lithium demand comes from EV and storage batteries: about 1.5Mt LCE in 2026 on our estimates, growing 20-25% a "
         "year. Supply is growing faster. Wood Mackenzie forecasts +27.9% in 2026 as African and Chinese projects ramp, "
         "and a revised SMM inventory method added ~175kt to Chinese stock estimates in September. China spot carbonate "
         "was RMB122,350/t on 9 October, up 66% YoY but down 24% in September."),
@@ -354,7 +354,7 @@ TIANQI = dict(
         "Revenue collapsed from RMB40.5bn (FY23) to RMB10.3bn (FY25) as prices fell, with a RMB7.9bn loss in FY24 and a "
         "small profit in FY25. H1'26 revenue rose 154% to RMB12.2bn and net profit reached RMB4.2bn (vs RMB87m). Net debt "
         "is modest at ~RMB5.7bn after a 2026 H-share placement and convertible bond. We forecast net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, assuming lithium carbonate averages ~RMB130k/t in 2026 and "
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, assuming lithium carbonate averages ~RMB130k/t in 2026 and "
         "~RMB110k/t in 2027. That is well below the broker forecasts in the source pack (RMB7.6bn/9.3bn)."),
     valuation=(
         "Our TP of HK${tp} is 9x FY27E EPS of RMB{eps27} (at HK$1 = RMB0.853), in line with SQM (~8x) and below "
@@ -362,7 +362,7 @@ TIANQI = dict(
         "book. The A-share consensus target is RMB64.2, and a broker H-share target in the source pack is HK$49.42; both "
         "assume higher prices than we do. Bear case HK${bear}: carbonate ~RMB80k/t. Bull case HK${bull}: ~RMB160k/t."),
     risks=[
-        "Lithium price: each RMB10k/t moves annual net profit by roughly RMB0.7–0.9bn (our estimate).",
+        "Lithium price: each RMB10k/t moves annual net profit by roughly RMB0.7-0.9bn (our estimate).",
         "Greenbushes operations (CGP3 fire in June) and Kwinana under-performance.",
         "SQM/Codelco outcome and Chilean policy.",
         "Upside risk: supply discipline or a demand surprise reverses the price slide.",
@@ -398,7 +398,7 @@ GANFENG = dict(
     mix_title="H1'26 revenue mix (%)",
     mix=[("Lithium products", 62), ("Batteries", 34), ("Other", 4)],
     tiles=[("~20GWh", "Ganfeng battery output in H1'26 (RMB7.8bn revenue)"),
-           ("+20–25%", "Supply growth management expects into a 'balanced' 2027"),
+           ("+20-25%", "Supply growth management expects into a 'balanced' 2027"),
            ("500Wh/kg", "Solid-state cells in small-batch production (May 2026)")],
     peers=[("Albemarle", "ALB US", 10.9, 8.3, 2.1),
            ("SQM", "SQM US", 8.2, 6.4, 2.9),
@@ -413,12 +413,12 @@ GANFENG = dict(
              "({up} upside)."),
     thesis=[
         "Batteries give Ganfeng real diversification. The battery business (consumer, storage and power; ~20GWh in "
-        "H1'26) was 34% of revenue, which cushions lithium-price swings, and 400–500Wh/kg solid-state cells are "
+        "H1'26) was 34% of revenue, which cushions lithium-price swings, and 400-500Wh/kg solid-state cells are "
         "entering small-batch production.",
         "The resource ramp-up is lifting feedstock self-sufficiency. Goulamina (Mali) and Mariana/Cauchari-Olaroz "
         "(Argentina) are ramping, which cuts third-party concentrate purchases.",
         "The lithium cycle is turning. Management has dropped its earlier >RMB200k/t price view and now expects a balanced "
-        "2027 with 20–25% supply growth; we model FY27E EPS down ~20%.",
+        "2027 with 20-25% supply growth; we model FY27E EPS down ~20%.",
     ],
     background=(
         "Ganfeng was founded in 2000 in Xinyu, Jiangxi by Li Liangbin (chairman) and Wang Xiaoshen. It began in lithium "
@@ -440,7 +440,7 @@ GANFENG = dict(
         "weakness relative to Greenbushes-backed Tianqi is a higher-cost, more geopolitically exposed resource base "
         "(Mali, Argentina, Mexico)."),
     tam=(
-        "Ganfeng shares Tianqi's lithium market: ~1.5Mt LCE of demand in 2026 on our estimates, growing 20–25% a year, "
+        "Ganfeng shares Tianqi's lithium market: ~1.5Mt LCE of demand in 2026 on our estimates, growing 20-25% a year, "
         "with supply growing faster near term. The battery arm addresses storage and consumer cells, and China's "
         "storage-battery sales rose 83% in H1'26. Solid-state batteries are a longer-dated option for premium EVs, "
         "eVTOLs and robots."),
@@ -448,7 +448,7 @@ GANFENG = dict(
         "Revenue fell from RMB33.0bn (FY23) to RMB18.9bn (FY24), with a RMB2.1bn loss, before recovering to RMB23.1bn and "
         "a RMB1.6bn profit in FY25. H1'26 revenue rose 177% to RMB22.9bn, with a 31.2% gross margin and RMB4.3bn of net "
         "profit. Net debt has risen to ~RMB27bn on capex in Mali and Argentina. We forecast net profit of "
-        "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, below UOB's RMB9.2bn for FY26E, on lower H2 lithium prices."),
+        "RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, below UOB's RMB9.2bn for FY26E, on lower H2 lithium prices."),
     valuation=(
         "Our TP of HK${tp} is 10x FY27E EPS of RMB{eps27}: a small premium to our Tianqi multiple for diversification, "
         "and in line with Albemarle (~11x) and Pilbara (~11.5x) forward. It implies ~0.9x book for the H-share. UOB's "

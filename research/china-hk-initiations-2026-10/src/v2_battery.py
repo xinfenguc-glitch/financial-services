@@ -7,7 +7,7 @@ V2["catl"] = dict(
         "Contemporary Amperex Technology (CATL) was founded in December 2011 in Ningde, Fujian, by Robin Zeng (Zeng "
         "Yuqun) and colleagues from ATL, the consumer-battery maker they had built and sold to Japan's TDK. CATL took over "
         "ATL's nascent EV-battery team and won BMW as an early customer, which forced it to meet German quality standards "
-        "from the start. When Beijing's EV subsidies and battery 'white list' favoured domestic suppliers in 2015–19, "
+        "from the start. When Beijing's EV subsidies and battery 'white list' favoured domestic suppliers in 2015-19, "
         "CATL scaled faster than any rival, and it has been the world's largest EV-battery supplier since 2017. SNE "
         "Research ranks it No.1 for nine consecutive years, with a 39.2% global share in 2025.",
         "CATL listed on Shenzhen's ChiNext board in 2018. In May 2025 it raised about HK$41bn in a Hong Kong listing, the "
@@ -38,7 +38,7 @@ V2["catl"] = dict(
         "including European premium brands and leading Chinese EV makers, and sells storage cells and containerised "
         "systems (TENER) to integrators and utilities. Contracts run for several years, with formula pricing that "
         "passes lithium, nickel and cobalt costs through with a lag. Margins therefore swing temporarily when raw "
-        "material prices move sharply, but gross margin has stayed within 19–25% over the cycle.",
+        "material prices move sharply, but gross margin has stayed within 19-25% over the cycle.",
         "Its edge is cost and technology at scale. CATL buys more battery materials than anyone, runs highly automated "
         "plants at high utilisation (95% in Q2'26), and spends heavily on R&amp;D (RMB22bn in FY25). The product ladder "
         "spans fast-charging LFP (Shenxing), high-energy NCM cell-to-pack (Qilin), sodium-ion (Naxtra) and long-life "
@@ -72,7 +72,7 @@ V2["catl"] = dict(
         "on price and are the main beneficiaries of automakers' dual-sourcing. In storage, EVE, Hithium, BYD and REPT "
         "have pushed cell prices to record lows.",
         "CATL's advantages are cost per kWh, quality record (important to automakers facing recall risk) and "
-        "technology breadth. Its margins (~24–25% gross) remain well above second-tier Chinese peers and Korean makers, "
+        "technology breadth. Its margins (~24-25% gross) remain well above second-tier Chinese peers and Korean makers, "
         "whose forward P/Es (LGES ~43x) reflect depressed earnings. The risks are a structural loss of share in China "
         "as OEMs diversify, and exclusion from the US market, which favours LGES, Panasonic and Samsung SDI there.",
     ],
@@ -93,15 +93,15 @@ V2["catl"] = dict(
     tam=[
         "Global battery demand from EVs and stationary storage was roughly 2TWh in 2025; CATL's 661GWh of sales "
         "equates to about a third. China produced 1,069GWh in H1'26 alone (+53%), and storage-battery sales rose 83%. "
-        "Industry forecasts point to 4–5TWh of global demand by 2030, about twice today's level. EV penetration keeps "
+        "Industry forecasts point to 4-5TWh of global demand by 2030, about twice today's level. EV penetration keeps "
         "rising, commercial vehicles and ships are electrifying, and grid and data-centre storage are scaling quickly.",
-        "At ~US$70–80/kWh for cells, the global market is already worth ~US$150bn a year and should keep growing in value "
+        "At ~US$70-80/kWh for cells, the global market is already worth ~US$150bn a year and should keep growing in value "
         "despite price deflation. Storage is the fastest-growing segment and is less concentrated than EVs, so CATL "
         "has room to gain share there. Sodium-ion and solid-state chemistries could open new niches (cold-climate "
         "vehicles, low-cost storage, premium EVs), though they will also bring in new competitors.",
     ],
     tam_table=[
-        ("EV + storage batteries", "~2TWh (2025); ~US$150bn", "4–5TWh by 2030 (industry forecasts)", "Our estimate; industry"),
+        ("EV + storage batteries", "~2TWh (2025); ~US$150bn", "4-5TWh by 2030 (industry forecasts)", "Our estimate; industry"),
         ("China battery output", "1,069GWh (H1'26)", "+53% YoY", "Industry data"),
         ("Stationary storage", "Fastest-growing segment", "China storage-battery sales +83% in H1'26", "Industry data"),
         ("CATL share", "39.2% of global EV batteries", "No.1 for nine years", "SNE Research"),
@@ -111,7 +111,7 @@ V2["catl"] = dict(
         "prices, then recovered to RMB424bn (FY25) and RMB522bn TTM on volume. Gross margin rose from 19.1% (FY23) to "
         "25.1% (FY25), and operating profit grew from RMB51bn to RMB76bn. Net profit reached RMB72.2bn (FY25, +42%), a 17% "
         "net margin, and RMB43.3bn in H1'26 (+42%). We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net "
-        "profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, with gross margin of ~24%."),
+        "profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E, with gross margin of ~24%."),
     fin_bs=(
         "<b>Balance sheet.</b> Total assets reached RMB975bn at FY25 and RMB1.14tn at June 2026. Cash and short-term "
         "investments of RMB440bn exceed total debt of RMB149bn, leaving net cash of RMB{ncj26}bn (vs RMB{nc23}bn at FY23), "
@@ -121,12 +121,12 @@ V2["catl"] = dict(
         "RMB39bn of H-share proceeds. The current ratio is {cr25}."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow rose from RMB92.8bn (FY23) to RMB133.2bn (FY25), {ocfnp25} net profit, "
-        "because growth releases working capital. Capex of RMB31–42bn a year (~10% of revenue) left free cash flow of "
-        "RMB{fcf23}bn, {fcf24}bn and {fcf25}bn over FY23–25, which funded RMB32.6bn of dividends and RMB4.4bn of "
+        "because growth releases working capital. Capex of RMB31-42bn a year (~10% of revenue) left free cash flow of "
+        "RMB{fcf23}bn, {fcf24}bn and {fcf25}bn over FY23-25, which funded RMB32.6bn of dividends and RMB4.4bn of "
         "buybacks in FY25. With capex stepping up to ~RMB60bn for the 1.2TWh plan, we forecast FCF of "
         "RMB{fcf26}bn/{fcf27}bn/{fcf28}bn, and net cash rising to ~RMB{nc28}bn by FY28E after dividends."),
     fin_ratios=(
-        "<b>Key ratios.</b> ROE has held steady at {roe23}–{roe25} even as a growing cash pile dilutes returns, "
+        "<b>Key ratios.</b> ROE has held steady between {roe23} and {roe25} even as a growing cash pile dilutes returns, "
         "and we expect ~{roe27} in FY27E. ROA is {roa25}. Excluding net cash, returns on operating capital are "
         "far higher, because working capital is negative. The FY25 payout ratio was {payout25}."),
 )
@@ -149,10 +149,10 @@ V2["sungrow"] = dict(
     milestones=[
         ("1997", "Founded in Hefei by Cao Renxian, a power-electronics academic."),
         ("2011", "Lists on Shenzhen's ChiNext board (300274.SZ)."),
-        ("2015–16", "Joins the top tier of global PV inverter suppliers by shipments."),
-        ("2021–23", "Liquid-cooled PowerTitan storage systems; large utility projects in the Middle East and Europe."),
+        ("2015-16", "Joins the top tier of global PV inverter suppliers by shipments."),
+        ("2021-23", "Liquid-cooled PowerTitan storage systems; large utility projects in the Middle East and Europe."),
         ("2025", "Storage (43GWh, +54%) overtakes inverters; net profit RMB13.5bn; files for HK listing."),
-        ("2026", "Refiles HK IPO (April); H1 revenue −29%; prices raised 5–15% from 20 September."),
+        ("2026", "Refiles HK IPO (April); H1 revenue −29%; prices raised 5-15% from 20 September."),
     ],
     ownership=[
         ("Largest shareholder", "Founder Cao Renxian"),
@@ -166,7 +166,7 @@ V2["sungrow"] = dict(
         "use. PV inverters and power electronics (about 40%) cover central and string inverters for utility plants and "
         "residential inverters sold through distributors. Renewable project development and other businesses (about "
         "10%) build and sell solar and storage plants in China and include EV drives and electrolysers.",
-        "Sungrow earns its margin on power electronics. Cells are largely a pass-through cost, so the 2024–26 collapse in "
+        "Sungrow earns its margin on power electronics. Cells are largely a pass-through cost, so the 2024-26 collapse in "
         "LFP cell prices widened storage margins even as selling prices fell. Group gross margin rose from 25.5% (FY23) "
         "to 35.9% in H1'26, and 38.6% in Q2. Overseas utility storage projects carry the richest margins; domestic "
         "solar and project development the thinnest. Overseas sales made up 73% of H1'26 revenue.",
@@ -237,7 +237,7 @@ V2["sungrow"] = dict(
         "Gross margin has expanded every year, from 25.5% (FY23) to 30.5% (FY25), 30.9% TTM and 35.9% in H1'26, as "
         "storage mix and cheaper cells offset falling inverter prices. Net profit rose from RMB9.4bn to RMB13.5bn "
         "(FY25), a 15% net margin, but fell 32% in H1'26 to RMB5.3bn on lower volumes and FX losses. We forecast revenue "
-        "of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E."),
+        "of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26-28E."),
     fin_bs=(
         "<b>Balance sheet.</b> Total assets are RMB119bn (FY25), of which working capital is the largest component: "
         "receivables of RMB30.1bn ({recvd25} days of sales) and inventory of RMB27.3bn ({invd25} days), rising to RMB32bn "
@@ -246,7 +246,7 @@ V2["sungrow"] = dict(
         "of equity. Equity attributable is RMB46.6bn (BVPS ~RMB23), and the current ratio is {cr25}."),
     fin_cf=(
         "<b>Cash flow.</b> Cash conversion has improved markedly: OCF rose from RMB7.0bn (FY23) to RMB16.9bn (FY25), "
-        "{ocfnp25} net profit, and held at RMB17.2bn TTM despite the profit decline. Capex is light at RMB2.7–3.0bn a year "
+        "{ocfnp25} net profit, and held at RMB17.2bn TTM despite the profit decline. Capex is light at RMB2.7-3.0bn a year "
         "(~{capexr25} of revenue), so FCF reached RMB{fcf25}bn in FY25 and RMB{fcfttm}bn TTM. Dividends rose to RMB4.4bn. "
         "We forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn, lifting net cash to ~RMB{nc28}bn by FY28E before any "
         "H-share proceeds."),
@@ -276,7 +276,7 @@ V2["huayou"] = dict(
         ("2002", "Founded in Tongxiang, Zhejiang by Chen Xuehua as a cobalt refiner."),
         ("2000s", "Builds cobalt-copper mining and processing in the DRC."),
         ("2015", "Lists on the Shanghai Stock Exchange (603799.SH)."),
-        ("2018–23", "Indonesian HPAL nickel with Tsingshan: Huayue (60ktpa), Huafei (120ktpa)."),
+        ("2018-23", "Indonesian HPAL nickel with Tsingshan: Huayue (60ktpa), Huafei (120ktpa)."),
         ("2021", "Acquires Arcadia lithium (Zimbabwe) and control of cathode maker Bamo."),
         ("2025", "Record net profit of RMB6.1bn (+47%)."),
         ("2026", "Pomalaa HPAL (Vale, Ford) ramps; Huafei maintenance; agrees to buy Atlantic Lithium."),
@@ -339,9 +339,9 @@ V2["huayou"] = dict(
         "Vulnerabilities: commodity prices, LFP substitution, leverage and Indonesian/DRC policy.",
     ],
     tam=[
-        "Huayou's markets are large but cyclical. Global nickel demand is ~3.5–3.7Mt a year (worth ~US$60bn at ~US$16.9k/t), "
+        "Huayou's markets are large but cyclical. Global nickel demand is ~3.5-3.7Mt a year (worth ~US$60bn at ~US$16.9k/t), "
         "driven by stainless steel with batteries the growth segment. Indonesia supplies more than half and is expanding "
-        "further. Cobalt is a ~250–300kt market (mostly DRC), tightened by export quotas since 2025. Lithium is ~1.5Mt "
+        "further. Cobalt is a ~250-300kt market (mostly DRC), tightened by export quotas since 2025. Lithium is ~1.5Mt "
         "LCE and oversupplied in 2026.",
         "Downstream, cathode and precursor demand grows with EV and storage batteries, but nickel-based chemistries are "
         "losing share to LFP in China. Huayou's addressable market is therefore growing more slowly than the overall "
@@ -349,9 +349,9 @@ V2["huayou"] = dict(
         "nickel intensity in batteries is not rising.",
     ],
     tam_table=[
-        ("Nickel", "~3.5–3.7Mt / ~US$60bn", "Batteries growing; Indonesian oversupply", "Industry; our calc. at US$16.9k/t"),
+        ("Nickel", "~3.5-3.7Mt / ~US$60bn", "Batteries growing; Indonesian oversupply", "Industry; our calc. at US$16.9k/t"),
         ("Indonesian MHP capacity", "862ktpa (2026E)", "Nearly double 2025", "Argus"),
-        ("Cobalt", "~250–300kt", "Tighter on DRC export quotas", "Industry estimates"),
+        ("Cobalt", "~250-300kt", "Tighter on DRC export quotas", "Industry estimates"),
         ("Ternary cathode share (China EV)", "~20%", "Losing share to LFP (~80%)", "Industry data"),
     ],
     fin_is=(
@@ -368,10 +368,10 @@ V2["huayou"] = dict(
         "RMB48.3bn (FY25; BVPS ~RMB26), and minority interests of RMB12.5bn reflect jointly owned Indonesian projects."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow is volatile and often below profit plus D&amp;A because of inventory "
-        "build: RMB3.5bn, RMB12.4bn and RMB4.0bn over FY23–25 (OCF/net profit {ocfnp25} in FY25). Capex has been heavy "
+        "build: RMB3.5bn, RMB12.4bn and RMB4.0bn over FY23-25 (OCF/net profit {ocfnp25} in FY25). Capex has been heavy "
         "(RMB16.8bn in FY23, RMB10.8bn in FY25, RMB16.2bn TTM), so free cash flow was negative in two of the last three "
         "years (FY25: −RMB{fcf25}bn; TTM −RMB{fcfttm}bn), funded by debt. We forecast FCF of −RMB{fcf26}bn in FY26E, "
-        "turning positive at RMB{fcf27}bn/{fcf28}bn in FY27–28E as Pomalaa capex ends. Net debt only edges down to "
+        "turning positive at RMB{fcf27}bn/{fcf28}bn in FY27-28E as Pomalaa capex ends. Net debt only edges down to "
         "~RMB{nc28}bn by FY28E."),
     fin_ratios=(
         "<b>Key ratios.</b> ROE improved from {roe23} (FY23) to {roe25} (FY25), and we expect ~{roe27} by FY27E: "
@@ -388,7 +388,7 @@ V2["tianqi"] = dict(
         "still its main asset. Greenbushes is the world's largest and highest-grade hard-rock lithium deposit, with "
         "Rockwood (now Albemarle) holding the remaining 49%.",
         "In 2018, at the top of the previous lithium cycle, Tianqi bought ~24% of Chile's SQM from Nutrien for ~US$4.1bn, "
-        "largely with debt. When lithium prices collapsed in 2019–20, it faced a liquidity crisis. It restructured by "
+        "largely with debt. When lithium prices collapsed in 2019-20, it faced a liquidity crisis. It restructured by "
         "selling 49% of its Australian holding company (which owns its Greenbushes interest and the Kwinana hydroxide "
         "plant) to IGO for ~US$1.4bn in 2021, and by listing H-shares in Hong Kong in July 2022, near the peak of the "
         "next upcycle. Profit hit RMB24.1bn in FY22 before another collapse produced a RMB7.9bn loss in FY24. The "
@@ -402,7 +402,7 @@ V2["tianqi"] = dict(
         ("2018", "Buys ~24% of SQM for ~US$4.1bn, largely debt-funded."),
         ("2021", "Sells 49% of its Australian holding company to IGO (~US$1.4bn) to deleverage."),
         ("2022", "Hong Kong listing (9696.HK); record net profit RMB24.1bn."),
-        ("2024–26", "RMB7.9bn loss in FY24; H1'26 profit RMB4.2bn; H-share placement and CB."),
+        ("2024-26", "RMB7.9bn loss in FY24; H1'26 profit RMB4.2bn; H-share placement and CB."),
     ],
     ownership=[
         ("Controlling shareholder", "Jiang Weiping and family"),
@@ -458,27 +458,27 @@ V2["tianqi"] = dict(
         "Vulnerabilities: price-taker economics, Kwinana under-performance, minority position in its main assets.",
     ],
     tam=[
-        "The lithium market is driven by batteries. We estimate demand of ~1.5Mt LCE in 2026, growing 20–25% a year with "
+        "The lithium market is driven by batteries. We estimate demand of ~1.5Mt LCE in 2026, growing 20-25% a year with "
         "EVs and storage. At China's spot price of RMB122k/t (~US$18k/t), the market is worth roughly US$27bn. Prices "
         "fell 24% in September as Wood Mackenzie forecast 2026 supply growth of ~28%, and as a revised SMM inventory "
         "methodology added ~175kt to China's stock estimates. Prices are nonetheless still ~66% higher than a year ago.",
         "Over the long run, demand growth looks secure, but supply responds quickly when prices rise: African "
-        "spodumene, Chinese lepidolite and Argentine brine can add tonnes within 1–3 years. Tianqi's earnings "
+        "spodumene, Chinese lepidolite and Argentine brine can add tonnes within 1-3 years. Tianqi's earnings "
         "therefore track the lithium price more than market growth. On our estimates, each RMB10k/t move in price "
-        "changes annual net profit by roughly RMB0.7–0.9bn.",
+        "changes annual net profit by roughly RMB0.7-0.9bn.",
     ],
     tam_table=[
-        ("Lithium demand (LCE)", "~1.5Mt / ~US$27bn (2026E)", "+20–25% a year", "Our estimate"),
+        ("Lithium demand (LCE)", "~1.5Mt / ~US$27bn (2026E)", "+20-25% a year", "Our estimate"),
         ("Lithium supply", "–", "+27.9% in 2026", "Wood Mackenzie"),
         ("China lithium carbonate", "RMB122,350/t (9 Oct 2026)", "+66% YoY; −24% in Sept", "Trading Economics/SMM"),
-        ("Tianqi sensitivity", "~RMB0.7–0.9bn net profit per RMB10k/t", "–", "Our estimate"),
+        ("Tianqi sensitivity", "~RMB0.7-0.9bn net profit per RMB10k/t", "–", "Our estimate"),
     ],
     fin_is=(
         "<b>Income statement.</b> Tianqi's P&amp;L follows the lithium price. Revenue fell from RMB40.5bn (FY23) to "
         "RMB13.1bn (FY24) and RMB10.3bn (FY25) before rebounding to RMB17.8bn TTM. Gross margin swung from 83% to 37% "
         "and back to 57% TTM. Net profit went from RMB7.3bn (FY23) to a RMB7.9bn loss (FY24, inventory write-downs and "
         "impairments), RMB0.46bn (FY25) and RMB4.2bn in H1'26 alone. We forecast net profit of RMB{np26}bn/{np27}bn/{np28}bn "
-        "for FY26–28E on lithium carbonate averaging ~RMB130k/t in 2026 and ~RMB110k/t in 2027."),
+        "for FY26-28E on lithium carbonate averaging ~RMB130k/t in 2026 and ~RMB110k/t in 2027."),
     fin_bs=(
         "<b>Balance sheet.</b> Total assets are RMB83bn (June 2026). About half are long-term investments: the SQM stake "
         "and Greenbushes-related assets. PP&amp;E is RMB22bn. Debt rose from RMB11.8bn (FY23) to RMB17.5bn, but cash "
@@ -488,7 +488,7 @@ V2["tianqi"] = dict(
         "represent IGO's share of the Australian holding company."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow collapsed from RMB22.7bn (FY23) to RMB5.6bn (FY24) and RMB3.0bn (FY25). "
-        "With capex of RMB3.6–4.5bn a year, free cash flow fell from RMB{fcf23}bn to roughly break-even (FY25: "
+        "With capex of RMB3.6-4.5bn a year, free cash flow fell from RMB{fcf23}bn to roughly break-even (FY25: "
         "−RMB{fcf25}bn), and dividends were cut from RMB5.6bn to RMB0.75bn. The H-share placement added ~RMB2.6bn of "
         "equity in 2026. We forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn as H1'26 profits turn into cash, taking the "
         "company to roughly net-cash neutral by FY28E."),
@@ -517,7 +517,7 @@ V2["ganfeng"] = dict(
     milestones=[
         ("2000", "Founded in Xinyu, Jiangxi; starts with lithium metal and compounds."),
         ("2010 / 2018", "Shenzhen listing (002460.SZ); Hong Kong listing (1772.HK)."),
-        ("2015–17", "Secures Mt Marion (Australia) and Cauchari-Olaroz (Argentina) interests."),
+        ("2015-17", "Secures Mt Marion (Australia) and Cauchari-Olaroz (Argentina) interests."),
         ("2023", "Cauchari-Olaroz produces first carbonate; Mexico revokes Sonora concessions."),
         ("2024", "Takes full control of Goulamina (Mali); first spodumene; FY24 loss RMB2.1bn."),
         ("2026", "400Wh/kg solid-state cell validated; 500Wh/kg small-batch production; H1 profit RMB4.3bn."),
@@ -541,7 +541,7 @@ V2["ganfeng"] = dict(
         "but does not yet earn revenue at scale.",
         "Economically, Ganfeng is more diversified than Tianqi but has a higher-cost, more geopolitically exposed "
         "resource base and more debt. FY25 gross margin was only 14.6%, recovering to 31.2% in H1'26. Heavy "
-        "development capex in Mali and Argentina (RMB7–9bn a year over FY23–25) pushed net debt to ~RMB29bn. Recycling "
+        "development capex in Mali and Argentina (RMB7-9bn a year over FY23-25) pushed net debt to ~RMB29bn. Recycling "
         "and lithium-sulfide supply for solid-state electrolytes add smaller revenue streams.",
     ],
     segments_title="Revenue mix and economics (H1'26)",
@@ -572,18 +572,18 @@ V2["ganfeng"] = dict(
         "Broadest lithium product range (metal, compounds) and diversified global resources.",
         "Captive battery business and leadership in solid-state development.",
         "Long relationships with global cathode and battery customers.",
-        "Vulnerabilities: higher-cost/riskier resources (Mali, Argentina), net debt ~RMB27–29bn, price-taker economics.",
+        "Vulnerabilities: higher-cost/riskier resources (Mali, Argentina), net debt ~RMB27-29bn, price-taker economics.",
     ],
     tam=[
-        "Ganfeng shares Tianqi's lithium market, ~1.5Mt LCE (~US$27bn) in 2026 on our estimates, growing 20–25% a "
+        "Ganfeng shares Tianqi's lithium market, ~1.5Mt LCE (~US$27bn) in 2026 on our estimates, growing 20-25% a "
         "year in demand but oversupplied near term. Management itself now expects a balanced market in 2027 with "
-        "20–25% supply growth, a retreat from its earlier view of prices above RMB200k/t.",
+        "20-25% supply growth, a retreat from its earlier view of prices above RMB200k/t.",
         "The battery arm opens additional markets: storage (China storage-battery sales +83% in H1'26), consumer cells, "
         "and potentially solid-state batteries for premium EVs, eVTOLs and humanoid robots. These have much larger "
         "revenue pools than lithium chemicals, but Ganfeng is a small participant today.",
     ],
     tam_table=[
-        ("Lithium demand (LCE)", "~1.5Mt / ~US$27bn (2026E)", "Supply +20–25% into 2027 (mgmt)", "Our estimate; company"),
+        ("Lithium demand (LCE)", "~1.5Mt / ~US$27bn (2026E)", "Supply +20-25% into 2027 (mgmt)", "Our estimate; company"),
         ("Storage batteries", "Fast-growing", "China sales +83% (H1'26)", "Industry data"),
         ("Solid-state batteries", "Pre-commercial", "Small-batch 500Wh/kg cells (2026)", "Company"),
         ("Ganfeng battery output", "~20GWh (H1'26)", "Growing", "UOB Kay Hian"),
@@ -591,7 +591,7 @@ V2["ganfeng"] = dict(
     fin_is=(
         "<b>Income statement.</b> Revenue fell from RMB33.0bn (FY23) to RMB18.9bn (FY24), with a RMB2.1bn loss, then "
         "recovered to RMB23.1bn and a RMB1.6bn profit in FY25 and RMB37.8bn TTM. FY23 profit (RMB4.9bn) was flattered "
-        "by investment gains; operating profit was only RMB0.4bn. Gross margin troughed at ~9% in FY23–24, then recovered "
+        "by investment gains; operating profit was only RMB0.4bn. Gross margin troughed at ~9% in FY23-24, then recovered "
         "to 14.6% (FY25) and 31.2% in H1'26, when net profit reached RMB4.3bn. We forecast revenue of "
         "RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn, below UOB's RMB9.2bn for "
         "FY26E."),
@@ -602,13 +602,13 @@ V2["ganfeng"] = dict(
         "2026), ~{ndeq25} of FY25 equity and {ndebitda25} FY25 EBITDA. The current ratio is {cr25}. Equity attributable is "
         "RMB48.2bn (BVPS ~RMB23; H-share P/B ~1.0x)."),
     fin_cf=(
-        "<b>Cash flow.</b> Ganfeng has burned cash for three years. OCF was RMB0.1bn, RMB5.2bn and RMB2.9bn over FY23–25, "
+        "<b>Cash flow.</b> Ganfeng has burned cash for three years. OCF was RMB0.1bn, RMB5.2bn and RMB2.9bn over FY23-25, "
         "against capex of RMB8.6bn, 9.2bn and 7.4bn, so FCF was negative each year (FY25 −RMB{fcf25}bn), funded by debt "
         "and a RMB2.3bn equity raise. TTM FCF improved to −RMB{fcfttm}bn as capex fell. We forecast FCF of "
         "−RMB{fcf26}bn in FY26E, then RMB{fcf27}bn/{fcf28}bn as capex normalises at ~RMB5bn, trimming net debt to "
         "~RMB{nc28}bn by FY28E."),
     fin_ratios=(
-        "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23–25; we expect {roe26} in FY26E and ~{roe27} "
+        "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23-25; we expect {roe26} in FY26E and ~{roe27} "
         "thereafter. ROA is low ({roa25} in FY25) because of the large asset base. Net debt/EBITDA of {ndebitda25} (FY25) "
         "is the main risk metric, though it falls to ~3x on TTM EBITDA. Inventory days ({invd25}) are elevated."),
 )
