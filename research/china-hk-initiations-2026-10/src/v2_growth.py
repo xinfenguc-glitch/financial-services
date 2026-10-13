@@ -106,14 +106,14 @@ V2["horizon"] = dict(
         "RMB{rev26}bn/{rev27}bn/{rev28}bn and adjusted net losses of RMB{np26}bn/{np27}bn/{np28}bn."),
     fin_bs=(
         "<b>Balance sheet.</b> Cash and short-term deposits fell from RMB20.8bn (FY25) to RMB15.0bn (June 2026). Reported "
-        "'debt' (RMB8.5bn) mostly consists of preferred shares and other financial liabilities at fair value, not bank "
-        "borrowings (RMB1.4bn). On StockAnalysis's basis, net cash was RMB{nc25}bn at FY25 and RMB{ncj26}bn at June 2026, "
+        "'debt' (RMB8.5bn) is mostly preferred shares and other financial liabilities at fair value; bank borrowings "
+        "are only RMB1.4bn. On StockAnalysis's basis, net cash was RMB{nc25}bn at FY25 and RMB{ncj26}bn at June 2026, "
         "plus RMB4.1bn of fair-value investments. We use ~RMB10bn in our valuation. Receivables rose to RMB2.5bn ({recvd25} "
         "days at FY25) and inventory to RMB1.3bn. Equity attributable is RMB16.4bn, and the current ratio was {cr25} at "
         "FY25."),
     fin_cf=(
         "<b>Cash flow.</b> Horizon burns cash: OCF was −RMB1.7bn (FY23), roughly zero (FY24, helped by licence "
-        "prepayments) and −RMB2.1bn (FY25), and −RMB2.8bn TTM. With capex of RMB0.3–0.5bn, FCF was −RMB{fcf25}bn in FY25 "
+        "prepayments), −RMB2.1bn (FY25) and −RMB2.8bn TTM. With capex of RMB0.3–0.5bn, FCF was −RMB{fcf25}bn in FY25 "
         "and −RMB{fcfttm}bn TTM, funded by RMB5.4bn of IPO proceeds (FY24) and RMB10.1bn of placements (FY25). We forecast "
         "FCF of −RMB{fcf26}bn/−RMB{fcf27}bn/−RMB{fcf28}bn. On StockAnalysis's net cash basis that leaves ~RMB{nc28}bn by "
         "FY28E before monetising investments, so another capital raise before breakeven is likely."),
@@ -151,7 +151,7 @@ V2["leaderdrive"] = dict(
     ownership=[
         ("Control", "Founder-chairman Zuo Yuyu and family"),
         ("Share classes", "A-share 688017.SH (STAR); H-share listing planned"),
-        ("Key customers", "Industrial/collaborative robot makers; humanoid developers (e.g. Agibot, UBTech)"),
+        ("Main customers", "Industrial/collaborative robot makers; humanoid developers (e.g. Agibot, UBTech)"),
     ],
     business=[
         "Leaderdrive manufactures harmonic reducers (flexspline, circular spline and wave generator) in standard and "
@@ -183,11 +183,11 @@ V2["leaderdrive"] = dict(
         "Leaderdrive is the largest of a growing field that includes Laifual, Zhongda Leader, KOFON, Beijing CTKM and "
         "Han's Motion (part of Han's Laser). JPMorgan estimates Leaderdrive's share of China's harmonic-reducer market "
         "at 30–40%.",
-        "Two competitive risks loom over the humanoid opportunity. Designers may favour other transmissions for some "
-        "joints, such as planetary gears, RV reducers (Nabtesco, Shuanghuan) or planetary roller screws. And large robot "
-        "makers, including Tesla, may produce reducers in-house or squeeze suppliers on price as volumes grow. "
-        "Leaderdrive's lead rests on precision, yield and scale, but harmonic reducers are increasingly a contested "
-        "component.",
+        "The humanoid opportunity carries two competitive risks. Designers may favour other transmissions for some "
+        "joints, such as planetary gears, RV reducers (Nabtesco, Shuanghuan) or planetary roller screws. Large robot "
+        "makers, including Tesla, may also produce reducers in-house or squeeze suppliers on price as volumes grow. "
+        "Leaderdrive leads on precision, yield and scale, but more companies now compete to supply harmonic "
+        "reducers.",
     ],
     competitors=[
         ("Harmonic Drive Systems", "Japan", "Harmonic reducers and actuators", "Global leader; ~80x forward P/E"),
@@ -207,10 +207,10 @@ V2["leaderdrive"] = dict(
         "reducers in its wrist and smaller joints, alongside RV reducers in larger joints. Collaborative robots, "
         "semiconductor equipment and medical devices add further demand. This core market is growing at mid-single to "
         "low-double digits.",
-        "Humanoids could be transformational. At ~14–20 harmonic reducers per robot, annual production of one million "
-        "humanoids would require 14–20 million reducers, many times today's market. Humanoid output is currently only in "
-        "the tens of thousands, however, and timing, design choices and price points are uncertain. The valuation "
-        "depends on that future market, not on today's addressable market.",
+        "The bigger opportunity is humanoids. At ~14–20 harmonic reducers per robot, annual production of one million "
+        "humanoids would require 14–20 million reducers, many times today's market. Humanoid output is still only in "
+        "the tens of thousands, however, and timing, design choices and price points are uncertain. Leaderdrive's "
+        "valuation depends mostly on that future market and much less on today's addressable one.",
     ],
     tam_table=[
         ("China industrial robots", "~300k units a year", "Mid-single to low-double-digit growth", "IFR"),
@@ -225,8 +225,8 @@ V2["leaderdrive"] = dict(
         "interest income and subsidies. H1'26 revenue rose 39% and net profit 31% to RMB70m, with Q2 margins down. We "
         "forecast revenue of RMB{rev26}m/{rev27}m/{rev28}m and net profit of RMB{np26}m/{np27}m/{np28}m."),
     fin_bs=(
-        "<b>Balance sheet.</b> The balance sheet is conservative: RMB2.17bn of cash and short-term investments (June 2026) "
-        "against negligible debt, so net cash is RMB{ncj26}m (RMB{nc25}m at FY25), ~{ndeq25} of equity. PP&amp;E is rising "
+        "<b>Balance sheet.</b> Leaderdrive is conservatively financed, with RMB2.17bn of cash and short-term investments "
+        "(June 2026) against negligible debt, so net cash is RMB{ncj26}m (RMB{nc25}m at FY25), ~{ndeq25} of equity. PP&amp;E is rising "
         "(RMB611m at FY25, RMB752m by June 2026) as capacity is built. Receivables ({recvd25} days) and inventory "
         "({invd25} days) are long for a component maker. Equity attributable is RMB3.6bn (BVPS ~RMB20), and the stock "
         "trades at ~13x book. The current ratio is {cr25}."),
@@ -245,11 +245,11 @@ V2["edge"] = dict(
     background=[
         "Shenzhen Edge Medical was founded in May 2017 in Longgang, Shenzhen, by Dr Wang Jianchen, who remains chairman "
         "and CEO. The company set out to build a full family of endoscopic surgical robots for laparoscopic surgery, "
-        "rather than a single me-too system. In China and globally that market has been dominated by Intuitive "
-        "Surgical's da Vinci. Edge developed a multi-port robot (MP1000), a single-port robot (SP1000) and a "
+        "a market that in China and globally has been dominated by Intuitive Surgical's da Vinci. Edge developed a "
+        "multi-port robot (MP1000), a single-port robot (SP1000) and a "
         "natural-orifice (bronchoscopy) robot. It became the first Chinese company, and only the second globally, to have "
         "all three types approved.",
-        "Rather than wait for China's hospital purchase quotas, Edge pursued overseas registrations aggressively. By "
+        "Hospital purchase quotas slow placements in China, so Edge pursued overseas registrations aggressively. By "
         "mid-2026 MP1000 was approved in 37 overseas jurisdictions, and most placements were going abroad. Edge also "
         "built a telesurgery capability, with more than 500 remote procedures by end-2025, a selling point in "
         "geographically dispersed markets. After two earlier Hong Kong IPO filings (2022, 2023), Edge listed on 8 "
@@ -281,7 +281,7 @@ V2["edge"] = dict(
         "lumpy and driven by system placements. On our calculation, H1'26 revenue averaged ~RMB5.5m per robot placed, "
         "well below typical da Vinci list prices, which is central to Edge's pitch to price-sensitive hospitals.",
         "Gross margin is already high (~64–66%) for a company of its size, and operating costs have fallen as "
-        "development programmes matured (H1'26 R&amp;D −44%), bringing the company close to breakeven. Production "
+        "development programmes matured (H1'26 R&amp;D −44%), and the company is now close to breakeven. Production "
         "capacity is more than 100 units a year, and a ~350-unit plant is under construction. Working capital is "
         "meaningful because overseas distributors receive credit terms: receivables were ~196 days of sales at FY25.",
     ],
@@ -325,8 +325,8 @@ V2["edge"] = dict(
         "large-equipment purchase quotas have limited placements, but domestic robots are now eligible and cheaper.",
         "For Edge, the most relevant addressable market is price-sensitive hospitals in Asia, Europe, the Middle East "
         "and Latin America, plus China as quotas loosen. DBS projects a 49% revenue CAGR to 2030 (source pack). Over "
-        "time, instruments and service revenue per installed robot, rather than system sales, should drive the value of "
-        "the market.",
+        "time, the market's value should depend more on instruments and service revenue per installed robot than on "
+        "system sales.",
     ],
     tam_table=[
         ("Global robotic surgery", "~US$10bn (Intuitive revenue proxy)", "Double-digit growth", "Intuitive disclosures"),
@@ -396,8 +396,8 @@ V2["zai"] = dict(
         "lumpier, and often run on domestic hardware.",
         "The economics are those of a compute-intensive software business at an early stage. Gross margin fell from ~50% "
         "to 26.4% in H1'26 as low-margin cloud traffic grew. Every token served consumes GPU or NPU time, and price "
-        "competition in China has been fierce. Moving inference to domestic chips cut unit cost by 80%, which is "
-        "key to margin recovery. R&amp;D, mostly training compute and researcher pay, exceeded RMB3bn in FY25, about "
+        "competition in China has been fierce. Moving inference to domestic chips cut unit cost by 80%, the main "
+        "lever for margin recovery. R&amp;D, mostly training compute and researcher pay, exceeded RMB3bn in FY25, about "
         "four times revenue.",
         "Management targets annual recurring revenue (ARR) of US$3.0bn by end-2026, roughly ten times the H1'26 revenue "
         "run-rate. Whether that is reached depends on coding-plan subscriptions and international API demand. The "
@@ -444,8 +444,8 @@ V2["zai"] = dict(
         "global market once models become embedded in enterprise software.",
         "Z.AI's ARR target of US$3bn (~RMB20bn) for end-2026 would make it one of the largest independent model "
         "providers outside the US. Distribution through AWS and Alibaba Cloud extends its reach internationally. The "
-        "addressable market is large; the uncertainty is the share and price Z.AI can capture against hyperscaler "
-        "models and open-weight alternatives.",
+        "addressable market is large, but Z.AI's share and pricing against hyperscaler models and open-weight "
+        "alternatives are uncertain.",
     ],
     tam_table=[
         ("Global LLM APIs and subscriptions", "Tens of US$bn (leading US labs' annualised revenue)", "Very rapid growth",
@@ -473,7 +473,7 @@ V2["zai"] = dict(
         "is still ample runway, but it assumes losses narrow. The convertible matures in September 2027 unless it "
         "converts (HK$892.50, ~44% above the current price)."),
     fin_ratios=(
-        "<b>Key ratios.</b> Conventional returns ratios are not meaningful. The metrics that matter are revenue growth "
+        "<b>Key ratios.</b> Conventional returns ratios are not meaningful. We focus instead on revenue growth "
         "(+400% in H1'26), gross margin (26% and falling), R&amp;D intensity (~4x revenue in FY25), cash runway (more than "
         "three years at our forecast burn) and dilution (share count up ~10% since the IPO, plus potential CB conversion)."),
 )
@@ -533,10 +533,10 @@ V2["minimax"] = dict(
         "MiniMax competes on two fronts. In models and APIs, its rivals are DeepSeek, Moonshot (Kimi), Z.AI and StepFun "
         "among independents, and Alibaba, ByteDance, Tencent and Kuaishou among large platforms in China. Globally it "
         "faces OpenAI, Google and Anthropic. JPMorgan (Neutral, HK$260) flags this competition, particularly from Kimi, "
-        "DeepSeek, ByteDance and Kuaishou, as the key risk.",
+        "DeepSeek, ByteDance and Kuaishou, as the main risk.",
         "In consumer AI, Talkie competes with Character.AI and general chatbots. Hailuo competes with Kuaishou's Kling, "
         "ByteDance's Seedance/Jimeng, Google's Veo and OpenAI's Sora in video generation, and MiniMax Voice competes with "
-        "ElevenLabs in speech. MiniMax's edges are multimodal breadth, international distribution and efficient model "
+        "ElevenLabs in speech. MiniMax's strengths are multimodal breadth, international distribution and efficient model "
         "design. Its weaknesses are scale of compute budget versus platform rivals, monetisation per user, and the "
         "binary nature of each model launch (M3's reception showed how quickly sentiment can turn).",
     ],
@@ -558,8 +558,8 @@ V2["minimax"] = dict(
         "subscriptions, which leading US labs show can reach tens of billions of US dollars of annualised revenue. The "
         "second is consumer AI subscriptions in companions, video generation and voice, among the fastest-monetising "
         "categories in consumer software.",
-        "Both markets are early and growing rapidly, so size is not the constraint: MiniMax's FY25 revenue of US$79m "
-        "is a tiny fraction of either. The constraint is competitiveness. Each model generation has to stay near the "
+        "Both markets are early and growing rapidly, and MiniMax's FY25 revenue of US$79m is a tiny fraction of "
+        "either, so its growth depends on how well it competes. Each model generation has to stay near the "
         "frontier at a fraction of rivals' compute budgets, and consumer products have to convert users into paying "
         "subscribers.",
     ],
@@ -588,7 +588,7 @@ V2["minimax"] = dict(
         "exhausted during FY28E, so MiniMax will probably need to raise capital in 2027 unless losses narrow faster "
         "than we assume."),
     fin_ratios=(
-        "<b>Key ratios.</b> Returns ratios are not meaningful. The key metrics are revenue growth (+283% in H1'26), "
+        "<b>Key ratios.</b> Returns ratios are not meaningful. The useful measures are revenue growth (+283% in H1'26), "
         "enterprise share of revenue (63%), gross margin (18–25%), R&amp;D intensity (~2.5x revenue) and cash runway "
         "(~1.5–2 years at the current burn rate)."),
 )
