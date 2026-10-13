@@ -458,7 +458,8 @@ def rating_pill(r):
     return f'<span class="pill pill-{r.lower()}">{r}</span>'
 
 
-def fin_table(co, m):
+def fin_rows(co, m):
+    """Page-1 key financials: rows of (label, values FY23A..FY28E, row class)."""
     unit = co["fin_unit"]
     big = unit.endswith("bn")
     cur = unit.split()[0]
@@ -480,6 +481,11 @@ def fin_table(co, m):
         rows.append((f"{co['loss_label']} ({unit})", [vfmt(v) for v in m["np"]], ""))
         rows.append(("&nbsp;&nbsp;Margin", [("–" if v is None else f"{v * 100:.0f}%") for v in m["nm"]], "sub"))
         rows.append(("EV/sales at current price (x)", [mult(v) for v in m["evs"]], "hl"))
+    return rows
+
+
+def fin_table(co, m):
+    rows = fin_rows(co, m)
     head = "".join(f'<th class="{"e" if i >= 3 else ""}">{y}</th>' for i, y in enumerate(YEARS))
     body = []
     for lab, vals, cls in rows:
@@ -489,7 +495,7 @@ def fin_table(co, m):
             f'<tbody>{"".join(body)}</tbody></table>')
 
 
-def key_data(co, m):
+def key_data_rows(co, m):
     ccy = co["ccy"]
     p = co["price"]
     cur = co["fin_unit"].split()[0]
@@ -530,26 +536,39 @@ def key_data(co, m):
         rows.append(("Dividend yield (FY26E)", f"{m['dy'][3] * 100:.1f}%"))
     rows.append(("Consensus target", cons_s))
     rows.append(("Other listing", co["listing"]))
+    return rows
+
+
+def key_data(co, m):
+    rows = key_data_rows(co, m)
     trs = "".join(f"<tr><th>{esc(a)}</th><td>{esc(b)}</td></tr>" for a, b in rows)
     return f'<table class="kd">{trs}</table>'
 
 
-def peer_table(co, m):
-    def f(v, x=True):
+def peer_rows(co, m):
+    """Peer comparison: (header, rows, caption); the last row is the company itself."""
+    def f(v):
         if v is None:
             return "n.m."
         return f"{v:.1f}x" if v < 100 else f"{v:.0f}x"
-    head = "<tr><th>Company</th><th>Ticker</th><th>Fwd P/E</th><th>EV/EBITDA</th><th>EV/sales</th></tr>"
-    trs = [f"<tr><td>{esc(n)}</td><td>{esc(t)}</td><td>{f(a)}</td><td>{f(b)}</td><td>{f(c)}</td></tr>"
-           for n, t, a, b, c in co["peers"]]
+    head = ["Company", "Ticker", "Fwd P/E", "EV/EBITDA", "EV/sales"]
+    rows = [[n, t, f(a), f(b), f(c)] for n, t, a, b, c in co["peers"]]
     sp = co["self_peer"]
     label = co.get("self_peer_label", SHORT[co["key"]])
-    trs.append(f'<tr class="self"><td>{esc(label)}</td><td>{esc(co["ticker"].replace(".SH", " CH").replace(".SZ", " CH").replace(".HK", " HK"))}'
-               f'</td><td>{f(sp[0])}</td><td>{f(sp[1])}</td><td>{f(sp[2])}</td></tr>')
+    tick = co["ticker"].replace(".SH", " CH").replace(".SZ", " CH").replace(".HK", " HK")
+    rows.append([label, tick, f(sp[0]), f(sp[1]), f(sp[2])])
     note = co.get("peer_note", "")
     cap = ("Source: StockAnalysis/S&P Global, 12 Oct 2026 (trailing EV/EBITDA and EV/sales; consensus forward P/E)."
            + (" " + note if note else ""))
-    return (f'<table class="peers"><thead>{head}</thead><tbody>{"".join(trs)}</tbody></table>'
+    return head, rows, cap
+
+
+def peer_table(co, m):
+    head, rows, cap = peer_rows(co, m)
+    ths = "".join(f"<th>{esc(h)}</th>" for h in head)
+    trs = ["<tr" + (' class="self"' if i == len(rows) - 1 else "") + ">"
+           + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>" for i, r in enumerate(rows)]
+    return (f'<table class="peers"><thead><tr>{ths}</tr></thead><tbody>{"".join(trs)}</tbody></table>'
             f'<div class="cap">{esc(cap)}</div>')
 
 
@@ -578,7 +597,7 @@ def _table(head, rows, cls, est_from=None):
             f'<tbody>{"".join(body)}</tbody></table>')
 
 
-def bs_table(co, fa):
+def bs_data(co, fa):
     big = co["fin_unit"].endswith("bn")
     b = fa["bs"]
     nc = fa["netcash_h"]
@@ -596,10 +615,14 @@ def bs_table(co, fa):
         ("Net cash / (net debt)", c(nc), "hl"),
     ]
     head = [f"Balance sheet ({co['fin_unit']})", "FY23A", "FY24A", "FY25A", "Jun-26A"]
-    return _table(head, rows, "bs")
+    return head, rows, None
 
 
-def cf_table(co, m, fa):
+def bs_table(co, fa):
+    return _table(*bs_data(co, fa)[:2], "bs")
+
+
+def cf_data(co, m, fa):
     big = co["fin_unit"].endswith("bn")
     cf = fa["cf"]
     c = lambda xs: [_cell(x, big) for x in xs]
@@ -629,12 +652,19 @@ def cf_table(co, m, fa):
     if any(v != "n.m." for v in ocfnp_s):
         rows.append(("OCF / net profit (x)", ocfnp_s, "sub"))
     head = [f"Cash flow ({co['fin_unit']})", "FY23A", "FY24A", "FY25A", "TTM Jun-26", "FY26E", "FY27E", "FY28E"]
-    return _table(head, rows, "cf", est_from=4)
+    return head, rows, 4
 
 
-def ratio_table(co, m, fa):
+def cf_table(co, m, fa):
+    return _table(*cf_data(co, m, fa)[:2], "cf", est_from=4)
+
+
+def ratio_data(co, m, fa):
     def p(xs, dp=1):
-        return ["–" if v is None else (f"−{abs(v):.{dp}f}%" if v < 0 else f"{v:.{dp}f}%") for v in xs]
+        def one(v):
+            d = 0 if abs(v) >= 100 else dp
+            return f"−{abs(v):,.{d}f}%" if v < 0 else f"{v:,.{d}f}%"
+        return ["–" if v is None else one(v) for v in xs]
 
     def x(xs, dp=2):
         return ["–" if v is None else f"{v:.{dp}f}" for v in xs]
@@ -666,7 +696,11 @@ def ratio_table(co, m, fa):
         rows.append(("Dividend payout", p(fa["payout"], 0), ""))
     rows = [r for r in rows if any(v != "–" for v in r[1])]      # drop rows with nothing meaningful
     head = ["Key ratios", "FY23A", "FY24A", "FY25A", "FY26E", "FY27E", "FY28E"]
-    return _table(head, rows, "rt", est_from=3)
+    return head, rows, 3
+
+
+def ratio_table(co, m, fa):
+    return _table(*ratio_data(co, m, fa)[:2], "rt", est_from=3)
 
 
 def simple_table(head, rows, cls):
@@ -1123,7 +1157,8 @@ svg.chart { display: block; overflow: visible; font-family: "Inter", system-ui, 
 """
 
 
-def main():
+def load():
+    """All 17 companies in report order as (company dict, computed model) pairs."""
     allc = {c["key"]: c for c in RES + BAT + TECH}
     assert set(allc) == set(ORDER), set(allc) ^ set(ORDER)
     v2 = {**v2_resources.V2, **v2_battery.V2, **v2_semis.V2, **v2_growth.V2}
@@ -1137,6 +1172,11 @@ def main():
         m = compute(allc[k])
         compute_fin(allc[k], m)
         cos.append((allc[k], m))
+    return cos
+
+
+def main():
+    cos = load()
     sections = [company_section(i, c, m) for i, (c, m) in enumerate(cos, 1)]
     doc = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>

@@ -13,6 +13,8 @@ Initiation notes (five pages each) for the 17 China/Hong Kong stocks in the sour
 4. **Valuation**: peer multiples, target price method, bear/bull range.
 
 - `China_HK_17_Short_Initiations_2026-10-12.pdf`: the report (89 pages, US Letter)
+- `China_HK_17_Initiations_2026-10-12.docx`: the same report as an editable Word document (89 pages, US Letter;
+  Heading 1 per company, so Word's navigation pane lists all 17)
 - `report.html`: the same content as a single HTML page
 - `src/`: inputs and text, build script and PDF printer
   - `co_*.py`: market data, estimates, page-1 text and valuation per company
@@ -21,6 +23,7 @@ Initiation notes (five pages each) for the 17 China/Hong Kong stocks in the sour
   - `fin_data.py`: balance-sheet and cash-flow history (FY23–FY25, Jun-26/TTM); `fin_model.py`: ratios and
     FY26–28E cash-flow/balance-sheet roll-forward
   - `build.py`: assembles `../report.html`; `print_pdf.mjs`: renders the PDF
+  - `export_docx.py`, `docx_charts.mjs`, `make_docx.mjs`: Word version (block model, chart PNGs, docx-js)
 
 Rebuild:
 
@@ -28,6 +31,9 @@ Rebuild:
 cd src
 python3 build.py        # writes ../report.html and prints each rating/TP
 node print_pdf.mjs      # writes ../China_HK_17_Short_Initiations_2026-10-12.pdf (Playwright + Chromium)
+python3 export_docx.py  # writes build/docx/model.json and charts.html (build/ is git-ignored)
+node docx_charts.mjs    # renders the charts to build/docx/img/*.png
+node make_docx.mjs      # writes ../China_HK_17_Initiations_2026-10-12.docx (docx npm package)
 ```
 
 Prices are 12-Oct-2026 closes. Ratings follow the target price mechanically
