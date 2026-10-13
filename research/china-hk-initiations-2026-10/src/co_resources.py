@@ -32,18 +32,18 @@ ZIJIN = dict(
            ("Newmont", "NEM US", 13.4, 7.0, 4.6),
            ("CMOC Group", "603993 CH", 11.0, 6.0, 1.5)],
     self_peer=(9.1, 7.4, 2.4),
-    headline="The miner with growth: volume-led compounding at a single-digit multiple",
+    headline="Volume growth few miners can match, at a single-digit multiple",
     summary=("Zijin is China's largest diversified miner and one of the few majors still growing mined "
              "copper and gold output by double digits. At {pe26}x FY26E and {pe27}x FY27E P/E it trades at a "
              "steep discount to global peers despite superior growth and moderate leverage. We initiate at "
              "<b>{rating}</b> with a TP of RMB{tp} ({up} upside), based on 12x FY27E EPS."),
     thesis=[
-        "<b>Growth few majors can match.</b> The 2026 plan targets ~105t of mined gold (+17%) and 1.2Mt of copper "
+        "Few majors can match Zijin's output growth. The 2026 plan targets ~105t of mined gold (+17%) and 1.2Mt of copper "
         "(+10%), rising to 130–140t and 1.5–1.6Mt by 2028, a ~13% copper CAGR while most Western peers are flat.",
-        "<b>Record prices, record cash.</b> Gold at ~US$4,200/oz and COMEX copper at ~US$6.77/lb (~US$14,900/t) drove "
-        "H1'26 net profit of RMB39.2bn (+68%) and operating cash flow of RMB55.5bn (+92%).",
-        "<b>The valuation gap looks unjustified.</b> Zijin trades on {pe27}x FY27E vs ~19x for Freeport and ~13x for "
-        "Newmont, and a 35% payout target supports a ~{dy26} FY26E dividend yield.",
+        "Metal prices and cash generation are both at records. Gold at ~US$4,200/oz and COMEX copper at ~US$6.77/lb "
+        "(~US$14,900/t) drove H1'26 net profit of RMB39.2bn (+68%) and operating cash flow of RMB55.5bn (+92%).",
+        "The valuation gap to global peers looks unjustified. Zijin trades on {pe27}x FY27E vs ~19x for Freeport and "
+        "~13x for Newmont, and a 35% payout target supports a ~{dy26} FY26E dividend yield.",
     ],
     background=(
         "Founded in 1993 around the Zijinshan gold-copper deposit in Shanghang, Fujian, Zijin grew under geologist-founder "
@@ -85,7 +85,7 @@ ZIJIN = dict(
         "Newmont and CMOC (~14.6x) to reflect jurisdictional risk. It still implies only ~8x FY27E EV/EBITDA versus ~12x "
         "for Freeport. The consensus average target is RMB47.90 (15 analysts, all Buy-rated). Our bear case (RMB{bear}) "
         "assumes gold at US$3,500/oz and copper at US$11,000/t; our bull case (RMB{bull}) assumes US$4,800/oz and "
-        "US$16,000/t. The H-share (2899.HK) offers the same exposure at an ~8% discount."),
+        "US$16,000/t. The H-share (2899.HK) gives the same exposure at an ~8% discount."),
     risks=[
         "Metal prices: a 15–20% fall in gold and copper would cut FY27E EPS by roughly a quarter.",
         "Jurisdiction and operating risk in the DRC, Serbia, Colombia and Suriname (permits, export rules, tax).",
@@ -128,18 +128,18 @@ SANY = dict(
            ("Komatsu", "6301 JP", 15.7, 10.4, 1.8),
            ("XCMG", "000425 CH", 8.5, 8.9, 1.0)],
     self_peer=(15.2, 8.4, 1.2),
-    headline="A global share-taker at a trough multiple; overseas is now the earnings engine",
+    headline="A global share-taker at a trough multiple, with overseas now driving earnings",
     summary=("Sany is China's largest construction-machinery maker and one of the world's top five or six OEMs, with "
              "61% of H1'26 revenue earned outside China. Profit quality is improving (H1'26 EBIT +56%), but FX finance "
              "costs masked it at the net line. At {pe27}x FY27E P/E with ~RMB38bn of net cash, we initiate at "
              "<b>{rating}</b> with a TP of RMB{tp} ({up} upside) on 16x FY27E EPS."),
     thesis=[
-        "<b>Overseas is structural, not cyclical.</b> Overseas was ~64% of FY25 revenue and earned a 32.5% gross margin "
-        "in H1'26, above domestic, as Sany takes share from Caterpillar and Komatsu in Asia, Africa and Latin America.",
-        "<b>China is bottoming.</b> Excavator sales rose 17% in 2025 and 24% in Jan–Aug 2026 (CCMA), helped by "
+        "The overseas expansion is structural. Sales outside China were ~64% of FY25 revenue and earned a 32.5% gross "
+        "margin in H1'26, above domestic, as Sany takes share from Caterpillar and Komatsu in Asia, Africa and Latin America.",
+        "The domestic market is bottoming. Excavator sales rose 17% in 2025 and 24% in Jan–Aug 2026 (CCMA), helped by "
         "replacement of the 2016–21 fleet.",
-        "<b>Operating leverage and cash returns.</b> FY25 operating cash flow rose 35%, a RMB400–800m buyback is under "
-        "way, and the payout is ~50%. We expect FY27E EPS of RMB{eps27} (+24% YoY).",
+        "Sany combines operating leverage with cash returns. FY25 operating cash flow rose 35%, a RMB400–800m buyback is "
+        "under way, and the payout is ~50%. We expect FY27E EPS of RMB{eps27} (+24% YoY).",
     ],
     background=(
         "Sany was founded in 1989 by Liang Wengen and three partners in Lianyuan, Hunan, and is now headquartered in "
@@ -226,16 +226,16 @@ SIEYUAN = dict(
            ("TBEA", "600089 CH", 12.3, 10.4, 1.4)],
     self_peer=(20.3, 21.3, 3.7),
     headline="A quality private-sector grid franchise; storage mix and valuation cap the upside",
-    summary=("Sieyuan is China's leading privately owned transmission-and-distribution equipment maker, riding record "
-             "grid investment at home and a global transformer shortage abroad. Revenue grew 27% in H1'26 but profit "
+    summary=("Sieyuan is China's leading privately owned transmission-and-distribution equipment maker and benefits from "
+             "record grid investment at home and a global transformer shortage abroad. Revenue grew 27% in H1'26 but profit "
              "only 13% as low-margin storage diluted the mix. At {pe27}x FY27E P/E much of the growth is priced in; we "
              "initiate at <b>{rating}</b> with a TP of RMB{tp} ({up} upside)."),
     thesis=[
-        "<b>Structural demand.</b> China's grid capex is at record levels (more than RMB5tn planned for 2026–30), and "
-        "overseas utilities face multi-year transformer lead times.",
-        "<b>Execution record.</b> Revenue grew at a 27% CAGR and net profit at 37% over FY22–25, with a steady ~30% "
-        "gross margin and net cash throughout.",
-        "<b>Mix is turning against margins.</b> Storage revenue (10.5% gross margin) grew 231% in H1'26 and FX losses "
+        "Demand for grid equipment is structural. China's grid capex is at record levels (more than RMB5tn planned for "
+        "2026–30), and overseas utilities face multi-year transformer lead times.",
+        "Sieyuan has a consistent execution record. Revenue grew at a 27% CAGR and net profit at 37% over FY22–25, with "
+        "a steady ~30% gross margin and net cash throughout.",
+        "The mix is turning against margins. Storage revenue (10.5% gross margin) grew 231% in H1'26 and FX losses "
         "weighed. Our FY26E EPS of RMB{eps26} is ~9% below consensus.",
     ],
     background=(

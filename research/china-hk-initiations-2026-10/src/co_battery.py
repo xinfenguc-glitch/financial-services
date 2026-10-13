@@ -32,17 +32,17 @@ CATL = dict(
     self_peer=(12.6, 9.4, 2.2),
     headline="Still the cost and technology leader; second-sourcing fears have created an entry point",
     summary=("CATL is the world's largest battery maker, with ~39% of the global EV battery market and a fast-growing "
-             "storage business. The A-share fell 24% in September as Chinese automakers added second-source suppliers, "
-             "leaving it on {pe27}x FY27E P/E, or ~{pe27x}x excluding RMB291bn of net cash. We initiate at "
+             "storage business. The A-share fell 24% in September as Chinese automakers added second-source suppliers. "
+             "It now trades on {pe27}x FY27E P/E, or ~{pe27x}x excluding RMB291bn of net cash. We initiate at "
              "<b>{rating}</b> with a TP of RMB{tp} ({up} upside) on 17x FY27E EPS. We prefer the A-share to the H-share, "
              "which trades at a ~41% premium."),
     thesis=[
-        "<b>Scale and cost leadership.</b> CATL sold 661GWh in 2025 (+39%), ran at 95% utilisation in Q2'26 and targets "
-        "1.2TWh of 2026 production. Its ~24–25% gross margin is several points above Korean and Chinese peers.",
-        "<b>Storage is the second engine.</b> Storage revenue grew 87.5% in H1'26 to 19% of sales on grid and AI "
+        "CATL leads the industry on scale and cost. It sold 661GWh in 2025 (+39%), ran at 95% utilisation in Q2'26 and "
+        "targets 1.2TWh of 2026 production. Its ~24–25% gross margin is several points above Korean and Chinese peers.",
+        "Storage is now the second growth driver. Revenue from it grew 87.5% in H1'26 to 19% of sales on grid and AI "
         "data-centre demand; China's storage-battery sales rose 83% in the half.",
-        "<b>Second-sourcing erodes share; it does not threaten the franchise.</b> Volumes keep growing with the market even "
-        "as Li Auto, Xiaomi and Xpeng dual-source. RMB291bn of net cash funds buybacks and a ~50% payout.",
+        "Second-sourcing erodes share, but the franchise is intact. Volumes keep growing with the market even as "
+        "Li Auto, Xiaomi and Xpeng dual-source, and RMB291bn of net cash funds buybacks and a ~50% payout.",
     ],
     background=(
         "CATL (Contemporary Amperex Technology) was founded in 2011 in Ningde, Fujian by Robin Zeng (Zeng Yuqun) and a "
@@ -78,7 +78,7 @@ CATL = dict(
         "loss and price competition."),
     valuation=(
         "Our TP of RMB{tp} is 17x FY27E EPS of RMB{eps27}, below CATL's five-year average but above BYD (~15.5x) and EVE "
-        "(~13x) forward, reflecting superior margins and ~25% ROE. Ex-cash, the stock trades on ~{pe27x}x FY27E. The "
+        "(~13x) forward; superior margins and ~25% ROE justify the premium. Ex-cash, the stock trades on ~{pe27x}x FY27E. The "
         "consensus average target of RMB548 (29 analysts, all Buy-rated) predates the September sell-off. For the H-share "
         "(3750.HK), a 20% premium to our A-share TP implies ~HK$570, only ~15% upside, so we prefer the A-share. Bear case "
         "RMB{bear}: share loss and a price war. Bull case RMB{bull}: storage boom and overseas share gains."),
@@ -131,11 +131,11 @@ SUNGROW = dict(
              "shipments, yet gross margin rose to 35.9%. At {pe27}x FY27E P/E with net cash the stock is inexpensive, "
              "but we want evidence of an H2 storage ramp. We initiate at <b>{rating}</b>, TP RMB{tp} ({up} upside)."),
     thesis=[
-        "<b>Storage has overtaken inverters.</b> Storage shipments rose 54% to 43GWh in 2025 and made up ~50% of H1'26 "
+        "Storage has overtaken inverters. Shipments rose 54% to 43GWh in 2025, and the business made up ~50% of H1'26 "
         "revenue, with demand from utility-scale, C&I and data-centre projects.",
-        "<b>Margins are the bright spot.</b> Gross margin reached 35.9% in H1'26 and 38.6% in Q2 on overseas mix and "
-        "cheaper cells; price increases of 5–15% took effect from 20 September.",
-        "<b>The top line is the open question.</b> H1'26 revenue fell 29%, and our FY26E EPS of RMB{eps26} is ~13% below "
+        "Gross margin is improving. It reached 35.9% in H1'26 and 38.6% in Q2 on overseas mix and cheaper cells; price "
+        "increases of 5–15% took effect from 20 September.",
+        "Revenue is the main uncertainty. H1'26 revenue fell 29%, and our FY26E EPS of RMB{eps26} is ~13% below "
         "consensus. Q3 results (30 October) need to show storage deliveries accelerating.",
     ],
     background=(
@@ -218,17 +218,17 @@ HUAYOU = dict(
            ("GEM", "002340 CH", 13.4, 10.6, 1.7),
            ("CNGR Advanced Material", "300919 CH", 18.0, 9.1, 1.1)],
     self_peer=(8.8, 7.4, 1.4),
-    headline="Cheap for a reason: the integration is real, but earnings quality has slipped",
-    summary=("Huayou is an integrated nickel, cobalt, lithium and battery-materials group, spanning Indonesian and African "
-             "mining through refining to precursors and cathodes. The shares are down 49% YTD after Q2 profit fell 31% "
+    headline="The integration is genuine, but slipping earnings quality explains the low valuation",
+    summary=("Huayou is an integrated nickel, cobalt, lithium and battery-materials group whose operations run from "
+             "Indonesian and African mining through refining to precursors and cathodes. The shares are down 49% YTD after Q2 profit fell 31% "
              "and consensus FY26 EPS was cut by a third. At {pe27}x FY27E P/E and ~1x book the valuation is "
              "undemanding, but leverage and commodity headwinds keep us at <b>{rating}</b>, TP RMB{tp} ({up} upside)."),
     thesis=[
-        "<b>Integration is a genuine cost advantage.</b> Low-cost Indonesian HPAL nickel (~300ktpa including Pomalaa) "
+        "Integration gives Huayou a genuine cost advantage. Low-cost Indonesian HPAL nickel (~300ktpa including Pomalaa) "
         "feeds precursor and cathode plants; cathode and precursor shipments nearly doubled in H1'26.",
-        "<b>Earnings quality weakened in Q2.</b> Sulfur-cost spikes forced maintenance at Huafei, cobalt shipments fell 24% "
-        "under DRC export quotas, and Q2 net profit fell 31% YoY to ~RMB1.0bn.",
-        "<b>The balance sheet limits flexibility.</b> Net debt of ~RMB54bn (~3x TTM EBITDA) and the Atlantic Lithium "
+        "Earnings quality weakened in Q2, when sulfur-cost spikes forced maintenance at Huafei and cobalt shipments fell "
+        "24% under DRC export quotas. Q2 net profit fell 31% YoY to ~RMB1.0bn.",
+        "The balance sheet limits flexibility. Net debt of ~RMB54bn (~3x TTM EBITDA) and the Atlantic Lithium "
         "acquisition add risk as nickel and lithium prices soften.",
     ],
     background=(
@@ -275,7 +275,7 @@ HUAYOU = dict(
         "LFP substituting for nickel-based cathodes.",
     ],
     catalysts=[
-        "Q3'26 results on 24 October: is upstream nickel recovering?",
+        "Q3'26 results on 24 October; any upstream nickel recovery.",
         "Pomalaa ramp-up and Huafei restart.",
         "Buyback completion; Atlantic Lithium deal terms.",
     ],
@@ -312,18 +312,18 @@ TIANQI = dict(
            ("Pilbara Minerals", "PLS AU", 11.5, 9.4, 5.3),
            ("Ganfeng Lithium (A)", "002460 CH", 13.3, 12.9, 3.0)],
     self_peer=(10.1, 7.8, 4.5), self_peer_label="Tianqi (A-share)",
-    headline="A world-class asset in a commodity-price trade; the H-share discount is the cushion",
+    headline="A world-class asset in a commodity-price trade, with the H-share discount as a cushion",
     summary=("Tianqi owns about a quarter of Greenbushes, the world's largest and highest-grade hard-rock lithium mine, "
              "plus ~22% of Chile's SQM. H1'26 profit rebounded to RMB4.2bn on higher lithium prices, but lithium "
              "carbonate fell 24% in September and supply is set to grow ~28% in 2026. The H-share trades on only "
              "{pe27}x FY27E P/E, a ~44% discount to the A-share. We initiate at <b>{rating}</b> with a TP of HK${tp} "
              "({up} upside)."),
     thesis=[
-        "<b>Bottom-quartile cost position.</b> Greenbushes delivered a 74% mining gross margin in H1'26 and generates "
-        "cash even at much lower lithium prices.",
-        "<b>Operating leverage cuts both ways.</b> Revenue rose 154% and profit swung from RMB87m to RMB4.2bn in H1'26; "
-        "we expect FY27E EPS to fall ~26% as prices normalise.",
-        "<b>The H-share has a valuation cushion.</b> At ~0.6x book and {pe27}x FY27E P/E it discounts a lot of bad news; "
+        "Tianqi has a bottom-quartile cost position through Greenbushes, which delivered a 74% mining gross margin in "
+        "H1'26 and generates cash even at much lower lithium prices.",
+        "Operating leverage works in both directions. Revenue rose 154% and profit swung from RMB87m to RMB4.2bn in "
+        "H1'26; we expect FY27E EPS to fall ~26% as prices normalise.",
+        "The H-share has a valuation cushion. At ~0.6x book and {pe27}x FY27E P/E it discounts a lot of bad news; "
         "the A-share (~14x FY27E) looks fuller.",
     ],
     background=(
@@ -412,11 +412,12 @@ GANFENG = dict(
              "{pe27}x FY27E P/E at a ~45% discount to the A-share. We initiate at <b>{rating}</b>, TP HK${tp} "
              "({up} upside)."),
     thesis=[
-        "<b>The diversification is real.</b> Batteries (consumer, storage and power; ~20GWh in H1'26) were 34% of revenue, "
-        "cushioning lithium-price swings, and 400–500Wh/kg solid-state cells are entering small-batch production.",
-        "<b>The resource ramp lifts self-sufficiency.</b> Goulamina (Mali) and Mariana/Cauchari-Olaroz (Argentina) are "
-        "ramping, which cuts third-party concentrate purchases.",
-        "<b>But the cycle is turning.</b> Management has dropped its earlier >RMB200k/t price view and now expects a balanced "
+        "Batteries give Ganfeng real diversification. The battery business (consumer, storage and power; ~20GWh in "
+        "H1'26) was 34% of revenue, which cushions lithium-price swings, and 400–500Wh/kg solid-state cells are "
+        "entering small-batch production.",
+        "The resource ramp-up is lifting feedstock self-sufficiency. Goulamina (Mali) and Mariana/Cauchari-Olaroz "
+        "(Argentina) are ramping, which cuts third-party concentrate purchases.",
+        "The lithium cycle is turning. Management has dropped its earlier >RMB200k/t price view and now expects a balanced "
         "2027 with 20–25% supply growth; we model FY27E EPS down ~20%.",
     ],
     background=(
