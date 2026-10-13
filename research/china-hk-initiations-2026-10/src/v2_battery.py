@@ -14,9 +14,9 @@ V2["catl"] = dict(
         "year's largest global listing at the time, mainly to fund European capacity. Capacity reached 772GWh at end-2025, "
         "with 321GWh under construction. Plants are in China, Germany (Thuringia), Hungary (Debrecen), Spain (a joint "
         "venture with Stellantis) and Indonesia (an integrated mine-to-battery project). The founder-chairman remains "
-        "the largest shareholder. Geopolitics is part of the story: the US Department of Defense added CATL to its 1260H "
-        "list of 'Chinese military companies' in 2025, and US sourcing rules limit its direct presence there. CATL has "
-        "therefore developed a licensing model, under which Ford builds LFP cells in Michigan with CATL technology.",
+        "the largest shareholder. In 2025 the US Department of Defense added CATL to its 1260H list of 'Chinese "
+        "military companies', and US sourcing rules limit its direct presence in the US market. CATL has therefore "
+        "developed a licensing model, under which Ford builds LFP cells in Michigan with CATL technology.",
     ],
     milestones=[
         ("2011", "Founded in Ningde by Robin Zeng and the ATL EV-battery team; BMW becomes an early customer."),
@@ -38,14 +38,14 @@ V2["catl"] = dict(
         "including European premium brands and leading Chinese EV makers, and sells storage cells and containerised "
         "systems (TENER) to integrators and utilities. Contracts run for several years, with formula pricing that "
         "passes lithium, nickel and cobalt costs through with a lag. Margins therefore swing temporarily when raw "
-        "material prices move sharply, but have been resilient over the cycle at 19–25% gross.",
+        "material prices move sharply, but gross margin has stayed within 19–25% over the cycle.",
         "Its edge is cost and technology at scale. CATL buys more battery materials than anyone, runs highly automated "
         "plants at high utilisation (95% in Q2'26), and spends heavily on R&amp;D (RMB22bn in FY25). The product ladder "
         "spans fast-charging LFP (Shenxing), high-energy NCM cell-to-pack (Qilin), sodium-ion (Naxtra) and long-life "
         "storage cells, so it can serve mass-market and premium EVs and grid storage from one platform. Upstream stakes "
         "(lithium in Yichun, nickel in Indonesia) and recycling through Brunp reduce supply risk.",
-        "Financially, CATL operates with negative working capital. Customers pay deposits and suppliers are paid on "
-        "long terms (payables ~300 days of cost of sales at FY25), so growth releases cash rather than consuming it. "
+        "CATL operates with negative working capital. Customers pay deposits and suppliers are paid on long terms "
+        "(payables ~300 days of cost of sales at FY25), so the company takes in cash from working capital as it grows. "
         "Together with ~RMB290bn of net cash, this funds capacity expansion, overseas plants and a ~50% payout "
         "without leverage. New revenue streams include licensing (LRS), battery-swapping (Choco-swap) and "
         "materials sales to third parties.",
@@ -85,7 +85,7 @@ V2["catl"] = dict(
         ("Hithium / REPT", "China", "Storage cells", "Aggressive storage pricing; limited EV presence"),
     ],
     moat=[
-        "Unmatched scale in purchasing and manufacturing; ~95% utilisation and best-in-class yields.",
+        "The industry's largest purchasing and manufacturing scale; ~95% utilisation and best-in-class yields.",
         "Technology breadth (LFP, NCM, sodium-ion, storage) and a decade-long quality record with global OEMs.",
         "Negative working capital and ~RMB290bn of net cash fund growth and returns without leverage.",
         "Vulnerabilities: OEM dual-sourcing, US/EU policy barriers, price wars in storage.",
@@ -96,9 +96,9 @@ V2["catl"] = dict(
         "Industry forecasts point to 4–5TWh of global demand by 2030, about twice today's level. EV penetration keeps "
         "rising, commercial vehicles and ships are electrifying, and grid and data-centre storage are scaling quickly.",
         "At ~US$70–80/kWh for cells, the global market is already worth ~US$150bn a year and should keep growing in value "
-        "despite price deflation. Storage is the fastest-growing segment, and it is less concentrated than EVs, giving "
-        "CATL room to gain share. Sodium-ion and solid-state chemistries could open new niches (cold-climate vehicles, "
-        "low-cost storage, premium EVs). They will also invite new competitors.",
+        "despite price deflation. Storage is the fastest-growing segment and is less concentrated than EVs, so CATL "
+        "has room to gain share there. Sodium-ion and solid-state chemistries could open new niches (cold-climate "
+        "vehicles, low-cost storage, premium EVs), though they will also bring in new competitors.",
     ],
     tam_table=[
         ("EV + storage batteries", "~2TWh (2025); ~US$150bn", "4–5TWh by 2030 (industry forecasts)", "Our estimate; industry"),
@@ -126,8 +126,8 @@ V2["catl"] = dict(
         "buybacks in FY25. With capex stepping up to ~RMB60bn for the 1.2TWh plan, we forecast FCF of "
         "RMB{fcf26}bn/{fcf27}bn/{fcf28}bn, and net cash rising to ~RMB{nc28}bn by FY28E after dividends."),
     fin_ratios=(
-        "<b>Key ratios.</b> ROE has been remarkably stable at {roe23}–{roe25}, despite a growing cash pile that dilutes "
-        "returns, and we expect ~{roe27} in FY27E. ROA is {roa25}. Excluding net cash, returns on operating capital are "
+        "<b>Key ratios.</b> ROE has held steady at {roe23}–{roe25} even as a growing cash pile dilutes returns, "
+        "and we expect ~{roe27} in FY27E. ROA is {roa25}. Excluding net cash, returns on operating capital are "
         "far higher, because working capital is negative. The FY25 payout ratio was {payout25}."),
 )
 
@@ -166,14 +166,14 @@ V2["sungrow"] = dict(
         "use. PV inverters and power electronics (about 40%) cover central and string inverters for utility plants and "
         "residential inverters sold through distributors. Renewable project development and other businesses (about "
         "10%) build and sell solar and storage plants in China and include EV drives and electrolysers.",
-        "The economic engine is power electronics. Cells are largely a pass-through cost, so the 2024–26 collapse in "
+        "Sungrow earns its margin on power electronics. Cells are largely a pass-through cost, so the 2024–26 collapse in "
         "LFP cell prices widened storage margins even as selling prices fell. Group gross margin rose from 25.5% (FY23) "
         "to 35.9% in H1'26, and 38.6% in Q2. Overseas utility storage projects carry the richest margins; domestic "
-        "solar and project development the thinnest. 73% of H1'26 revenue came from overseas.",
+        "solar and project development the thinnest. Overseas sales made up 73% of H1'26 revenue.",
         "Customers are utilities, independent power producers and EPC contractors for large projects, plus installers "
         "and distributors for residential products. Projects are lumpy and delivery-driven, so revenue swings with "
         "shipment timing. That, together with the slump in China's domestic solar market after the 2025 shift to "
-        "market-based renewable tariffs, explains the 29% fall in H1'26 revenue. Working capital is meaningful: "
+        "market-based renewable tariffs, explains the 29% fall in H1'26 revenue. Working capital is large: "
         "inventory of RMB32bn at June 2026 reflects systems awaiting delivery, and receivables include project milestone "
         "payments.",
         "New growth avenues include data-centre power (solid-state transformers, HVDC), where Sungrow's power-"
@@ -215,8 +215,8 @@ V2["sungrow"] = dict(
     ],
     tam=[
         "Stationary storage is the growth market. Utilities need batteries to absorb solar output and stabilise "
-        "grids; commercial users want peak shaving; AI data centres need backup and power quality. China's "
-        "storage-battery sales rose 83% in H1'26, and global grid-scale deployments are growing rapidly from a base of "
+        "grids, commercial users buy them for peak shaving, and AI data centres need them for backup and power "
+        "quality. China's storage-battery sales rose 83% in H1'26, and global grid-scale deployments are growing rapidly from a base of "
         "several hundred GWh a year. Sungrow's 43GWh of 2025 shipments suggests a high-single to low-double-digit share "
         "of global system deliveries.",
         "The solar-inverter market is larger in units but more mature. Global solar additions are running at several "
@@ -251,7 +251,7 @@ V2["sungrow"] = dict(
         "We forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn, lifting net cash to ~RMB{nc28}bn by FY28E before any "
         "H-share proceeds."),
     fin_ratios=(
-        "<b>Key ratios.</b> ROE has been exceptional ({roe23} in FY23, {roe25} in FY25) but is falling as profits dip "
+        "<b>Key ratios.</b> ROE has been very high ({roe23} in FY23, {roe25} in FY25) but is falling as profits dip "
         "and cash builds; we expect ~{roe27} in FY27E. ROA is {roa25}. Inventory days ({invd25}) are the ratio to watch: "
         "they will fall quickly if H2 storage deliveries accelerate. The FY25 payout ratio was {payout25}."),
 )
@@ -263,14 +263,14 @@ V2["huayou"] = dict(
         "mining and processing operations in the Democratic Republic of Congo, the world's dominant cobalt supplier. "
         "Huayou listed on the Shanghai Stock Exchange in 2015 and used the EV boom to move downstream into battery "
         "materials.",
-        "The transformational move came in Indonesia. From 2018, in partnership with Tsingshan, Huayou built "
-        "high-pressure acid leaching (HPAL) plants that turn low-grade laterite nickel into mixed hydroxide precipitate "
+        "From 2018, in partnership with Tsingshan, Huayou built high-pressure acid leaching (HPAL) plants in "
+        "Indonesia that turn low-grade laterite nickel into mixed hydroxide precipitate "
         "(MHP) for batteries: Huayue (60ktpa) and Huafei (120ktpa) in the IMIP and IWIP industrial parks. A third "
         "project at Pomalaa with Vale and Ford (120ktpa) is starting up, and a fourth (Sorowako, with Vale) is planned. "
-        "Huayou bought the Arcadia lithium mine in Zimbabwe and control of cathode maker Bamo in 2021. It runs precursor "
-        "and cathode joint ventures with Korean partners, a recycling arm, and has agreed to acquire Atlantic Lithium "
-        "(Ghana). The result is one of the most vertically integrated battery-materials groups in the world, and one of "
-        "the most capital-intensive.",
+        "Huayou bought the Arcadia lithium mine in Zimbabwe and control of cathode maker Bamo in 2021. It also runs "
+        "precursor and cathode joint ventures with Korean partners and a recycling arm, and has agreed to acquire "
+        "Atlantic Lithium (Ghana). That makes it one of the most vertically integrated battery-materials groups in the "
+        "world, and one of the most capital-intensive.",
     ],
     milestones=[
         ("2002", "Founded in Tongxiang, Zhejiang by Chen Xuehua as a cobalt refiner."),
@@ -283,17 +283,17 @@ V2["huayou"] = dict(
     ],
     ownership=[
         ("Largest shareholder", "Founder-chairman Chen Xuehua and affiliates"),
-        ("Key partners", "Tsingshan, Vale, Ford (Indonesia); Korean cathode/precursor JV partners"),
+        ("Main partners", "Tsingshan, Vale, Ford (Indonesia); Korean cathode/precursor JV partners"),
         ("Capital returns", "Buying back ~0.8% of shares; DPS RMB0.50"),
     ],
     business=[
         "Huayou earns money at each step from mine to cathode. Upstream, it mines cobalt and copper in the DRC and "
         "lithium in Zimbabwe, and processes Indonesian laterite nickel into MHP. Midstream, it refines nickel, cobalt and "
         "lithium into battery-grade chemicals. Downstream, it makes ternary (NCM) precursors and cathodes, and some "
-        "LFP, for cell makers. Recycling closes the loop. In FY25, nickel products were RMB25.9bn of revenue, cathode "
+        "LFP, for cell makers. Recycling feeds used battery metals back into the chain. In FY25, nickel products were RMB25.9bn of revenue, cathode "
         "materials RMB15.0bn, and nickel intermediates RMB11.8bn, with cobalt, copper, lithium, precursors and trading "
         "making up the rest.",
-        "The profit pool sits upstream. Indonesian HPAL produces nickel at among the lowest cash costs globally, and "
+        "Upstream assets earn most of the profit. Indonesian HPAL produces nickel at among the lowest cash costs globally, and "
         "when nickel or cobalt prices rise, Huayou's mining and refining margins expand quickly. Processing earns "
         "steadier fees but thinner margins. Integration lowers cost and secures supply, but it also concentrates risk. "
         "Results depend on four commodity prices (nickel, cobalt, lithium, copper) and on input costs, notably sulfur and "
@@ -319,11 +319,11 @@ V2["huayou"] = dict(
         "of them are adding HPAL capacity, which Argus expects to nearly double Indonesian MHP capacity in 2026. In "
         "cobalt, CMOC is the world's largest producer and Glencore the other major. In precursors and cathodes, CNGR, GEM, "
         "Ronbay and Easpring are direct rivals.",
-        "The structural challenge is chemistry. LFP, which needs no nickel or cobalt, now accounts for roughly 80% of "
-        "China's EV battery installations, so nickel-based cathodes are growing only in premium and overseas EVs. "
-        "Huayou's response is to sell nickel to Korean and Western cell makers, add LFP and lithium, and lean on its cost "
-        "advantage. Its competitive strengths are integration and low upstream cost. Its weaknesses are leverage, "
-        "complexity and exposure to Indonesian policy (ore quotas and royalties).",
+        "The structural problem is that LFP, which needs no nickel or cobalt, now accounts for roughly 80% of China's "
+        "EV battery installations, so nickel-based cathodes are growing only in premium and overseas EVs. Huayou's "
+        "response is to sell nickel to Korean and Western cell makers, add LFP and lithium, and lean on its cost "
+        "advantage. Integration and low upstream cost are its competitive strengths; leverage, complexity and exposure "
+        "to Indonesian policy (ore quotas and royalties) are its weaknesses.",
     ],
     competitors=[
         ("Tsingshan", "China (private)", "Indonesian nickel (NPI, HPAL), stainless", "World's largest nickel producer; partner and rival"),
@@ -345,8 +345,8 @@ V2["huayou"] = dict(
         "LCE and oversupplied in 2026.",
         "Downstream, cathode and precursor demand grows with EV and storage batteries, but nickel-based chemistries are "
         "losing share to LFP in China. Huayou's addressable market is therefore growing more slowly than the overall "
-        "battery market. Its growth comes from Indonesian volume and share gains with overseas cell makers, rather "
-        "than from rising nickel intensity.",
+        "battery market. Its growth comes from Indonesian volume and from share gains with overseas cell makers; "
+        "nickel intensity in batteries is not rising.",
     ],
     tam_table=[
         ("Nickel", "~3.5–3.7Mt / ~US$60bn", "Batteries growing; Indonesian oversupply", "Industry; our calc. at US$16.9k/t"),
@@ -361,10 +361,10 @@ V2["huayou"] = dict(
         "to RMB6.1bn in FY25. H1'26 net profit of RMB3.5bn (+29%) masks a sharp slowdown: Q1 earned RMB2.5bn, Q2 RMB1.0bn. "
         "We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of RMB{np26}bn/{np27}bn/{np28}bn."),
     fin_bs=(
-        "<b>Balance sheet.</b> The balance sheet is heavy and levered. Total assets rose from RMB126bn (FY23) to RMB186bn "
-        "(June 2026), with PP&amp;E at RMB74bn and inventory at RMB32bn ({invd25} days of cost of sales at FY25, up from "
-        "100). Total debt is RMB75.8bn against cash of RMB22.0bn, giving net debt of RMB{ncj26}bn (RMB{nc25}bn at FY25), "
-        "~{ndeq25} of equity and {ndebitda25} EBITDA. The current ratio is below 1 ({cr25}). Equity attributable is "
+        "<b>Balance sheet.</b> Total assets rose from RMB126bn (FY23) to RMB186bn (June 2026), a heavy base that "
+        "includes PP&amp;E of RMB74bn and inventory of RMB32bn ({invd25} days of cost of sales at FY25, up from 100). "
+        "Leverage is high: total debt is RMB75.8bn against cash of RMB22.0bn, giving net debt of RMB{ncj26}bn "
+        "(RMB{nc25}bn at FY25), ~{ndeq25} of equity and {ndebitda25} EBITDA. The current ratio is below 1 ({cr25}). Equity attributable is "
         "RMB48.3bn (FY25; BVPS ~RMB26), and minority interests of RMB12.5bn reflect jointly owned Indonesian projects."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow is volatile and often below profit plus D&amp;A because of inventory "
@@ -376,16 +376,16 @@ V2["huayou"] = dict(
     fin_ratios=(
         "<b>Key ratios.</b> ROE improved from {roe23} (FY23) to {roe25} (FY25), and we expect ~{roe27} by FY27E: "
         "respectable, but earned with high leverage. ROA is only {roa25}. Net debt/EBITDA of {ndebitda25} and a current "
-        "ratio below 1 are the key constraints; any further acquisitions (Atlantic Lithium) would delay deleveraging. "
+        "ratio below 1 are the main constraints; any further acquisitions (Atlantic Lithium) would delay deleveraging. "
         "Payout was {payout25} on FY25 EPS."),
 )
 
 V2["tianqi"] = dict(
     background=[
         "Tianqi Lithium traces its roots to the state-owned Shehong lithium-salt plant in Sichuan, set up in 1992. "
-        "Entrepreneur Jiang Weiping took control in 2004, and the company listed in Shenzhen in 2010. Its defining move "
-        "came in 2013, when it acquired a controlling stake in Talison Lithium, owner of the Greenbushes mine in "
-        "Western Australia. Greenbushes is the world's largest and highest-grade hard-rock lithium deposit, with "
+        "Entrepreneur Jiang Weiping took control in 2004, and the company listed in Shenzhen in 2010. In 2013 it "
+        "acquired a controlling stake in Talison Lithium, owner of the Greenbushes mine in Western Australia, which is "
+        "still its main asset. Greenbushes is the world's largest and highest-grade hard-rock lithium deposit, with "
         "Rockwood (now Albemarle) holding the remaining 49%.",
         "In 2018, at the top of the previous lithium cycle, Tianqi bought ~24% of Chile's SQM from Nutrien for ~US$4.1bn, "
         "largely with debt. When lithium prices collapsed in 2019–20, it faced a liquidity crisis. It restructured by "
@@ -406,7 +406,7 @@ V2["tianqi"] = dict(
     ],
     ownership=[
         ("Controlling shareholder", "Jiang Weiping and family"),
-        ("Key associates", "Greenbushes (~26% effective, with IGO and Albemarle); SQM (~22%)"),
+        ("Main associates", "Greenbushes (~26% effective, with IGO and Albemarle); SQM (~22%)"),
         ("Share classes", "A-share 002466.SZ; H-share 9696.HK (~44% discount to A)"),
     ],
     business=[
@@ -415,7 +415,7 @@ V2["tianqi"] = dict(
         "(42% of H1'26 revenue). Second, conversion. Tianqi turns the rest into lithium carbonate and hydroxide at plants "
         "in Shehong (Sichuan), Zhangjiagang (Jiangsu) and Kwinana (Australia), and sells them to cathode and battery "
         "makers (58% of revenue). Third, equity income from its SQM stake, which taps Chile's low-cost Atacama brine.",
-        "Mining is where the money is. Greenbushes delivered a 74% mining gross margin in H1'26, and its cash cost sits in "
+        "Mining generates most of the profit. Greenbushes delivered a 74% mining gross margin in H1'26, and its cash cost sits in "
         "the bottom quartile of the industry. Conversion margins are thinner and volatile. Because Tianqi buys "
         "concentrate at lagged market prices and sells chemicals at spot, falling prices can generate inventory "
         "losses, as in FY24. Kwinana, Australia's first lithium hydroxide plant, has struggled with commissioning and "
@@ -438,9 +438,9 @@ V2["tianqi"] = dict(
         "Albemarle (its Greenbushes partner), SQM, Pilbara Minerals, Mineral Resources and Rio Tinto (which bought "
         "Arcadium). In China its rivals are Ganfeng, Yahua, Zangge, Sinomine and battery makers that have integrated "
         "upstream, such as CATL in Yichun.",
-        "The industry is a price-taker, so cost position is everything. Greenbushes is among the lowest-cost sources "
+        "Producers are price-takers, so their returns depend on cost position. Greenbushes is among the lowest-cost sources "
         "worldwide, which protects Tianqi in downturns and gives it high leverage in upturns. Its relative weaknesses "
-        "are a minority position in its key asset (Albemarle and IGO are co-owners), under-performing downstream "
+        "are a minority position in its main asset (Albemarle and IGO are co-owners), under-performing downstream "
         "conversion, and limited growth projects of its own compared with Ganfeng or Pilbara. African supply "
         "(Zimbabwe, Mali, Ghana) and Chinese lepidolite restarts are the marginal tonnes that set prices.",
     ],
@@ -455,7 +455,7 @@ V2["tianqi"] = dict(
         "Interest in Greenbushes, the world's largest high-grade hard-rock lithium mine (bottom-quartile cost).",
         "Exposure to SQM's low-cost Atacama brine through its ~22% stake.",
         "Repaired balance sheet (net debt ~RMB6bn at June 2026).",
-        "Vulnerabilities: price-taker economics, Kwinana under-performance, minority position in key assets.",
+        "Vulnerabilities: price-taker economics, Kwinana under-performance, minority position in its main assets.",
     ],
     tam=[
         "The lithium market is driven by batteries. We estimate demand of ~1.5Mt LCE in 2026, growing 20–25% a year with "
@@ -463,9 +463,9 @@ V2["tianqi"] = dict(
         "fell 24% in September as Wood Mackenzie forecast 2026 supply growth of ~28%, and as a revised SMM inventory "
         "methodology added ~175kt to China's stock estimates. Prices are nonetheless still ~66% higher than a year ago.",
         "Over the long run, demand growth looks secure, but supply responds quickly when prices rise: African "
-        "spodumene, Chinese lepidolite and Argentine brine can add tonnes within 1–3 years. Tianqi's addressable "
-        "market is therefore less about size than price. Its earnings respond to every RMB10k/t move by roughly "
-        "RMB0.7–0.9bn of annual net profit on our estimates.",
+        "spodumene, Chinese lepidolite and Argentine brine can add tonnes within 1–3 years. Tianqi's earnings "
+        "therefore track the lithium price more than market growth. On our estimates, each RMB10k/t move in price "
+        "changes annual net profit by roughly RMB0.7–0.9bn.",
     ],
     tam_table=[
         ("Lithium demand (LCE)", "~1.5Mt / ~US$27bn (2026E)", "+20–25% a year", "Our estimate"),
@@ -474,7 +474,7 @@ V2["tianqi"] = dict(
         ("Tianqi sensitivity", "~RMB0.7–0.9bn net profit per RMB10k/t", "–", "Our estimate"),
     ],
     fin_is=(
-        "<b>Income statement.</b> Tianqi's P&amp;L is a lithium-price chart. Revenue fell from RMB40.5bn (FY23) to "
+        "<b>Income statement.</b> Tianqi's P&amp;L follows the lithium price. Revenue fell from RMB40.5bn (FY23) to "
         "RMB13.1bn (FY24) and RMB10.3bn (FY25) before rebounding to RMB17.8bn TTM. Gross margin swung from 83% to 37% "
         "and back to 57% TTM. Net profit went from RMB7.3bn (FY23) to a RMB7.9bn loss (FY24, inventory write-downs and "
         "impairments), RMB0.46bn (FY25) and RMB4.2bn in H1'26 alone. We forecast net profit of RMB{np26}bn/{np27}bn/{np28}bn "
@@ -508,8 +508,8 @@ V2["ganfeng"] = dict(
         "Ganfeng built one of the most diversified lithium resource portfolios worldwide. It holds Mt Marion spodumene "
         "in Australia (with Mineral Resources), the Cauchari-Olaroz brine in Argentina (with Lithium Argentina; first "
         "production in 2023), the Mariana brine (Argentina), the Goulamina spodumene mine in Mali (fully owned after "
-        "buying out Leo Lithium in 2024; production from late 2024), and lepidolite and brine assets in China. Not every "
-        "bet has worked: Mexico revoked its Sonora lithium-clay concessions in 2023, and Mali's military government has "
+        "buying out Leo Lithium in 2024; production from late 2024), and lepidolite and brine assets in China. Some bets "
+        "have run into trouble: Mexico revoked its Sonora lithium-clay concessions in 2023, and Mali's military government has "
         "tightened mining rules. In parallel, Ganfeng LiEnergy has grown into a sizeable battery business making "
         "consumer cells, storage systems and power batteries. It is one of China's leading developers of solid-state "
         "batteries, with 400Wh/kg cells validated and 500Wh/kg cells in small-batch production in 2026.",
@@ -537,8 +537,8 @@ V2["ganfeng"] = dict(
         "cells a day across two bases), storage cells and 5MWh containerised systems, and power batteries for "
         "commercial vehicles and two-wheelers. Margins are lower than in lithium at the top of the cycle but more "
         "stable, and the business gives Ganfeng a captive outlet for its lithium. The solid-state programme (lithium-"
-        "metal anodes, sulfide electrolytes) targets premium EVs, eVTOLs and robots. It is pre-revenue in scale but "
-        "strategically important.",
+        "metal anodes, sulfide electrolytes) targets premium EVs, eVTOLs and robots; it is strategically important "
+        "but does not yet earn revenue at scale.",
         "Economically, Ganfeng is more diversified than Tianqi but has a higher-cost, more geopolitically exposed "
         "resource base and more debt. FY25 gross margin was only 14.6%, recovering to 31.2% in H1'26. Heavy "
         "development capex in Mali and Argentina (RMB7–9bn a year over FY23–25) pushed net debt to ~RMB29bn. Recycling "
@@ -610,5 +610,5 @@ V2["ganfeng"] = dict(
     fin_ratios=(
         "<b>Key ratios.</b> ROE was {roe23}, {roe24} and {roe25} over FY23–25; we expect {roe26} in FY26E and ~{roe27} "
         "thereafter. ROA is low ({roa25} in FY25) because of the large asset base. Net debt/EBITDA of {ndebitda25} (FY25) "
-        "is the key risk metric, though it falls to ~3x on TTM EBITDA. Inventory days ({invd25}) are elevated."),
+        "is the main risk metric, though it falls to ~3x on TTM EBITDA. Inventory days ({invd25}) are elevated."),
 )

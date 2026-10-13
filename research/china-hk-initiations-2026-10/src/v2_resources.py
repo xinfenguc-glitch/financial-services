@@ -11,8 +11,8 @@ V2["zijin"] = dict(
         "Zijin Mining grew out of the Zijinshan gold-copper deposit in Shanghang county, western Fujian, a low-grade "
         "orebody that state geologists had explored in the 1980s and that larger operators considered uneconomic. The "
         "company was formally established in 1993. Under geologist Chen Jinghe it pioneered large-scale heap leaching of "
-        "low-grade ore, and Zijinshan became one of China's largest gold mines. That early experience shaped a culture "
-        "that still defines the group: buy or develop deposits others overlook, then lower their cost through in-house "
+        "low-grade ore, and Zijinshan became one of China's largest gold mines. The group still works the way it "
+        "learned to at Zijinshan: buy or develop deposits others overlook, then lower their cost through in-house "
         "geology, mining and metallurgical engineering. The company became a joint-stock company in 2000, listed H-shares "
         "in Hong Kong in 2003 and A-shares in Shanghai in 2008. Its largest shareholder is Minxi Xinghang, the investment "
         "vehicle of the Shanghang county government.",
@@ -20,8 +20,8 @@ V2["zijin"] = dict(
         "when sellers were under pressure. These included a 49.5% stake in Ivanhoe's Kamoa-Kakula copper project in the "
         "DRC, Nevsun (owner of the Timok project) and the RTB Bor complex in Serbia, Continental Gold's Buriticá mine in "
         "Colombia, Guyana Goldfields, Neo Lithium's 3Q brine in Argentina, and Rosebel in Suriname. At home, the Julong "
-        "copper project in Tibet became a growth engine. In 2025 the group spun its overseas gold assets into Zijin Gold "
-        "International, listed in Hong Kong, which it still controls. Zijin now operates on five continents and targets a "
+        "copper project in Tibet became a major source of growth. In 2025 the group spun its overseas gold assets into "
+        "Zijin Gold International, listed in Hong Kong, which it still controls. Zijin now operates on five continents and targets a "
         "global top-three position in both gold and copper by 2028.",
     ],
     milestones=[
@@ -36,7 +36,7 @@ V2["zijin"] = dict(
     ownership=[
         ("Largest shareholder", "Minxi Xinghang State-owned Assets Investment (Shanghang county), ~23%"),
         ("Share classes", "A-share 601899.SH; H-share 2899.HK"),
-        ("Key listed subsidiary", "Zijin Gold International (2259.HK): overseas gold assets"),
+        ("Main listed subsidiary", "Zijin Gold International (2259.HK): overseas gold assets"),
         ("Dividend policy", "Target payout of ~35% of net profit"),
     ],
     business=[
@@ -46,9 +46,9 @@ V2["zijin"] = dict(
         "large majority of gross profit. Refining and trading of purchased material (about 19% of H1'26 revenue) adds "
         "volume but earns thin margins. The jump in group gross margin from 15.8% in FY23 to 34.6% on a TTM basis "
         "reflects both higher metal prices and a rising share of self-mined output.",
-        "Its competitive edge is cost and capital efficiency. Zijin's in-house exploration teams, mine designers and "
-        "metallurgists let it value deposits independently, build mines with its own engineering arm, and run "
-        "difficult or low-grade orebodies profitably. Management describes this as an integrated 'ore-flow' model "
+        "Zijin competes on cost and capital efficiency. Its in-house exploration teams, mine designers and "
+        "metallurgists let it value deposits independently and build mines with its own engineering arm, and it can "
+        "run difficult or low-grade orebodies profitably. Management describes this as an integrated 'ore-flow' model "
         "linking geology, mining, processing and refining. The company is willing to operate in frontier jurisdictions "
         "such as the DRC, Serbia, Colombia, Suriname and Tibet, where Western majors often hesitate, and Chinese "
         "policy-bank and bond-market funding lowers its cost of capital.",
@@ -80,8 +80,8 @@ V2["zijin"] = dict(
         "and Codelco; in gold its ~90t (~2.9Moz) ranks it in the global top ten behind Newmont, Barrick and Agnico Eagle. "
         "Few of those peers are growing. Western majors face declining grades, permitting delays and shareholder "
         "pressure to return cash rather than build. Zijin's copper output is planned to rise by ~40–50% by 2028.",
-        "Its main competitive disadvantages are jurisdictional and reputational. Several key assets sit in countries "
-        "with resource nationalism (DRC export rules, Serbian environmental scrutiny, Colombian security), and Chinese "
+        "Its main competitive disadvantages are jurisdictional and reputational. Several important assets sit in "
+        "countries with resource nationalism (DRC export rules, Serbian environmental scrutiny, Colombian security), and Chinese "
         "ownership can complicate approvals in OECD markets. Domestically, CMOC (copper/cobalt in the DRC) is the closest "
         "comparable and a rival for African assets; Shandong Gold and Zhaojin are larger domestic gold peers by reserves "
         "in China but have little overseas growth.",
@@ -100,19 +100,19 @@ V2["zijin"] = dict(
     moat=[
         "Low-cost, long-life orebodies plus in-house exploration and engineering that cut capital intensity.",
         "Willingness and ability to operate in frontier jurisdictions with state-bank and bond-market funding.",
-        "A visible volume-growth pipeline (copper +40–50% by 2028) that few peers can match.",
+        "A visible volume-growth pipeline (copper +40–50% by 2028) that few peers have.",
         "Vulnerabilities: geopolitical, permitting and ESG risk; acquisitions bought near cycle highs.",
     ],
     tam=[
         "Zijin's addressable market is the global supply of mined copper, gold and lithium. Refined copper consumption "
         "runs at about 27Mt a year, worth ~US$400bn at the current COMEX price of ~US$6.77/lb (~US$14,900/t). Demand is "
         "growing at 2–3% a year from electrification, grids, renewables and AI data centres, while mine supply is "
-        "constrained by falling grades and a decade of under-investment. That supports a structural deficit narrative "
-        "and high prices.",
+        "constrained by falling grades and a decade of under-investment, which supports the case for a structural "
+        "deficit and high prices.",
         "Annual gold mine supply of ~3,600t is worth ~US$485bn at US$4,195/oz. Supply is broadly flat, and central-bank "
         "buying and ETF inflows have driven prices. Lithium is a smaller (~1.5Mt LCE, ~US$27bn) but faster-growing market "
         "that is currently oversupplied. Zijin's 2026 targets equal roughly 4–5% of world copper and ~3% of world gold "
-        "mine supply, so growth comes from volume, not share of a fixed pie.",
+        "mine supply, so its growth depends on adding its own volume.",
     ],
     tam_table=[
         ("Refined copper", "~27Mt / ~US$400bn", "Volume +2–3% a year; deficit risk from grade decline",
@@ -124,12 +124,12 @@ V2["zijin"] = dict(
         ("Zijin share", "~4–5% copper; ~3% gold", "Targets top-three in both by 2028", "Company plan (Feb 2026)"),
     ],
     fin_is=(
-        "<b>Income statement.</b> Revenue rose from RMB293bn (FY23) to RMB349bn (FY25, +15%) and RMB376bn TTM, but the "
-        "real story is margin. Gross margin expanded from 15.8% to 27.7% in FY25 and 34.6% TTM, and operating profit more "
-        "than doubled from RMB31.6bn to RMB75.0bn as gold and copper prices rose and self-mined volumes grew. Net profit "
-        "attributable rose 2.5x in two years to RMB51.8bn (14.8% net margin). H1'26 brought RMB39.2bn (+68%). We forecast "
-        "net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, driven by volume growth with flat-to-slightly-lower "
-        "metal prices, which keeps net margin around 20–22%."),
+        "<b>Income statement.</b> Revenue rose from RMB293bn (FY23) to RMB349bn (FY25, +15%) and RMB376bn TTM. Most of "
+        "the profit growth came from margins: gross margin expanded from 15.8% to 27.7% in FY25 and 34.6% TTM, and "
+        "operating profit more than doubled from RMB31.6bn to RMB75.0bn as gold and copper prices rose and self-mined "
+        "volumes grew. Net profit attributable rose 2.5x in two years to RMB51.8bn (14.8% net margin). H1'26 brought RMB39.2bn (+68%). We forecast "
+        "net profit of RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E on volume growth and flat-to-slightly-lower "
+        "metal prices, with net margin around 20–22%."),
     fin_bs=(
         "<b>Balance sheet.</b> Total assets grew from RMB343bn to RMB512bn over FY23–25, led by PP&amp;E (RMB165bn) and "
         "mining rights, as new mines were built and acquired. Leverage has fallen fast. Net debt dropped from "
@@ -157,13 +157,13 @@ V2["sany"] = dict(
         "Sany was founded in 1989 in Lianyuan, Hunan, by Liang Wengen and three partners (Tang Xiuguo, Mao Zhongwu and "
         "Yuan Jinhua) as a welding-materials business. In the 1990s it moved to Changsha and into construction machinery, "
         "starting with truck-mounted concrete pumps, a market then dominated by imported German and Japanese equipment. "
-        "It won share by selling reliable machines at lower prices, backed by fast service. It then broadened into "
+        "Sany won share by selling reliable machines at lower prices with fast service, then broadened into "
         "excavators, crawler and truck cranes, rotary piling rigs and road machinery.",
         "Sany Heavy Industry listed on the Shanghai Stock Exchange in 2003. It became China's best-selling excavator "
         "brand in 2011, overtaking Japanese and Korean rivals, and in 2012 bought Putzmeister, the German "
         "concrete-pump leader, which gave it a European base and technology. The 2012–16 downturn after China's "
         "stimulus boom forced deep cost cuts. The following upcycle took revenue to a record RMB107bn in FY21 before "
-        "the property-led slump. Since then Sany has leaned into exports, electrification and 'lighthouse' digital "
+        "the property-led slump. Since then Sany has focused on exports, electrification and 'lighthouse' digital "
         "factories, and in 2025 it completed a Hong Kong H-share listing to fund globalisation. Related businesses "
         "(Sany Heavy Energy in wind turbines and Sany International in mining and port machinery) are separately listed "
         "and are not part of this entity.",
@@ -190,20 +190,19 @@ V2["sany"] = dict(
         "contractors and miners. To support demand, Sany offers customer financing through instalment sales and finance "
         "leases. This lifts volumes but leaves sizeable receivables and credit risk on the balance sheet (receivables of "
         "RMB40bn, ~164 days of sales, at FY25).",
-        "Profitability depends on three levers. Volume drives fixed-cost absorption in large plants. Mix matters because "
-        "large excavators, mining equipment and overseas units carry higher margins (H1'26 overseas gross margin "
-        "32.5%). Pricing discipline is the third lever, which in China depends on how aggressively XCMG, Zoomlion and "
-        "others chase share. After-market parts and services are a growing, higher-margin, less cyclical revenue stream "
-        "as the installed base ages.",
-        "Globalisation is the strategic core. Overseas revenue was ~US$7.8bn in FY25 (+15%), about 64% of sales, led by "
-        "Asia-Pacific and fast-growing Africa (+55%). Sany localises production in India, Indonesia, the US, Germany "
+        "Profitability depends on volume, mix and pricing. Volume drives fixed-cost absorption in large plants. Large "
+        "excavators, mining equipment and overseas units carry higher margins (H1'26 overseas gross margin 32.5%), so "
+        "shifts in mix move group margin. Pricing discipline in China depends on how aggressively XCMG, Zoomlion and "
+        "others chase share. After-market parts and services earn higher margins and are less cyclical, and this "
+        "revenue grows as the installed base ages.",
+        "Globalisation is Sany's main strategic priority. Overseas revenue was ~US$7.8bn in FY25 (+15%), about 64% of "
+        "sales, led by Asia-Pacific and fast-growing Africa (+55%). Sany localises production in India, Indonesia, the US, Germany "
         "(Putzmeister) and Brazil to shorten delivery times and reduce tariff exposure. Electrification (electric "
-        "excavators, mixers and trucks) and digitalised 'lighthouse' factories are differentiators that improve cost "
-        "and position Sany for emission rules in developed markets.",
-        "The domestic business is a replacement and infrastructure story rather than a property story. China's "
-        "2016–21 boom left a large fleet now reaching replacement age, and water-conservancy, urban-renewal and "
-        "mining spending support demand. That is why China excavator sales grew 17% in 2025 despite a weak property "
-        "market.",
+        "excavators, mixers and trucks) and digitalised 'lighthouse' factories set Sany apart from rivals, lower its "
+        "costs and prepare it for emission rules in developed markets.",
+        "Domestic demand now rests on equipment replacement and infrastructure spending. China's 2016–21 boom left a "
+        "large fleet that is now reaching replacement age, and water-conservancy, urban-renewal and mining spending "
+        "also support demand. As a result, China excavator sales grew 17% in 2025 despite a weak property market.",
     ],
     segments_title="FY25 revenue by region (main business, company release)",
     segments_cols=("Region", "US$bn", "Growth / share", "Comment"),
@@ -248,8 +247,8 @@ V2["sany"] = dict(
         "infrastructure and urbanisation, and are where Chinese brands are gaining most share.",
         "Two structural shifts expand the addressable market. Electrification, first in China and then in emission-"
         "regulated developed markets, raises content per machine and favours manufacturers with in-house batteries and "
-        "drivetrains. Mining equipment (large excavators, mining trucks) offers higher margins and stickier customers. "
-        "Sany's ~US$12.5bn of FY25 revenue implies a mid-single-digit global share, which leaves ample room to gain "
+        "drivetrains. Mining equipment (large excavators, mining trucks) has higher margins and stickier customers. "
+        "Sany's ~US$12.5bn of FY25 revenue implies a mid-single-digit global share, so it has plenty of room to gain "
         "share abroad.",
     ],
     tam_table=[
@@ -268,22 +267,22 @@ V2["sany"] = dict(
         "finance losses on dollar receivables. We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of "
         "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E."),
     fin_bs=(
-        "<b>Balance sheet.</b> The balance sheet has de-risked markedly. Net debt of RMB3.3bn at FY23 turned into net "
-        "cash of RMB{nc25}bn at FY25 and RMB{ncj26}bn at June 2026, helped by strong cash generation and ~RMB14.5bn of "
-        "H-share proceeds. Total debt fell from RMB37.2bn to RMB20.6bn. Working capital remains the key watch-point: "
-        "receivables of RMB40.2bn equal {recvd25} days of sales, reflecting customer financing, while inventory days are "
-        "{invd25} and payable days have stretched to {apd25}. Equity attributable rose to RMB88.3bn (BVPS ~RMB10), and "
+        "<b>Balance sheet.</b> Sany has moved from net debt of RMB3.3bn at FY23 to net cash of RMB{nc25}bn at FY25 and "
+        "RMB{ncj26}bn at June 2026, helped by strong cash generation and ~RMB14.5bn of H-share proceeds. Total debt "
+        "fell from RMB37.2bn to RMB20.6bn. Working capital is the main item to watch. Receivables of RMB40.2bn equal "
+        "{recvd25} days of sales because of customer financing, while inventory days are {invd25} and payable days "
+        "have stretched to {apd25}. Equity attributable rose to RMB88.3bn (BVPS ~RMB10), and "
         "the current ratio is a comfortable {cr25}."),
     fin_cf=(
         "<b>Cash flow.</b> Operating cash flow rose from RMB5.7bn (FY23) to RMB20.0bn (FY25), or {ocfnp25} net profit, as "
         "receivables were collected and payables extended. Capex has fallen to ~RMB2.8bn ({capexr25} of revenue) after the "
         "2019–22 factory build-out, so FY25 free cash flow reached RMB{fcf25}bn. Dividends of RMB6.1bn and buybacks were "
-        "well covered. We expect OCF to normalise below FY25's level as working capital rebuilds with growth. We forecast "
-        "FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn, still enough to grow net cash to ~RMB{nc28}bn by FY28E after "
+        "well covered. We expect OCF to fall back below FY25's level as working capital rebuilds with growth, and "
+        "forecast FCF of RMB{fcf26}bn/{fcf27}bn/{fcf28}bn, still enough to grow net cash to ~RMB{nc28}bn by FY28E after "
         "dividends."),
     fin_ratios=(
-        "<b>Key ratios.</b> ROE recovered from {roe23} (FY23) to {roe25} (FY25) and we expect {roe27} by FY27E: better, "
-        "but still below the 20%+ of the last upcycle, which leaves room for upside if China recovers. ROA is {roa25} "
+        "<b>Key ratios.</b> ROE recovered from {roe23} (FY23) to {roe25} (FY25) and we expect {roe27} by FY27E. That "
+        "is still below the 20%+ of the last upcycle, so returns could rise further if China recovers. ROA is {roa25} "
         "and asset turnover 0.55x. Net cash is equal to ~{ndeq25} of equity. The payout ratio on FY25 EPS was {payout25}, "
         "including a special element."),
 )
@@ -296,9 +295,9 @@ V2["sieyuan"] = dict(
         "gas-insulated switchgear (GIS) and circuit breakers, power and special transformers, reactors and capacitors, "
         "reactive-power compensation (SVG/STATCOM), protection and substation automation, battery energy-storage systems "
         "and turnkey EPC. It listed on the Shenzhen Stock Exchange in 2004 (002028.SZ).",
-        "What makes Sieyuan unusual is ownership. China's grid-equipment industry is dominated by State Grid-affiliated "
-        "and central SOEs, such as Pinggao, XJ Electric, NARI and China XD. Sieyuan is privately controlled by its founder, "
-        "and has won share on product quality, delivery speed and cost. It has grown into a meaningful exporter, with "
+        "Sieyuan's ownership is unusual. China's grid-equipment industry is dominated by State Grid-affiliated and "
+        "central SOEs such as Pinggao, XJ Electric, NARI and China XD, whereas Sieyuan is privately controlled by its "
+        "founder. It has won share on product quality, delivery speed and cost, and is now a sizeable exporter, with "
         "equipment and EPC projects in Mexico, Saudi Arabia, the Philippines, Belgium, Brazil, Italy, Ecuador and Australia. "
         "In December 2025 it announced a Hong Kong H-share listing of up to 15% of its share capital to fund overseas "
         "expansion. In 2026 it is investing RMB480m to expand special-transformer capacity in Jiangsu.",
@@ -322,8 +321,8 @@ V2["sieyuan"] = dict(
         "connections. Industrial users and data centres buy in-house substations. Overseas utilities and EPC "
         "contractors made up 29.5% of H1'26 revenue. Revenue follows orders with a 6–18-month lag, so management's "
         "2026 targets of RMB37.5bn of new orders (+30%) and RMB27bn of revenue (+25%) give reasonable visibility.",
-        "Primary equipment (switchgear and transformers) forms the profit core. Switchgear was 40% of H1'26 revenue and "
-        "transformers 21%, both with gross margins around or above 30%. Secondary equipment (protection, automation, "
+        "Primary equipment (switchgear and transformers) is the main source of profit. Switchgear was 40% of H1'26 "
+        "revenue and transformers 21%, both with gross margins around or above 30%. Secondary equipment (protection, automation, "
         "compensation) adds higher-value technology content. Energy storage (13% of revenue) is a newer integration "
         "business with a gross margin of only 10.5%. It grew 231% in H1'26 and is diluting group margins. EPC projects "
         "carry lower margins but help win overseas equipment orders.",
@@ -377,7 +376,7 @@ V2["sieyuan"] = dict(
         "transformers and switchgear, with lead times of two years or more in the US and Europe. China's transformer "
         "exports rose 35% to US$9.0bn in 2025. The storage market is growing even faster (China's storage-battery sales "
         "+83% in H1'26) but is fiercely competitive. Sieyuan's FY25 revenue of RMB21.5bn is a small share of these pools, "
-        "so growth depends on share gains rather than market size.",
+        "so its growth depends on winning share.",
     ],
     tam_table=[
         ("China grid investment", ">RMB650bn a year (State Grid); >RMB5tn over 2026–30", "Rising; UHV and distribution upgrades",
@@ -390,7 +389,7 @@ V2["sieyuan"] = dict(
     fin_is=(
         "<b>Income statement.</b> Revenue compounded at ~27% a year from RMB10.5bn (FY22) to RMB21.5bn (FY25), with gross "
         "margin steady at 29–31% and net margin rising from 12.5% (FY23) to 14.6% (FY25). FY25 net profit rose 54% to "
-        "RMB3.15bn. The mix is now turning: H1'26 revenue grew 27% but net profit only 13%, as low-margin storage "
+        "RMB3.15bn. Profit growth slowed in H1'26: revenue grew 27% but net profit only 13%, as low-margin storage "
         "surged and FX losses weighed. We forecast revenue of RMB{rev26}bn/{rev27}bn/{rev28}bn and net profit of "
         "RMB{np26}bn/{np27}bn/{np28}bn for FY26–28E, with gross margin ~1pt lower than FY25."),
     fin_bs=(
@@ -408,6 +407,6 @@ V2["sieyuan"] = dict(
     fin_ratios=(
         "<b>Key ratios.</b> ROE has risen from {roe23} (FY23) to {roe25} (FY25), and we expect it to hold at ~{roe27}. "
         "ROA is {roa25} and asset turnover has improved to 0.81x. Cash conversion is the weak point: OCF/net profit of "
-        "{ocfnp25} in FY25, and our forecasts assume ~0.7x. Payout is low ({payout25} on FY25 EPS), leaving capacity to "
+        "{ocfnp25} in FY25, and our forecasts assume ~0.7x. Payout is low ({payout25} on FY25 EPS), so the company can "
         "fund growth internally."),
 )
