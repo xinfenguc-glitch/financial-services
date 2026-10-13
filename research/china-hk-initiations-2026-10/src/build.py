@@ -44,11 +44,8 @@ SHORT = dict(zijin="Zijin Mining", sany="Sany Heavy Industry", sieyuan="Sieyuan 
              horizon="Horizon Robotics", leaderdrive="Leaderdrive", edge="Edge Medical", zai="Z.AI (Zhipu AI)",
              minimax="MiniMax")
 
-ORDER = ["zijin", "sany", "sieyuan",                               # industrials & resources
-         "catl", "sungrow", "huayou", "tianqi", "ganfeng",          # battery chain
-         "gigadevice", "jushi", "jlmag",                            # semis & materials
-         "hans", "horizon", "leaderdrive", "edge",                  # equipment, robotics, medtech
-         "zai", "minimax"]                                          # AI model developers
+ORDER = ["zijin", "sany", "catl", "hans", "jlmag", "sungrow", "sieyuan", "gigadevice", "edge", "leaderdrive",
+         "huayou", "tianqi", "ganfeng", "jushi", "horizon", "zai", "minimax"]
 
 
 # ----------------------------------------------------------------------------- formatting
