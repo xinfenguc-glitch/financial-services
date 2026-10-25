@@ -212,6 +212,8 @@ These are reference templates — they get better when you tune them to how your
 | thesis-tracker | `/thesis` | Maintain and update investment theses |
 | catalyst-calendar | `/catalysts` | Track upcoming catalysts across coverage |
 | idea-generation | `/screen` | Stock screening and idea sourcing |
+| impact-analysis | `/impact` | Trace a macro, policy, or industry shock to equity exposure |
+| trade-pitch | `/trade-pitch` | Turn finished analysis into a long or short position |
 | research-conventions | — | Shared evidence, sourcing, freshness and market-data rules the research skills follow |
 
 </details>
@@ -245,6 +247,7 @@ These are reference templates — they get better when you tune them to how your
 | client-report | `/client-report` | Client-facing performance reports |
 | investment-proposal | `/proposal` | Proposals for prospective clients |
 | tax-loss-harvesting | `/tlh` | Identify TLH opportunities and manage wash sales |
+| portfolio-diagnosis | `/diagnose` | Health-check a portfolio's concentration, exposure, and risk fit against the IPS |
 
 </details>
 

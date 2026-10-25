@@ -23,7 +23,7 @@ Version 2.0. A copy of the license is in this repository's `LICENSE`.
 - **Precedence.** Added an order of precedence: agent guardrails first, then the calling skill's workflow and checkpoints, then these rules on evidence. Removed the rule that let these conventions override a skill's own pauses.
 - **Source tiers.** Rewrote them against this marketplace's connectors (FactSet, S&P Capital IQ, LSEG, Daloopa, Morningstar, PitchBook, Moody's, Aiera, MT Newswires, Box, Egnyte) in place of LangAlpha's own MCP tools. Added families for credit and ratings, and for user-supplied documents.
 - **Unsourced figures.** Renamed `needs-source` to `unsourced`, printed `[UNSOURCED]` in drafts for review to match the agents' guardrails, and added the review-draft exit to the unsupported-claim rule.
-- **Action language.** Replaced the closed action vocabulary and its registered extensions with input-gated calls plus the user's or firm's own rating ladder. Added a sell-side audience mode.
+- **Action language.** Replaced the closed action vocabulary with input-gated calls plus the user's or firm's own rating ladder. Of its registered extensions, kept only `trade-pitch`'s loss-budget sizing. Added a sell-side audience mode.
 - **Intake.** Replaced LangAlpha's user-tier mandate memory with what the conversation, project instructions, host memory and supplied files establish. Added rules for headless managed-agent runs.
 - **NTM.** Allowed a connector's own NTM series with its method named, alongside the sum of four quarterly consensus means.
 - **Depth.** Bands and cut order now defer to the calling skill's length and required content.

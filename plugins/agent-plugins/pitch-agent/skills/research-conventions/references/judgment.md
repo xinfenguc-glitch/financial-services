@@ -33,7 +33,7 @@ Without holdings, sizing inputs or live execution data, which is the usual case,
 
 Ratings are a separate vocabulary. A rating (and a change to one: upgrade, downgrade, maintain) describes the published view, and it sits beside the call, never in place of it. Use the rating ladder the user, the firm or the calling skill sets. When none is set, use Buy / Hold / Sell and say so. A price target is a valuation anchor: it carries its method, its horizon and the range around it.
 
-Position sizes and execution instructions are outside these skills. They draft analysis for a professional to review and act on.
+Position sizes in currency or shares, and execution instructions such as placing or routing orders, are outside these skills. They draft analysis for a professional to review and act on. There is one exception: `trade-pitch` states size only as a fraction of a loss budget the reader supplies, because that travels to any book.
 
 ## Price is belief, not truth
 
@@ -104,7 +104,7 @@ An expected value computed from a set that does not sum to one supports no concl
 
 ## Orders of effect
 
-Report direct, second-order and third-order effects in separate rows or paragraphs, each with its own confidence level. A direct effect names the channel and the line item it lands on. A second-order effect names whose behaviour has to change in between. When you cannot name the transmission channel, the claim is not ready to write. Go back to the sources instead.
+Report direct, second-order and third-order effects in separate rows or paragraphs, each with its own confidence level. A direct effect names the channel and the line item it lands on. A second-order effect names whose behavior has to change in between. When you cannot name the transmission channel, the claim is not ready to write. Go back to the sources instead.
 
 ## Row-merge discipline
 

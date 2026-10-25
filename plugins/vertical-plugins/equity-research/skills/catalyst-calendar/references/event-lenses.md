@@ -63,7 +63,7 @@ Each lens gives the core question the event answers, the outputs the row needs b
 ## Lockup expiry and secondary
 
 - **Core question**: how many shares can come, from whom, and what do they cost?
-- **Required outputs**: shares releasable and as a share of float, the holder base behind them (founders, sponsors, employees) and their basis, staggered release dates where the lockup tiers, prior selling behaviour, and the flow against average daily volume.
+- **Required outputs**: shares releasable and as a share of float, the holder base behind them (founders, sponsors, employees) and their basis, staggered release dates where the lockup tiers, prior selling behavior, and the flow against average daily volume.
 - **Extract**: the prospectus lockup terms and any early-release provisions, the registration statement, insider filing history.
 
 ## Debt maturity and refinancing

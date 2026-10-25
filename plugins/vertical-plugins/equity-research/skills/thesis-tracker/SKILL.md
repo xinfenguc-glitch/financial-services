@@ -22,7 +22,7 @@ The tracker is **append-only**. Prior pillars, thresholds and ledger rows stay a
 
 The mode comes from what the user supplies. Each mode's default runs without asking.
 
-| Supplied | Mode | Default behaviour |
+| Supplied | Mode | Default behavior |
 |---|---|---|
 | Nothing | blank shell | Produce the empty structure, list the minimum inputs, populate nothing |
 | A ticker only | frame | Draft candidate pillars from filings and consensus. Each carries the evidence label its support earns, and `draft` provenance until the user confirms it |
