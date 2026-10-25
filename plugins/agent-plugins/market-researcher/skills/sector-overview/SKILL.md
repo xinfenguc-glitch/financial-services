@@ -5,6 +5,8 @@ description: Create comprehensive industry and sector landscape reports covering
 
 # Sector Overview
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 ## Workflow
 
 ### Step 1: Define Scope

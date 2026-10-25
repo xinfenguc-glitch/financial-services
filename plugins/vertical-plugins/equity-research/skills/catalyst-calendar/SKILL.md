@@ -5,6 +5,8 @@ description: Build and maintain a calendar of upcoming catalysts across a covera
 
 # Catalyst Calendar
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 ## Workflow
 
 ### Step 1: Define Coverage Universe

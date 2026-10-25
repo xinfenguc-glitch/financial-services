@@ -5,6 +5,8 @@ description: Maintain and update investment theses for portfolio positions and w
 
 # Thesis Tracker
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 ## Workflow
 
 ### Step 1: Define or Load Thesis

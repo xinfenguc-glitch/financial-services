@@ -5,6 +5,8 @@ description: Create institutional-quality equity research initiation reports thr
 
 # Initiating Coverage
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 Create institutional-quality equity research initiation reports through a structured 5-task workflow. Each task must be executed separately with verified inputs.
 
 ## Overview

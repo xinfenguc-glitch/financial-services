@@ -5,6 +5,8 @@ description: Systematic stock screening and investment idea sourcing. Combines q
 
 # Idea Generation
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 ## Workflow
 
 ### Step 1: Define Search Criteria
