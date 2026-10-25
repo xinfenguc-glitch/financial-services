@@ -5,6 +5,8 @@ description: Draft concise morning meeting notes summarizing overnight developme
 
 # Morning Note
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 ## Workflow
 
 ### Step 1: Overnight Developments

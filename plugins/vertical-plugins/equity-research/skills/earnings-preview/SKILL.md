@@ -5,6 +5,8 @@ description: Build pre-earnings analysis with estimate models, scenario framewor
 
 # Earnings Preview
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 ## Workflow
 
 ### Step 1: Gather Context

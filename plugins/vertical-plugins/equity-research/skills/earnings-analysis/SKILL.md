@@ -5,6 +5,8 @@ description: Create professional equity research earnings update reports (8-12 p
 
 # Equity Research Earnings Update
 
+Sourcing, evidence labels, freshness, market-data arithmetic and the readiness posture follow the `research-conventions` skill. Load it before the first deliverable.
+
 Create professional **EARNINGS UPDATE REPORTS** analyzing quarterly results for companies already under coverage, following institutional standards (JPMorgan, Goldman Sachs, Morgan Stanley format).
 
 **Key Characteristics:**
