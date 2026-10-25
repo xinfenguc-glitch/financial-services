@@ -28,3 +28,4 @@ Version 2.0. A copy of the license is in this repository's `LICENSE`.
 - **NTM.** Allowed a connector's own NTM series with its method named, alongside the sum of four quarterly consensus means.
 - **Depth.** Bands and cut order now defer to the calling skill's length and required content.
 - **References.** Replaced LangAlpha path, skill and tool references with this plugin's skills.
+- **Date confidence.** Aligned the events tier's date-confidence terms with the scale `catalyst-calendar` uses.

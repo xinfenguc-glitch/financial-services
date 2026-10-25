@@ -60,7 +60,7 @@ A price quoted inside an article dates from the article. Use it as evidence of w
 1. The primary document: the filing, the agreement, the docket entry, the regulator's decision, the transcript.
 2. The company's or issuer's own announcement.
 3. Event calendars and transcripts from connectors (FactSet, S&P Capital IQ, LSEG, Aiera), for scheduled dates and for what was said.
-4. Newswires (MT Newswires) and other reported news, with the outlet, the time, and the date's confidence stated as confirmed, scheduled, estimated or reported.
+4. Newswires (MT Newswires) and other reported news, with the outlet and the time. State the date's confidence as one of `confirmed` (a primary source states it), `guided`, `expected`, `inferred` or `rumoured`.
 
 ### Documents the user supplies
 
